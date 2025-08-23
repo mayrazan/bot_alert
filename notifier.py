@@ -5,6 +5,7 @@ import os
 # --- CONFIGURAÇÃO ---
 HOMEPAGE_URL = "https://prod-tickets.1iota.com/api/homepage"
 CELEB_LIST_URL = "https://prod-tickets.1iota.com/api/celeb/list"
+PROJECT_URL = "https://prod-tickets.1iota.com/api/project/{}"  # {id} = show id
 LAST_FILE = "last_events.txt"
 
 # TELEGRAM
@@ -24,6 +25,15 @@ def get_celeb_list():
     resp = requests.get(CELEB_LIST_URL)
     resp.raise_for_status()
     return resp.json()
+
+def get_show_details(show_id):
+    resp = requests.get(PROJECT_URL.format(show_id))
+    resp.raise_for_status()
+    data = resp.json()
+    # Pode não ter date/location
+    date = data.get("dateTime", "Data não disponível")
+    location = data.get("locationName", "Local não disponível")
+    return date, location
 
 def load_last_events():
     if os.path.exists(LAST_FILE):
@@ -69,7 +79,15 @@ def filter_ny_events(home_data, celeb_data):
             if not guest_names:
                 guest_names = ["Sem guests listados ainda"]
 
-            alerts[show_id] = {"title": show_title, "guests": guest_names}
+            # Pegar data e local
+            date, location = get_show_details(show_id)
+
+            alerts[show_id] = {
+                "title": show_title,
+                "guests": guest_names,
+                "date": date,
+                "location": location
+            }
     return alerts
 
 def send_telegram(messages):
@@ -100,10 +118,20 @@ def main():
         new_guests = [g for g in info["guests"] if g not in last_guests]
         # Se show novo
         if show_id not in last_events:
-            messages.append(f"🆕 Novo show em NY: {info['title']}\nGuests: {', '.join(info['guests'])}")
+            messages.append(
+                f"🆕 Novo show em NY: {info['title']}\n"
+                f"Data/Horário: {info['date']}\n"
+                f"Local: {info['location']}\n"
+                f"Guests: {', '.join(info['guests'])}"
+            )
         # Se houver guests novos em show existente
         elif new_guests:
-            messages.append(f"✨ Novos guests no show {info['title']}: {', '.join(new_guests)}")
+            messages.append(
+                f"✨ Novos guests no show {info['title']}:\n"
+                f"{', '.join(new_guests)}\n"
+                f"Data/Horário: {info['date']}\n"
+                f"Local: {info['location']}"
+            )
 
     if messages:
         # Enviar para Telegram e Discord simultaneamente

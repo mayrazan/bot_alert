@@ -44,11 +44,8 @@ def parse_day_str(day_str):
         return None
 
 def organize_events(events):
-    organized = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
+    organized = defaultdict(lambda: defaultdict(lambda: defaultdict(dict)))
     
-    start_filter = datetime(2025, 10, 5)
-    end_filter = datetime(2025, 10, 14)
-
     for e in events:
         if 125 not in e.get("projectLocationIds", []):
             continue
@@ -58,17 +55,20 @@ def organize_events(events):
             continue
 
         day_dt = parse_day_str(day_str)
-        if not day_dt:
-            continue
-
-        if not (start_filter <= day_dt <= end_filter):
+        if not day_dt or not (start_filter <= day_dt <= end_filter):
             continue
 
         show = e.get("title", "Show sem título")
         hour = e.get("when", "Horário não informado")
-        guests = [g.get("name") for g in e.get("guests", [])] if e.get("guests") else []
 
-        organized[day_dt][show][hour].extend(guests)
+        # Separar guests de evento e do projeto
+        guests_event = [g.get("name") for g in e.get("guests", [])] if e.get("guests") else []
+        guests_project = [g.get("name") for g in e.get("projectGuests", [])] if e.get("projectGuests") else []
+
+        organized[day_dt][show][hour] = {
+            "guests_event": guests_event,
+            "guests_project": guests_project
+        }
 
     # ordenar por data real
     organized_sorted = dict(sorted(organized.items()))
@@ -78,11 +78,16 @@ def organize_events(events):
 def format_message(organized_events):
     msg_lines = []
     for day, shows in sorted(organized_events.items()):
-        msg_lines.append(f"*{day}*")
+        msg_lines.append(f"*{day.strftime('%a, %b %d')}*")
         for show, times in shows.items():
             msg_lines.append(f"  {show}:")
-            for hour, guests in times.items():
-                guest_str = ", ".join(guests) if guests else "Nenhum guest listado"
+            for hour, guests_dict in times.items():
+                guest_str = []
+                if guests_dict.get("guests_event"):
+                    guest_str.append("Evento: " + ", ".join(guests_dict["guests_event"]))
+                if guests_dict.get("guests_project"):
+                    guest_str.append("Projeto: " + ", ".join(guests_dict["guests_project"]))
+                guest_str = " | ".join(guest_str) if guest_str else "Nenhum guest listado"
                 msg_lines.append(f"    {hour} → {guest_str}")
         msg_lines.append("")  # linha em branco entre dias
     return "\n".join(msg_lines)

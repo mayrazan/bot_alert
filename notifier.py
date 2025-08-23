@@ -2,6 +2,7 @@ import requests
 import json
 import os
 from collections import defaultdict
+from datetime import datetime
 
 # --- CONFIGURAÇÃO ---
 EVENTS_URL = "https://prod-tickets.1iota.com/api/event/list"
@@ -14,6 +15,10 @@ TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 # DISCORD
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
+
+# Define o intervalo
+start_filter = datetime(2025, 10, 5)
+end_filter = datetime(2025, 10, 14)
 
 # --- FUNÇÕES ---
 def get_data(url):
@@ -30,19 +35,45 @@ def load_last_state():
 def save_last_state(state):
     with open(LAST_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=2)
+    
+def parse_day_str(day_str):
+    # Ex: "Mon, Oct 06" -> datetime
+    try:
+        return datetime.strptime(day_str.split(", ")[1] + " 2025", "%b %d %Y")
+    except:
+        return None
 
 def organize_events(events):
-    """
-    Agrupa eventos por dia → show → hora → guests
-    """
     organized = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
+    
+    start_filter = datetime(2025, 10, 5)
+    end_filter = datetime(2025, 10, 14)
+
     for e in events:
-        day = e.get("localStartDay", "Data desconhecida")
+        if 125 not in e.get("projectLocationIds", []):
+            continue
+
+        day_str = e.get("localStartDay")
+        if not day_str:
+            continue
+
+        day_dt = parse_day_str(day_str)
+        if not day_dt:
+            continue
+
+        if not (start_filter <= day_dt <= end_filter):
+            continue
+
         show = e.get("title", "Show sem título")
         hour = e.get("when", "Horário não informado")
         guests = [g.get("name") for g in e.get("guests", [])] if e.get("guests") else []
-        organized[day][show][hour].extend(guests)
-    return organized
+
+        organized[day_dt][show][hour].extend(guests)
+
+    # ordenar por data real
+    organized_sorted = dict(sorted(organized.items()))
+    return organized_sorted
+
 
 def format_message(organized_events):
     msg_lines = []
@@ -57,7 +88,6 @@ def format_message(organized_events):
     return "\n".join(msg_lines)
 
 def send_telegram(message):
-    print(message)
     if TELEGRAM_TOKEN and TELEGRAM_CHAT_ID:
         url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
         requests.post(url, data={"chat_id": TELEGRAM_CHAT_ID, "text": message, "parse_mode": "Markdown"})

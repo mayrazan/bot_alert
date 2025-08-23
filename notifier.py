@@ -102,7 +102,6 @@ def send_discord(message):
     if DISCORD_WEBHOOK_URL:
         requests.post(DISCORD_WEBHOOK_URL, json={"content": message})
 
-# --- EXECUÇÃO ---
 def main():
     events = get_data(EVENTS_URL)
     celebs = get_data(CELEBS_URL)
@@ -113,14 +112,18 @@ def main():
     new_events = []
 
     for e in events:
-        # Chave única por evento + horário
         eid = str(e["eventId"])
         hour = e.get("when") or e.get("startDateUtc") or "unknown"
         key = f"{eid}_{hour}"
 
-        guests_ids = [g["id"] for g in e.get("guests", [])] if e.get("guests") else []
+        # IDs dos guests de evento e do projeto
+        guests_event_ids = [g["id"] for g in e.get("guests", [])] if e.get("guests") else []
+        guests_project_ids = [g["id"] for g in e.get("projectGuests", [])] if e.get("projectGuests") else []
 
-        new_state[key] = guests_ids
+        new_state[key] = {
+            "guests": guests_event_ids,
+            "projectGuests": guests_project_ids
+        }
 
         notify_event = False
         event_copy = e.copy()
@@ -130,20 +133,25 @@ def main():
             notify_event = True
         else:
             # Checa se há guests novos
-            old_guests = set(last_state[key])
-            new_guests = set(guests_ids)
-            if new_guests - old_guests:
+            old_guests = set(last_state[key].get("guests", []))
+            new_guests = set(guests_event_ids)
+            old_project_guests = set(last_state[key].get("projectGuests", []))
+            new_project_guests = set(guests_project_ids)
+
+            if new_guests - old_guests or new_project_guests - old_project_guests:
                 notify_event = True
-                # Filtra apenas guests novos
+                # Filtra apenas novos guests
                 event_copy["guests"] = [g for g in e.get("guests", []) if g["id"] in (new_guests - old_guests)]
+                event_copy["projectGuests"] = [g for g in e.get("projectGuests", []) if g["id"] in (new_project_guests - old_project_guests)]
 
         if notify_event:
             # Substitui IDs por nomes usando celeb_map
-            if event_copy.get("guests"):
-                for g in event_copy["guests"]:
-                    cid = g["id"]
-                    if cid in celeb_map:
-                        g["name"] = celeb_map[cid]["name"]
+            for guest_type in ["guests", "projectGuests"]:
+                if event_copy.get(guest_type):
+                    for g in event_copy[guest_type]:
+                        cid = g["id"]
+                        if cid in celeb_map:
+                            g["name"] = celeb_map[cid]["name"]
             new_events.append(event_copy)
 
     if new_events:

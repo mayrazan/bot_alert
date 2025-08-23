@@ -1,12 +1,12 @@
 import requests
 import json
 import os
+from collections import defaultdict
 
 # --- CONFIGURAÇÃO ---
-HOMEPAGE_URL = "https://prod-tickets.1iota.com/api/homepage"
-CELEB_LIST_URL = "https://prod-tickets.1iota.com/api/celeb/list"
-PROJECT_URL = "https://prod-tickets.1iota.com/api/project/{}"  # {id} = show id
-LAST_FILE = "last_events.txt"
+EVENTS_URL = "https://prod-tickets.1iota.com/api/event/list"
+CELEBS_URL = "https://prod-tickets.1iota.com/api/celeb/list"
+LAST_FILE = "last_events.json"
 
 # TELEGRAM
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
@@ -16,133 +16,93 @@ TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 
 # --- FUNÇÕES ---
-def get_data():
-    resp = requests.get(HOMEPAGE_URL)
+def get_data(url):
+    resp = requests.get(url)
     resp.raise_for_status()
     return resp.json()
-
-def get_celeb_list():
-    resp = requests.get(CELEB_LIST_URL)
-    resp.raise_for_status()
-    return resp.json()
-
-def get_show_details(show_id):
-    resp = requests.get(PROJECT_URL.format(show_id))
-    resp.raise_for_status()
-    data = resp.json()
-    # Pode não ter date/location
-    date = data.get("dateTime", "Data não disponível")
-    location = data.get("locationName", "Local não disponível")
-    return date, location
 
 def load_last_events():
     if os.path.exists(LAST_FILE):
         with open(LAST_FILE, "r", encoding="utf-8") as f:
-            data = {}
-            for line in f:
-                line = line.strip()
-                if not line:
-                    continue
-                parts = line.split(" | ")
-                show_id = parts[0]
-                guests = parts[1].split(",") if len(parts) > 1 else []
-                data[show_id] = guests
-            return data
+            return json.load(f)
     return {}
 
-def save_last_events(events_dict):
+def save_last_events(data):
     with open(LAST_FILE, "w", encoding="utf-8") as f:
-        for show_id, guests in events_dict.items():
-            f.write(f"{show_id} | {','.join(guests)}\n")
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
-def filter_ny_events(home_data, celeb_data):
-    celeb_map = {c['id']: c for c in celeb_data if c['isActive']}
-    alerts = {}
-    for section in home_data.get("pageSections", []):
-        for item in section.get("items", []):
-            if 125 not in item.get("projectLocations", []):  # 125 = NY
-                continue
-            show_id = str(item.get("id"))
-            show_title = item.get("title", "Evento sem nome")
-            guest_names = []
+def organize_events(events):
+    """
+    Agrupa os eventos por dia, depois por show, depois lista horário e guests.
+    Retorna um dict: {dia: {show: {hora: [guests]}}}
+    """
+    organized = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
+    for e in events:
+        day = e.get("localStartDay", "Data desconhecida")
+        show = e.get("title", "Show sem título")
+        hour = e.get("when", "Horário não informado")
+        guests = [g.get("name") for g in e.get("guests", [])] if e.get("guests") else []
+        organized[day][show][hour].extend(guests)
+    return organized
 
-            # Se homepage já tiver altText
-            if item.get("altText"):
-                guest_names.append(item["altText"])
+def format_message(organized_events):
+    """
+    Transforma o dict em texto legível para Telegram/Discord.
+    """
+    msg_lines = []
+    for day, shows in sorted(organized_events.items()):
+        msg_lines.append(f"*{day}*")
+        for show, times in shows.items():
+            msg_lines.append(f"  {show}:")
+            for hour, guests in times.items():
+                guest_str = ", ".join(guests) if guests else "Nenhum guest listado"
+                msg_lines.append(f"    {hour} → {guest_str}")
+        msg_lines.append("")  # linha em branco entre dias
+    return "\n".join(msg_lines)
 
-            # Checar celeb list
-            for celeb in celeb_data:
-                if celeb.get("projects") and int(show_id) in celeb["projects"]:
-                    guest_names.append(celeb["name"])
+def send_telegram(message):
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+    requests.post(url, data={"chat_id": TELEGRAM_CHAT_ID, "text": message, "parse_mode": "Markdown"})
 
-            guest_names = sorted(list(set(guest_names)))  # remover duplicatas
-            if not guest_names:
-                guest_names = ["Sem guests listados ainda"]
-
-            # Pegar data e local
-            date, location = get_show_details(show_id)
-
-            alerts[show_id] = {
-                "title": show_title,
-                "guests": guest_names,
-                "date": date,
-                "location": location
-            }
-    return alerts
-
-def send_telegram(messages):
-    for msg in messages:
-        requests.post(
-            f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
-            data={"chat_id": TELEGRAM_CHAT_ID, "text": msg}
-        )
-
-def send_discord(messages):
-    for msg in messages:
-        requests.post(
-            DISCORD_WEBHOOK_URL,
-            json={"content": msg}
-        )
+def send_discord(message):
+    requests.post(DISCORD_WEBHOOK_URL, json={"content": message})
 
 # --- EXECUÇÃO ---
 def main():
-    home_data = get_data()
-    celeb_data = get_celeb_list()
-    current_events = filter_ny_events(home_data, celeb_data)
-    last_events = load_last_events()
+    events = get_data(EVENTS_URL)
+    celebs = get_data(CELEBS_URL)
 
-    messages = []
+    last_state = load_last_events()
 
-    for show_id, info in current_events.items():
-        last_guests = last_events.get(show_id, [])
-        new_guests = [g for g in info["guests"] if g not in last_guests]
-        # Se show novo
-        if show_id not in last_events:
-            messages.append(
-                f"🆕 Novo show em NY: {info['title']}\n"
-                f"Data/Horário: {info['date']}\n"
-                f"Local: {info['location']}\n"
-                f"Guests: {', '.join(info['guests'])}"
-            )
-        # Se houver guests novos em show existente
-        elif new_guests:
-            messages.append(
-                f"✨ Novos guests no show {info['title']}:\n"
-                f"{', '.join(new_guests)}\n"
-                f"Data/Horário: {info['date']}\n"
-                f"Local: {info['location']}"
-            )
+    # Criar um mapeamento rápido de eventos por id
+    new_state = {}
+    new_events = []
+    for e in events:
+        eid = str(e["eventId"])
+        guests_ids = [g["id"] for g in e.get("guests", [])] if e.get("guests") else []
+        new_state[eid] = guests_ids
 
-    if messages:
-        # Enviar para Telegram e Discord simultaneamente
-        send_telegram(messages)
-        send_discord(messages)
+        if eid not in last_state:
+            # novo evento completo
+            new_events.append(e)
+        else:
+            # checa se houve guest novo
+            old_guests = set(last_state[eid])
+            new_guests = set(guests_ids)
+            if new_guests - old_guests:
+                # adiciona evento mas filtra só os guests novos
+                e_copy = e.copy()
+                e_copy["guests"] = [g for g in e.get("guests", []) if g["id"] in (new_guests - old_guests)]
+                new_events.append(e_copy)
+
+    if new_events:
+        organized = organize_events(new_events)
+        message = format_message(organized)
+        send_telegram(message)
+        send_discord(message)
+        save_last_events(new_state)
     else:
         print("Sem novidades.")
-
-    # Atualiza o arquivo
-    new_last = {show_id: info["guests"] for show_id, info in current_events.items()}
-    save_last_events(new_last)
 
 if __name__ == "__main__":
     main()

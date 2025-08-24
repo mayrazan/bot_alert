@@ -28,10 +28,10 @@ jobs:
         id: cache-last-updates
         uses: actions/cache@v4
         with:
-          path: 1iota/last_updates.json
-          key: last-updates-${{ steps.hash_last_updates.outputs.hash }}
+          path: last_updates.json
+          key: last-updates
           restore-keys: |
-            last-updates-
+            last-updates
 
       # Configura Python
       - name: Setup Python
@@ -47,7 +47,7 @@ jobs:
       - name: Show last_updates.json before script
         run: |
           echo 'Conteúdo de last_updates.json antes do script:'
-          cat 1iota/last_updates.json || echo 'Arquivo não existe.'
+          cat last_updates.json || echo 'Arquivo não existe.'
 
       - name: Run notifier
         env:
@@ -59,7 +59,7 @@ jobs:
       - name: Show last_updates.json after script
         run: |
           echo 'Conteúdo de last_updates.json depois do script:'
-          cat 1iota/last_updates.json || echo 'Arquivo não existe.'
+          cat last_updates.json || echo 'Arquivo não existe.'
 
       # Salva cache atualizado do last_updates.json
       - name: Calculate new last_updates.json hash
@@ -74,7 +74,7 @@ jobs:
       - name: Save last_updates.json cache
         uses: actions/cache@v4
         with:
-          path: 1iota/last_updates.json
-          key: last-updates-${{ steps.hash_last_updates_new.outputs.hash }}
+          path: last_updates.json
+          key: last-updates
           restore-keys: |
-            last-updates-
+            last-updates

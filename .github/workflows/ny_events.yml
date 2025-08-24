@@ -2,28 +2,51 @@ name: Monitor NY Events
 
 on:
   schedule:
-    - cron: '*/60 * * * *'  # a cada 60 minutos
-  workflow_dispatch:
+    - cron: '0 * * * *'  # roda todo início de hora
+  workflow_dispatch:     # permite rodar manualmente
 
 jobs:
   notify:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checar repositório
+      # Checa o repositório
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Configurar Python
+      # Restaura cache do last_updates.json
+      - name: Restore last_updates.json cache
+        id: cache-last-updates
+        uses: actions/cache@v4
+        with:
+          path: 1iota/last_updates.json
+          key: last-updates-${{ github.ref }}
+          restore-keys: |
+            last-updates-
+
+      # Configura Python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
-      - name: Instalar dependências
+      # Instala dependências
+      - name: Install dependencies
         run: pip install requests
 
-      - name: Rodar notifier
+      # Roda o script
+      - name: Run notifier
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python notifier.py
+
+      # Salva cache atualizado do last_updates.json
+      - name: Save last_updates.json cache
+        uses: actions/cache@v4
+        with:
+          path: 1iota/last_updates.json
+          key: last-updates-${{ github.ref }}-${{ github.run_id }}
+          restore-keys: |
+            last-updates-

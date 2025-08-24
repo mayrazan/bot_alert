@@ -20,9 +20,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: 1iota/last_updates.json
-          key: last-updates-${{ github.ref }}
+          key: last-updates
           restore-keys: |
-            last-updates-
+            last-updates
 
       # Configura Python
       - name: Setup Python
@@ -47,6 +47,6 @@ jobs:
         uses: actions/cache@v4
         with:
           path: 1iota/last_updates.json
-          key: last-updates-${{ github.ref }}-${{ github.run_id }}
+          key: last-updates
           restore-keys: |
-            last-updates-
+            last-updates

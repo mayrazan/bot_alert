@@ -110,6 +110,18 @@ def main():
     new_state = {}
     new_events = []
 
+    def normalize_hour(hour):
+        # Remove 'Z' e converte para formato UTC padronizado
+        if not hour:
+            return "unknown"
+        h = hour.replace('Z', '')
+        try:
+            # Tenta converter para datetime e volta para isoformat sem microsegundos
+            dt = datetime.fromisoformat(h)
+            return dt.strftime('%Y-%m-%dT%H:%M:%S')
+        except Exception:
+            return h
+
     for e in events:
         day_str = e.get("localStartDay")
         day_dt = parse_day_str(day_str) if day_str else None
@@ -117,7 +129,8 @@ def main():
             continue
 
         eid = str(e["eventId"])
-        hour = e.get("startDateUtc") or e.get("when") or "unknown"
+        hour_raw = e.get("startDateUtc") or e.get("when") or "unknown"
+        hour = normalize_hour(hour_raw)
         key = f"{eid}_{hour}"
 
         guests_event = e.get("guests") or []

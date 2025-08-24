@@ -7,7 +7,7 @@ from datetime import datetime
 # --- CONFIGURAÇÃO ---
 EVENTS_URL = "https://prod-tickets.1iota.com/api/event/list"
 CELEBS_URL = "https://prod-tickets.1iota.com/api/celeb/list"
-LAST_FILE = "last_news.json"
+LAST_FILE = "last_updates.json"
 
 # TELEGRAM
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
@@ -16,9 +16,9 @@ TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 # DISCORD
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 
-# Define o intervalo
-start_filter = datetime(2025, 10, 5)
-end_filter = datetime(2025, 10, 14)
+# Define o intervalo de datas
+START_FILTER = datetime(2025, 10, 5)
+END_FILTER = datetime(2025, 10, 14)
 
 # --- FUNÇÕES ---
 def get_data(url):
@@ -35,9 +35,9 @@ def load_last_state():
 def save_last_state(state):
     with open(LAST_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=2)
-    
+
 def parse_day_str(day_str):
-    # Ex: "Mon, Oct 06" -> datetime
+    """Ex: 'Mon, Oct 06' -> datetime"""
     try:
         return datetime.strptime(day_str.split(", ")[1] + " 2025", "%b %d %Y")
     except:
@@ -51,17 +51,13 @@ def organize_events(events):
             continue
 
         day_str = e.get("localStartDay")
-        if not day_str:
-            continue
-
-        day_dt = parse_day_str(day_str)
-        if not day_dt or not (start_filter <= day_dt <= end_filter):
+        day_dt = parse_day_str(day_str) if day_str else None
+        if not day_dt or not (START_FILTER <= day_dt <= END_FILTER):
             continue
 
         show = e.get("title", "Show sem título")
         hour = e.get("when", "Horário não informado")
 
-        # Separar guests de evento e do projeto
         guests_event = [g.get("name") for g in e.get("guests", [])] if e.get("guests") else []
         guests_project = [g.get("name") for g in e.get("projectGuests", [])] if e.get("projectGuests") else []
 
@@ -70,10 +66,7 @@ def organize_events(events):
             "guests_project": guests_project
         }
 
-    # ordenar por data real
-    organized_sorted = dict(sorted(organized.items()))
-    return organized_sorted
-
+    return dict(sorted(organized.items()))
 
 def format_message(organized_events):
     msg_lines = []
@@ -96,12 +89,18 @@ def send_telegram(message):
     if TELEGRAM_TOKEN and TELEGRAM_CHAT_ID:
         url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
         requests.post(url, data={"chat_id": TELEGRAM_CHAT_ID, "text": message, "parse_mode": "Markdown"})
+    else:
+        print("[MOCK TELEGRAM] Mensagem:")
+        print(message)
 
 def send_discord(message):
-    print(message)
     if DISCORD_WEBHOOK_URL:
         requests.post(DISCORD_WEBHOOK_URL, json={"content": message})
+    else:
+        print("[MOCK DISCORD] Mensagem:")
+        print(message)
 
+# --- EXECUÇÃO ---
 def main():
     events = get_data(EVENTS_URL)
     celebs = get_data(CELEBS_URL)
@@ -112,13 +111,19 @@ def main():
     new_events = []
 
     for e in events:
+        day_str = e.get("localStartDay")
+        day_dt = parse_day_str(day_str) if day_str else None
+        if not day_dt or not (START_FILTER <= day_dt <= END_FILTER):
+            continue
+
         eid = str(e["eventId"])
-        hour = e.get("when") or e.get("startDateUtc") or "unknown"
+        hour = e.get("startDateUtc") or e.get("when") or "unknown"
         key = f"{eid}_{hour}"
 
-        # IDs dos guests de evento e do projeto
-        guests_event_ids = [g["id"] for g in e.get("guests", [])] if e.get("guests") else []
-        guests_project_ids = [g["id"] for g in e.get("projectGuests", [])] if e.get("projectGuests") else []
+        guests_event = e.get("guests") or []
+        guests_project = e.get("projectGuests") or []
+        guests_event_ids = sorted([g["id"] for g in guests_event if "id" in g])
+        guests_project_ids = sorted([g["id"] for g in guests_project if "id" in g])
 
         new_state[key] = {
             "guests": guests_event_ids,
@@ -129,10 +134,9 @@ def main():
         event_copy = e.copy()
 
         if key not in last_state:
-            # Evento novo completo
+            # Evento totalmente novo (mesmo sem guests)
             notify_event = True
         else:
-            # Checa se há guests novos
             old_guests = set(last_state[key].get("guests", []))
             new_guests = set(guests_event_ids)
             old_project_guests = set(last_state[key].get("projectGuests", []))
@@ -141,8 +145,8 @@ def main():
             if new_guests - old_guests or new_project_guests - old_project_guests:
                 notify_event = True
                 # Filtra apenas novos guests
-                event_copy["guests"] = [g for g in e.get("guests", []) if g["id"] in (new_guests - old_guests)]
-                event_copy["projectGuests"] = [g for g in e.get("projectGuests", []) if g["id"] in (new_project_guests - old_project_guests)]
+                event_copy["guests"] = [g for g in guests_event if g["id"] in (new_guests - old_guests)]
+                event_copy["projectGuests"] = [g for g in guests_project if g["id"] in (new_project_guests - old_project_guests)]
 
         if notify_event:
             # Substitui IDs por nomes usando celeb_map
@@ -159,11 +163,10 @@ def main():
         message = format_message(organized)
         send_telegram(message)
         send_discord(message)
+        save_last_state(new_state)
         print("Notificação enviada.")
     else:
         print("Sem novidades.")
-
-    save_last_state(new_state)
 
 if __name__ == "__main__":
     main()

@@ -15,14 +15,23 @@ jobs:
         uses: actions/checkout@v3
 
       # Restaura cache do last_updates.json
+      - name: Calculate last_updates.json hash
+        id: hash_last_updates
+        run: |
+          if [ -f 1iota/last_updates.json ]; then
+            echo "hash=$(sha256sum 1iota/last_updates.json | cut -d' ' -f1)" >> $GITHUB_OUTPUT
+          else
+            echo "hash=empty" >> $GITHUB_OUTPUT
+          fi
+
       - name: Restore last_updates.json cache
         id: cache-last-updates
         uses: actions/cache@v4
         with:
           path: 1iota/last_updates.json
-          key: last-updates
+          key: last-updates-${{ steps.hash_last_updates.outputs.hash }}
           restore-keys: |
-            last-updates
+            last-updates-
 
       # Configura Python
       - name: Setup Python
@@ -35,6 +44,11 @@ jobs:
         run: pip install requests
 
       # Roda o script
+      - name: Show last_updates.json before script
+        run: |
+          echo 'Conteúdo de last_updates.json antes do script:'
+          cat 1iota/last_updates.json || echo 'Arquivo não existe.'
+
       - name: Run notifier
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
@@ -42,11 +56,25 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python notifier.py
 
+      - name: Show last_updates.json after script
+        run: |
+          echo 'Conteúdo de last_updates.json depois do script:'
+          cat 1iota/last_updates.json || echo 'Arquivo não existe.'
+
       # Salva cache atualizado do last_updates.json
+      - name: Calculate new last_updates.json hash
+        id: hash_last_updates_new
+        run: |
+          if [ -f 1iota/last_updates.json ]; then
+            echo "hash=$(sha256sum 1iota/last_updates.json | cut -d' ' -f1)" >> $GITHUB_OUTPUT
+          else
+            echo "hash=empty" >> $GITHUB_OUTPUT
+          fi
+
       - name: Save last_updates.json cache
         uses: actions/cache@v4
         with:
           path: 1iota/last_updates.json
-          key: last-updates
+          key: last-updates-${{ steps.hash_last_updates_new.outputs.hash }}
           restore-keys: |
-            last-updates
+            last-updates-

@@ -159,10 +159,11 @@ def main():
         message = format_message(organized)
         send_telegram(message)
         send_discord(message)
-        save_last_state(new_state)
         print("Notificação enviada.")
     else:
         print("Sem novidades.")
+
+    save_last_state(new_state)
 
 if __name__ == "__main__":
     main()

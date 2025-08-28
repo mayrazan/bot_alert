@@ -3,35 +3,24 @@ name: Monitor NY Events
 on:
   schedule:
     - cron: '0 * * * *'  # roda todo início de hora
-  workflow_dispatch:     # permite rodar manualmente
+  workflow_dispatch:
 
 jobs:
   notify:
     runs-on: ubuntu-latest
 
     steps:
-      # Checa o repositório
+      # Checkout
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Restaura cache do last_updates.json
-      - name: Calculate last_updates.json hash
-        id: hash_last_updates
-        run: |
-          if [ -f 1iota/last_updates.json ]; then
-            echo "hash=$(sha256sum 1iota/last_updates.json | cut -d' ' -f1)" >> $GITHUB_OUTPUT
-          else
-            echo "hash=empty" >> $GITHUB_OUTPUT
-          fi
-
+      # Restaurar cache anterior
       - name: Restore last_updates.json cache
         id: cache-last-updates
         uses: actions/cache@v4
         with:
           path: last_updates.json
           key: last-updates
-          restore-keys: |
-            last-updates
 
       # Configura Python
       - name: Setup Python
@@ -43,12 +32,13 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      # Roda o script
+      # Mostra estado antes
       - name: Show last_updates.json before script
         run: |
           echo 'Conteúdo de last_updates.json antes do script:'
-          cat last_updates.json || echo 'Arquivo não existe.'
+          cat last_updates.json || echo '{}'
 
+      # Roda script
       - name: Run notifier
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
@@ -56,25 +46,27 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python notifier.py
 
+      # Mostra estado depois
       - name: Show last_updates.json after script
         run: |
           echo 'Conteúdo de last_updates.json depois do script:'
-          cat last_updates.json || echo 'Arquivo não existe.'
+          cat last_updates.json || echo '{}'
 
-      # Salva cache atualizado do last_updates.json
+      # Calcular novo hash
       - name: Calculate new last_updates.json hash
         id: hash_last_updates_new
         run: |
-          if [ -f 1iota/last_updates.json ]; then
-            echo "hash=$(sha256sum 1iota/last_updates.json | cut -d' ' -f1)" >> $GITHUB_OUTPUT
+          if [ -f last_updates.json ]; then
+            echo "hash=$(sha256sum last_updates.json | cut -d' ' -f1)" >> $GITHUB_OUTPUT
           else
             echo "hash=empty" >> $GITHUB_OUTPUT
           fi
 
+      # Salvar nova versão no cache
       - name: Save last_updates.json cache
         uses: actions/cache@v4
         with:
           path: last_updates.json
-          key: last-updates
+          key: last-updates-${{ steps.hash_last_updates_new.outputs.hash }}
           restore-keys: |
-            last-updates
+            last-updates-

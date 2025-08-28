@@ -59,8 +59,8 @@ def organize_events(events):
         show = e.get("title", "Show sem título")
         hour = e.get("when", "Horário não informado")
 
-        guests_event = [g.get("name") for g in e.get("guests", [])] if e.get("guests") else []
-        guests_project = [g.get("name") for g in e.get("projectGuests", [])] if e.get("projectGuests") else []
+        guests_event = [g.get("name") for g in (e.get("guests") or [])]
+        guests_project = [g.get("name") for g in (e.get("projectGuests") or [])]
 
         organized[day_dt][show][hour] = {
             "guests_event": guests_event,
@@ -157,14 +157,14 @@ def main():
         event_copy = e.copy()
 
         # Adiciona nomes e marca *NEW* apenas para novidades
-        for g in event_copy.get("guests", []):
+        for g in (event_copy.get("guests") or []):
             cid = g["id"]
             if cid in celeb_map:
                 g["name"] = celeb_map[cid]["name"]
                 if cid in new_guests_only:
                     g["name"] += " *NEW*"
 
-        for g in event_copy.get("projectGuests", []):
+        for g in (event_copy.get("projectGuests") or []):
             cid = g["id"]
             if cid in celeb_map:
                 g["name"] = celeb_map[cid]["name"]

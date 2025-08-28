@@ -16,7 +16,7 @@ TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 # DISCORD
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 
-# Define o intervalo de datas
+# Intervalo de datas
 START_FILTER = datetime(2025, 10, 5)
 END_FILTER = datetime(2025, 10, 14)
 
@@ -28,8 +28,11 @@ def get_data(url):
 
 def load_last_state():
     if os.path.exists(LAST_FILE):
-        with open(LAST_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
+        try:
+            with open(LAST_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            return {}
     return {}
 
 def save_last_state(state):
@@ -37,7 +40,6 @@ def save_last_state(state):
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 def parse_day_str(day_str):
-    """Ex: 'Mon, Oct 06' -> datetime"""
     try:
         return datetime.strptime(day_str.split(", ")[1] + " 2025", "%b %d %Y")
     except:
@@ -45,7 +47,6 @@ def parse_day_str(day_str):
 
 def organize_events(events):
     organized = defaultdict(lambda: defaultdict(lambda: defaultdict(dict)))
-    
     for e in events:
         if 125 not in e.get("projectLocationIds", []):
             continue
@@ -75,12 +76,13 @@ def format_message(organized_events):
         for show, times in shows.items():
             msg_lines.append(f"  {show}:")
             for hour, guests_dict in times.items():
-                guest_str = []
+                lines = []
                 if guests_dict.get("guests_event"):
-                    guest_str.append("Evento: " + ", ".join(guests_dict["guests_event"]))
+                    lines.append("🎤 Evento: " + ", ".join(guests_dict["guests_event"]))
                 if guests_dict.get("guests_project"):
-                    guest_str.append("Projeto: " + ", ".join(guests_dict["guests_project"]))
-                guest_str = " | ".join(guest_str) if guest_str else "Nenhum guest listado"
+                    lines.append("⭐ Projeto: " + ", ".join(guests_dict["guests_project"]))
+                
+                guest_str = " | ".join(lines) if lines else "Nenhum guest listado"
                 msg_lines.append(f"    {hour} → {guest_str}")
         msg_lines.append("")  # linha em branco entre dias
     return "\n".join(msg_lines)
@@ -111,12 +113,10 @@ def main():
     new_events = []
 
     def normalize_hour(hour):
-        # Remove 'Z' e converte para formato UTC padronizado
         if not hour:
             return "unknown"
         h = hour.replace('Z', '')
         try:
-            # Tenta converter para datetime e volta para isoformat sem microsegundos
             dt = datetime.fromisoformat(h)
             return dt.strftime('%Y-%m-%dT%H:%M:%S')
         except Exception:
@@ -138,37 +138,41 @@ def main():
         guests_event_ids = sorted([g["id"] for g in guests_event if "id" in g])
         guests_project_ids = sorted([g["id"] for g in guests_project if "id" in g])
 
+        # Salva o estado atual
         new_state[key] = {
             "guests": guests_event_ids,
             "projectGuests": guests_project_ids
         }
 
-        notify_event = False
+        # Determina novidades
+        old_guests = set(last_state.get(key, {}).get("guests", []))
+        new_guests = set(guests_event_ids)
+        old_project_guests = set(last_state.get(key, {}).get("projectGuests", []))
+        new_project_guests = set(guests_project_ids)
+
+        new_guests_only = new_guests - old_guests
+        new_project_guests_only = new_project_guests - old_project_guests
+
+        # Cria cópia para notificação
         event_copy = e.copy()
 
-        if key not in last_state:
-            # Evento totalmente novo (mesmo sem guests)
-            notify_event = True
-        else:
-            old_guests = set(last_state[key].get("guests", []))
-            new_guests = set(guests_event_ids)
-            old_project_guests = set(last_state[key].get("projectGuests", []))
-            new_project_guests = set(guests_project_ids)
+        # Adiciona nomes e marca *NEW* apenas para novidades
+        for g in event_copy.get("guests", []):
+            cid = g["id"]
+            if cid in celeb_map:
+                g["name"] = celeb_map[cid]["name"]
+                if cid in new_guests_only:
+                    g["name"] += " *NEW*"
 
-            if new_guests - old_guests or new_project_guests - old_project_guests:
-                notify_event = True
-                # Filtra apenas novos guests
-                event_copy["guests"] = [g for g in guests_event if g["id"] in (new_guests - old_guests)]
-                event_copy["projectGuests"] = [g for g in guests_project if g["id"] in (new_project_guests - old_project_guests)]
+        for g in event_copy.get("projectGuests", []):
+            cid = g["id"]
+            if cid in celeb_map:
+                g["name"] = celeb_map[cid]["name"]
+                if cid in new_project_guests_only:
+                    g["name"] += " *NEW*"
 
-        if notify_event:
-            # Substitui IDs por nomes usando celeb_map
-            for guest_type in ["guests", "projectGuests"]:
-                if event_copy.get(guest_type):
-                    for g in event_copy[guest_type]:
-                        cid = g["id"]
-                        if cid in celeb_map:
-                            g["name"] = celeb_map[cid]["name"]
+        # Se houver novidades, adiciona à lista de notificação
+        if key not in last_state or new_guests_only or new_project_guests_only:
             new_events.append(event_copy)
 
     if new_events:
@@ -176,10 +180,12 @@ def main():
         message = format_message(organized)
         send_telegram(message)
         send_discord(message)
-        save_last_state(new_state)
         print("Notificação enviada.")
     else:
         print("Sem novidades.")
+
+    # 🔑 Sempre salva o estado atualizado
+    save_last_state(new_state)
 
 if __name__ == "__main__":
     main()

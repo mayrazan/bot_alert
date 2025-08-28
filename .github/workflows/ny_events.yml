@@ -2,7 +2,7 @@ name: Monitor NY Events
 
 on:
   schedule:
-    - cron: '0 * * * *'  # roda todo início de hora
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -10,35 +10,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Restaurar cache anterior
+      # Restaura o cache (pega o último disponível)
       - name: Restore last_updates.json cache
         id: cache-last-updates
         uses: actions/cache@v4
         with:
           path: last_updates.json
-          key: last-updates
+          key: last-updates-
+          restore-keys: |
+            last-updates-
 
-      # Configura Python
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
-      # Instala dependências
       - name: Install dependencies
         run: pip install requests
 
-      # Mostra estado antes
       - name: Show last_updates.json before script
         run: |
           echo 'Conteúdo de last_updates.json antes do script:'
           cat last_updates.json || echo '{}'
 
-      # Roda script
       - name: Run notifier
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
@@ -46,13 +43,12 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python notifier.py
 
-      # Mostra estado depois
       - name: Show last_updates.json after script
         run: |
           echo 'Conteúdo de last_updates.json depois do script:'
           cat last_updates.json || echo '{}'
 
-      # Calcular novo hash
+      # Calcula hash só no final
       - name: Calculate new last_updates.json hash
         id: hash_last_updates_new
         run: |
@@ -62,7 +58,7 @@ jobs:
             echo "hash=empty" >> $GITHUB_OUTPUT
           fi
 
-      # Salvar nova versão no cache
+      # Salva cache usando o hash
       - name: Save last_updates.json cache
         uses: actions/cache@v4
         with:

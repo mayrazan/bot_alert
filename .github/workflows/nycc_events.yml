@@ -1,0 +1,74 @@
+name: Monitor NYCC Panels
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # Executa diariamente às 03:00 UTC
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check date
+        run: |
+          TODAY=$(date -u +"%Y-%m-%d")
+          if [[ "$TODAY" > "2025-10-13" ]]; then
+            echo "Data limite atingida. Workflow não será mais executado."
+            exit 0
+          fi
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Restore last_updates_nycc.json cache
+        id: cache-last-updates-nycc
+        uses: actions/cache@v4
+        with:
+          path: last_updates_nycc.json
+          key: last-updates-nycc-
+          restore-keys: |
+            last-updates-nycc-
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Show last_updates_nycc.json before script
+        run: |
+          echo 'Conteúdo de last_updates_nycc.json antes do script:'
+          cat last_updates_nycc.json || echo '{}'
+
+      - name: Run NYCC notifier
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python nycc_notifier.py
+
+      - name: Show last_updates_nycc.json after script
+        run: |
+          echo 'Conteúdo de last_updates_nycc.json depois do script:'
+          cat last_updates_nycc.json || echo '{}'
+
+      - name: Calculate new last_updates_nycc.json hash
+        id: hash_last_updates_nycc_new
+        run: |
+          if [ -f last_updates_nycc.json ]; then
+            echo "hash=$(sha256sum last_updates_nycc.json | cut -d' ' -f1)" >> $GITHUB_OUTPUT
+          else
+            echo "hash=empty" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Save last_updates_nycc.json cache
+        uses: actions/cache@v4
+        with:
+          path: last_updates_nycc.json
+          key: last-updates-nycc-${{ steps.hash_last_updates_nycc_new.outputs.hash }}
+          restore-keys: |
+            last-updates-nycc-

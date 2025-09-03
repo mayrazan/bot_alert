@@ -26,9 +26,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: last_updates_nycc.json
-          key: last-updates-nycc-
+          key: last-updates-nycc-v1
           restore-keys: |
-            last-updates-nycc-
+            last-updates-nycc-v1
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -55,19 +55,9 @@ jobs:
           echo 'Conteúdo de last_updates_nycc.json depois do script:'
           cat last_updates_nycc.json || echo '{}'
 
-      - name: Calculate new last_updates_nycc.json hash
-        id: hash_last_updates_nycc_new
-        run: |
-          if [ -f last_updates_nycc.json ]; then
-            echo "hash=$(sha256sum last_updates_nycc.json | cut -d' ' -f1)" >> $GITHUB_OUTPUT
-          else
-            echo "hash=empty" >> $GITHUB_OUTPUT
-          fi
-
       - name: Save last_updates_nycc.json cache
+        if: always()
         uses: actions/cache@v4
         with:
           path: last_updates_nycc.json
-          key: last-updates-nycc-${{ steps.hash_last_updates_nycc_new.outputs.hash }}
-          restore-keys: |
-            last-updates-nycc-
+          key: last-updates-nycc-v1

@@ -90,14 +90,47 @@ def format_message(organized_events):
 def send_telegram(message):
     if TELEGRAM_TOKEN and TELEGRAM_CHAT_ID:
         url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-        requests.post(url, data={"chat_id": TELEGRAM_CHAT_ID, "text": message, "parse_mode": "Markdown"})
+        
+        # Limita mensagem a 4000 caracteres (limite do Telegram é 4096)
+        if len(message) > 4000:
+            message = message[:3950] + "...\n\n(Mensagem truncada)"
+        
+        try:
+            response = requests.post(url, data={
+                "chat_id": TELEGRAM_CHAT_ID, 
+                "text": message, 
+                "parse_mode": "Markdown"
+            }, timeout=30)
+            response.raise_for_status()
+            print(f"[TELEGRAM] Mensagem enviada com sucesso")
+        except Exception as e:
+            print(f"[TELEGRAM ERROR] Falha ao enviar: {e}")
+            # Tenta enviar sem markdown como fallback
+            try:
+                response = requests.post(url, data={
+                    "chat_id": TELEGRAM_CHAT_ID, 
+                    "text": message
+                }, timeout=30)
+                response.raise_for_status()
+                print(f"[TELEGRAM] Mensagem enviada sem formatação")
+            except Exception as e2:
+                print(f"[TELEGRAM ERROR] Falha total: {e2}")
     else:
         print("[MOCK TELEGRAM] Mensagem:")
         print(message)
 
 def send_discord(message):
     if DISCORD_WEBHOOK_URL:
-        requests.post(DISCORD_WEBHOOK_URL, json={"content": message})
+        # Limita mensagem a 2000 caracteres (limite do Discord)
+        if len(message) > 2000:
+            message = message[:1950] + "...\n\n(Mensagem truncada)"
+        
+        try:
+            response = requests.post(DISCORD_WEBHOOK_URL, json={"content": message}, timeout=30)
+            response.raise_for_status()
+            print(f"[DISCORD] Mensagem enviada com sucesso")
+        except Exception as e:
+            print(f"[DISCORD ERROR] Falha ao enviar: {e}")
     else:
         print("[MOCK DISCORD] Mensagem:")
         print(message)
@@ -172,7 +205,7 @@ def main():
                     g["name"] += " *NEW*"
 
         # Se houver novidades, adiciona à lista de notificação
-        if key not in last_state or new_guests_only or new_project_guests_only:
+        if new_guests_only or new_project_guests_only:
             new_events.append(event_copy)
 
     if new_events:

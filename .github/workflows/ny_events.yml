@@ -13,15 +13,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Restaura o cache (pega o último disponível)
+      # Restaura o cache usando chave fixa
       - name: Restore last_updates.json cache
         id: cache-last-updates
         uses: actions/cache@v4
         with:
           path: last_updates.json
-          key: last-updates-
+          key: last-updates-v1
           restore-keys: |
-            last-updates-
+            last-updates-v1
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -48,21 +48,10 @@ jobs:
           echo 'Conteúdo de last_updates.json depois do script:'
           cat last_updates.json || echo '{}'
 
-      # Calcula hash só no final
-      - name: Calculate new last_updates.json hash
-        id: hash_last_updates_new
-        run: |
-          if [ -f last_updates.json ]; then
-            echo "hash=$(sha256sum last_updates.json | cut -d' ' -f1)" >> $GITHUB_OUTPUT
-          else
-            echo "hash=empty" >> $GITHUB_OUTPUT
-          fi
-
-      # Salva cache usando o hash
+      # Salva cache com chave fixa (sobrescreve o anterior)
       - name: Save last_updates.json cache
+        if: always()
         uses: actions/cache@v4
         with:
           path: last_updates.json
-          key: last-updates-${{ steps.hash_last_updates_new.outputs.hash }}
-          restore-keys: |
-            last-updates-
+          key: last-updates-v1

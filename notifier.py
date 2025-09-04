@@ -205,7 +205,7 @@ def main():
                     g["name"] += " *NEW*"
 
         # Se houver novidades, adiciona à lista de notificação
-        if new_guests_only or new_project_guests_only:
+        if key not in last_state or new_guests_only or new_project_guests_only:
             new_events.append(event_copy)
 
     if new_events:

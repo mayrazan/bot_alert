@@ -2,7 +2,7 @@ name: Monitor NYCC Panels
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # Executa diariamente às 03:00 UTC
+    - cron: '0 */6 * * *'  # Executa a cada 6 horas (00:00, 06:00, 12:00, 18:00 UTC)
   workflow_dispatch:
 
 jobs:

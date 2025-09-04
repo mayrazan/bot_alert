@@ -12,16 +12,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-
-      # Restaura o cache usando chave fixa
-      - name: Restore last_updates.json cache
-        id: cache-last-updates
-        uses: actions/cache@v4
         with:
-          path: last_updates.json
-          key: last-updates-v1
-          restore-keys: |
-            last-updates-v1
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -48,10 +41,10 @@ jobs:
           echo 'Conteúdo de last_updates.json depois do script:'
           cat last_updates.json || echo '{}'
 
-      # Salva cache com chave fixa (sobrescreve o anterior)
-      - name: Save last_updates.json cache
-        if: always()
-        uses: actions/cache@v4
-        with:
-          path: last_updates.json
-          key: last-updates-v1
+      - name: Commit and push state files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add last_updates.json
+          git diff --staged --quiet || git commit -m "chore: update 1iota state [skip ci]"
+          git push

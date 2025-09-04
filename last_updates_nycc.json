@@ -1,10 +1,4 @@
 {
-  "911145": {
-    "title": "Star Wars Storytime",
-    "description": "Led by an award-winning New York State licensed librarian with over fifteen years of youth services experiences. Star Wars-themed books, music, crafts, and special appearances by some friends from a galaxy far, far away. LFL-recognized Star Wars charity costuming clubs will be in Family HQ in Hall 1E all four days, raising money for Make-A-Wish.",
-    "people_list": "",
-    "people": []
-  },
   "904757": {
     "title": "JUJUTSU KAISEN Panel with English Voice Cast",
     "description": "Celebrate the latest JUJUTSU KAISEN news with the English voice cast Adam McArthur (Yuji Itadori), Robbie Daymond (Megumi Fushiguro), Anne Yatco (Nobara Kugisaki), Kaiji Tang (Satoru Gojo), and Kayleigh McKee (Yuta Okkotsu) as they share behind-the-scenes stories and what fans can look forward to next. \n\n",
@@ -20,8 +14,10 @@
   "902468": {
     "title": "Creepy, Crafty &amp; Curriculum-Ready: Spooky Stories for Classrooms, Libraries &amp; Beyond!",
     "description": "Spooky stories have long been a favorite among teen readers—and they offer so much more than just scares. This panel brings together librarians, educators, publishers, and creators to spotlight graphic novels, manga, and YA fiction that taps into spooky stories that resonate with teens. We will discuss how these titles can support literacy, spark critical thinking, and open conversations around culture, identity, and fear. Whether you are looking to diversify your teen collection, plan engaging library programs, or incorporate these stories into a curriculum, you will leave with practical ideas, thoughtful recommendations, and resources you can use right away.",
-    "people_list": "",
-    "people": []
+    "people_list": "Jillian Rudes",
+    "people": [
+      "Jillian Rudes"
+    ]
   },
   "909425": {
     "title": "Star Wars: The Clone Wars Era Meetup @ NYCC!",
@@ -60,8 +56,13 @@
   "902461": {
     "title": "Cafecito at Comic Con",
     "description": "Join us for an engaging panel on national superheroes from different countries, exploring how comic books created by colonial subjects serve as powerful tools for representation and world meaning making. Featuring Edgardo Miranda-Rodriguez, creator of La Borinqueña, alongside [names of one or two other comic book creators to be included ], and moderated by Aníbal Arocho, The Center for Puerto Rican Studies at Hunter College's Library Manager, this conversation will examine themes of NYPL and CENTRO collections, Afro and Indigenous identities, environmental justice, colonization, social activism, and cultural resilience. Through the lens of comics, panelists will discuss how these narratives challenge dominant histories, inspire new forms of storytelling, and empower communities to reimagine their place in the world.\n",
-    "people_list": "",
-    "people": []
+    "people_list": "Anibal Arocho, Edgardo Miranda, Nicole Virella, David Betancourt",
+    "people": [
+      "Anibal Arocho",
+      "Edgardo Miranda (Edgardo Miranda-Rodriguez)",
+      "Nicole Virella (Nik Virella)",
+      "David Betancourt"
+    ]
   },
   "896882": {
     "title": "Celebrating Five Years of The Department of Truth ",
@@ -72,6 +73,12 @@
   "904352": {
     "title": "3rd Annual Broadway To Hollywood: A Look at the New Age of Musicals",
     "description": "Featuring panelists from Kiss of the Spider Woman, Miley Cyrus:\nSomething Beautiful, Joker: Folie à Deux, Barbie The Movie In Concert, and\nmore!\n\nStep into the spotlight with the creative powerhouses behind hit musical productions as they\nreveal how to take ideas to the stage or screen! From writing show-stopping musical moments\nto editing scenes together and more, this is your exclusive insight into the behind-the-scenes\nbrilliance that brings musicals to life!\n\nWith Brian A. Kates (Editor of Kiss of the Spider Woman), David Meyer (Production Designer of\nMiley Cyrus: Something Beautiful and Art Director of Joker: Folie à Deux), Macy Schmidt\n(Orchestrator and Founder of The Sinfonietta, Barbie The Movie In Concert), and more to be\nannounced. Moderated by Katharine Quinn (Founder and CEO of And That's Showbiz). Part 1\nof Impact24 PR’s Panel Superblock Series. Follow us on Instagram: @impact24pr",
+    "people_list": "",
+    "people": []
+  },
+  "909683": {
+    "title": "Comic Con in Your School",
+    "description": "Want to make your own Comic Con for your school community? Join a panel of educators and administrators who have successfully implemented school-wide Comic Cons. Learn practical strategies for incorporating comics into your curriculum, build excitement around student creations, and transform your school into a dynamic hub for creativity and collaboration. Discover how to leverage Comic Cons as powerful learning experiences that celebrate student achievement and foster a love of storytelling.",
     "people_list": "",
     "people": []
   },
@@ -101,8 +108,10 @@
   "909404": {
     "title": "Demon Slayer Meetup",
     "description": "Demon Slayer Cosplay Meetup!\nStep out of the shadows and into the spotlight! Join fellow slayers and demons for an unforgettable day of epic cosplay, killer photo ops, and fandom fun. Whether you wield a Nichirin blade or command blood demon arts, this is your moment to shine!",
-    "people_list": "",
-    "people": []
+    "people_list": "Victoria Rymer",
+    "people": [
+      "Victoria Rymer (Earthtotori)"
+    ]
   },
   "910548": {
     "title": "Science Fiction Tropes - Post Panel Book Signing",
@@ -126,8 +135,11 @@
   "909685": {
     "title": "LGBTQ-Inclusive Books, Comics and Popular Media for Young People",
     "description": "Comics, animation, and books are universal mediums that have continuously grown in their support of LGBTQ-inclusive stories and characters for young audiences. These groundbreaking successes have created new opportunities for LGBTQ storytellers. Join us for a mix of animation and publishing storytellers as they discuss their projects, and we ask them: How did they approach LGBTQ content and characters for tweens and teens and young readers? How do new LGBTQ creators find their voice and get their start? What is the best advice they’ve received along their journey? How to stay hopeful in a challenging landscape? What are the new and upcoming projects to watch for?  Join moderator Cort Lane (Ultimate Spider-Man, GLAAD Kids &amp; Family Advisory Council) and talented panelists Phil Jimenez (Wonder Woman: Historia, DC Comics Pride 2024), Brandon T. Snider (Dark Knight Manual, Rube Goldberg And His Amazing Machines), Shannon Watters (Lumberjanes, Hollow), Allen Wells (It’s Pride, Baby!, Danté Plays His Blues), and Vicki Johnson (Molly’s Tuxedo, Mac Wears a Hat).",
-    "people_list": "",
-    "people": []
+    "people_list": "Amy Johnson, Courtney Lane",
+    "people": [
+      "Amy Johnson (Vicki Johnson)",
+      "Courtney Lane (Cort Lane)"
+    ]
   },
   "909493": {
     "title": "Judge This Book By Its Cover",
@@ -142,10 +154,11 @@
   "903897": {
     "title": "The Road to The Dragon King",
     "description": "Join the cast and crew as they give updates on The Dragon King, the next arc of The Dragon Prince saga! Hear the latest news about the Kickstarter and receive a special thanks for being an essential part of building this together — and we'll share some unique experiences of some of our backers! The panel includes creators Aaron Ehasz and Justin Richmond as well as surprise guests to shock and amaze you with news and insights. Don't miss it!",
-    "people_list": "Justin Richmond, Aaron Ehasz",
+    "people_list": "Justin Richmond, Aaron Ehasz, Boone Williams",
     "people": [
       "Justin Richmond",
-      "Aaron Ehasz"
+      "Aaron Ehasz",
+      "Boone Williams"
     ]
   },
   "909803": {
@@ -162,11 +175,19 @@
     "people_list": "",
     "people": []
   },
-  "911147": {
-    "title": "Star Wars Meetup",
-    "description": "Whether you’re on the light side or the dark side, all Star Wars cosplayers and fans are welcome to this meetup hosted by Rebel Legion’s Echo Base.",
+  "911145": {
+    "title": "Star Wars Storytime",
+    "description": "Led by an award-winning New York State licensed librarian with over fifteen years of youth services experiences. Star Wars-themed books, music, crafts, and special appearances by some friends from a galaxy far, far away. LFL-recognized Star Wars charity costuming clubs will be in Family HQ in Hall 1E all four days, raising money for Make-A-Wish.",
     "people_list": "",
     "people": []
+  },
+  "911147": {
+    "title": "Star Wars Meetup",
+    "description": "Whether you’re on the light side or the dark side, all Star Wars cosplayers and fans are welcome to this meetup hosted by Rebel Legion’s Echo Base.\n\nStar Wars Meetup (Thursday):  \nhttps://www.facebook.com/share/19dsoJzRm4/?mibextid=wwXIfr\n",
+    "people_list": "Lisa Giunta-Popeil",
+    "people": [
+      "Lisa Giunta-Popeil (LiliPopeCosplay)"
+    ]
   },
   "909160": {
     "title": "How The Toys That Made Us Launched a Toy Company",
@@ -183,9 +204,13 @@
   "901300": {
     "title": "Incorporate Diversity and Accessibility Into Costumes &amp; Content Creating",
     "description": "At its core, this panel is about breaking barriers through fandom. As autistic and disabled creators, we’ve experienced firsthand how cosplay and content creation aren’t just hobbies—they’re lifelines. This panel will shine a spotlight on the ways that dressing up as your favorite hero, sharing your voice online, and connecting with a community can build confidence, unlock self-expression, and foster mental wellness. We’ll share personal stories, challenges, and triumphs that prove being different isn’t a weakness—it’s our superpower. Attendees will leave with new perspectives, encouragement, and practical tips for finding their own voice in the fan space. This is more than a discussion—it’s a celebration of resilience, creativity, and how fandom can truly change lives. Whether you’re a fan, a creator, or someone looking for inspiration, this is a panel where everyone belongs.",
-    "people_list": "Justin Santiago",
+    "people_list": "Justin Santiago, Bianca Appiah, Daijonee Vanderveer, Joseph Munisteri, Nancy Amaro",
     "people": [
-      "Justin Santiago (The Lionheart)"
+      "Justin Santiago (The Lionheart)",
+      "Bianca Appiah (Stardust Megu)",
+      "Daijonee Vanderveer (Cotton Candy HG)",
+      "Joseph Munisteri (Joseph Munisteri / Butterflies in Space LLC)",
+      "Nancy Amaro"
     ]
   },
   "909802": {
@@ -194,17 +219,19 @@
     "people_list": "",
     "people": []
   },
-  "909683": {
-    "title": "Comic Con in Your School",
-    "description": "The New York City Department of Education’s Civics for All Comics Group just celebrated its fifth year in publishing in 2025. We also printed our five millionth comic and continue to be one of the ten largest comics publishers in the United States. Join a panel made up of the NYC team along with some of the different creators we work with to explore how we create our own comics, how the creators think about educational comics, and hear about the lessons we’ve learned and created. Meet with some of our creators and hear about some of the special comics projects that we have planned. And as always, our comics are FREE IN NYC and we will have lots of issues to give away at the panel.",
+  "911687": {
+    "title": "Civics for All Comics Group at 5 (Years) and 5 Million (Copies)",
+    "description": "The New York City Department of Education’s Civics for All Comics Group just celebrated its fifth year in publishing in 2025. We also printed our five millionth comic and continue to be one of the ten largest comics publishers in the United States. Join a panel made up of the NYC team along with some of the different creators we work with to explore how we create our own comics, how the creators think about educational comics, and hear about the lessons we’ve learned and created. Meet with some of our creators and hear about some of the special comics projects that we have planned. And as always, our comics are FREE IN NYC and we will have lots of issues to give away at the panel.\n\n",
     "people_list": "",
     "people": []
   },
   "909416": {
     "title": "DanDaDan: Paranormal Chaos Meetup",
     "description": "Are you Team Momo, Okarun, or just here for the aliens, ghosts, and absolute mayhem? Whether you're into psychic battles, supernatural crushes, or just love the wild ride that is Dan Da Dan, this meetup is your spiritual home base. Come dressed as your favorite character or your favorite cryptid. Snap pics, swap theories, and maybe even reenact your favorite over-the-top scenes. \nIt’s weird. It’s wild. It’s wonderfully unhinged. Just like Dan Da Dan. Let’s get paranormal at NYCC!",
-    "people_list": "",
-    "people": []
+    "people_list": "Katerina Campbell",
+    "people": [
+      "Katerina Campbell (Jack C.)"
+    ]
   },
   "910417": {
     "title": "Not Just Minecraft: Videogaming in the Classroom",
@@ -316,8 +343,10 @@
   "904813": {
     "title": "Go, Speed Racer, Go!: The Return of an Icon",
     "description": "Start your engines and buckle up for a high-octane deep dive into the legendary world of Speed Racer! Join the creative team behind the brand-new Speed Racer comic series from Mad Cave Studios as they discuss reimagining one of the most iconic anime and manga properties of all time for a whole new generation of fans.",
-    "people_list": "",
-    "people": []
+    "people_list": "Maya Lopez",
+    "people": [
+      "Maya Lopez"
+    ]
   },
   "909408": {
     "title": "Huntr/x Don’t Miss: A K-Pop Demon Hunters Meetup ",
@@ -442,8 +471,10 @@
   "903871": {
     "title": "¡Wepa! Puerto Ricans in the World of Comics",
     "description": "From October 4 to March 8, The New York Public Library will present an exhibition celebrating the creative legacy of Puerto Rican comic book creators across the Island and the mainland United States. Puerto Rico is sometimes called the U.S.’s forgotten colony, and these comics are an act of resistance against forgetting. They compel us to engage with Puerto Rico’s troubled political history, its complex relationship with the U.S., and its vulnerability to climate change, while also celebrating the richness and diversity of Puerto Rican culture.\n\nThis panel will be geared to educators and will address storytelling and identity through comic books. It will feature four of the exhibition’s artists – some from the island, some from the mainland U.S. –  along with the donor who gave the Library its unparalleled collection of 1600+ comics by and about Puerto Ricans. For more details on the collection, see here: https://www.nypl.org/blog/2023/10/27/new-archives-manuel-martinez-nazario-collection-puerto-ricans-world-comics-1950s",
-    "people_list": "",
-    "people": []
+    "people_list": "Paloma Celis-Carbajal",
+    "people": [
+      "Paloma Celis-Carbajal"
+    ]
   },
   "903120": {
     "title": "PSA’s Guide to Comic Book &amp; Pop Culture Grading &amp; Collecting",
@@ -525,6 +556,14 @@
     "people_list": "",
     "people": []
   },
+  "911595": {
+    "title": "RESERVATION REQUIRED - Matt Dinniman Book Signing",
+    "description": "Join bestselling author Matt Dinniman, best known for the Dungeon Crawler Carl series, as he greets fans and signs books. PLEASE NOTE: A reservation is required for this event. In addition to the reservation, you must purchase any Dungeon Crawler Carl book from the Barnes &amp; Noble booth (at the front of Hall 1A) to join the signing line. Proof of purchase will be required. In order for Mr. Dinniman to meet the largest number of fans, there is a limit of two books signed per person.\n\nReservations will open on September 29. <a href=\"https://www.newyorkcomiccon.com/en-us/about/reservations.html\">Information about NYCC reservations. </a>",
+    "people_list": "Matt Dinniman",
+    "people": [
+      "Matt  Dinniman"
+    ]
+  },
   "909498": {
     "title": "Grab Your Cape: Drawing Inspiration from Heroes and Comics",
     "description": "It’s a bird! It’s a plane! No, it’s a graphic novel! No one knows the importance of heroes more than these creators who evoke the classic superhero tradition with their action-packed, spectacular, and highly kinetic new graphics. ",
@@ -573,15 +612,20 @@
   },
   "904413": {
     "title": "GLITCH PRODUCTIONS PRESENTS - The Cast of The Amazing Digital Circus",
-    "description": "Amazing Digital Circus, the YouTube sensation now also on Netflix, is bringing the entire main cast AND the creator of the show GOOSEWORX, together to reveal tales from the production, talk about their journeys as VAs, and take questions from their avid fans. The panel will feature Lizzie Freeman (voice of Pomni, Pokémon Horizons, Jojo’s Bizarre Adventure), Michael Kovach (voice of Jax, Murder Drones, Lackadaisy), Alex Rochon (voice of Caine; Poppy Playtime), Sean Chiplock (voice of Kinger; Legend of Zelda, Genshin Impact, Re:Zero), Amanda Hufford (voice of Ragatha; Date Everything), Marissa Lenti (voice of Gangle; Borderlands 3), Ashley Nichols (voice of Zooble; Far-Fetched, Lackadaisy). Get your questions answered and see what's next for THE AMAZING DIGITAL CIRCUS and GLITCH PRODUCTIONS as well!",
+    "description": "Amazing Digital Circus, the YouTube sensation now also on Netflix, is bringing the entire main cast AND the creator of the show GOOSEWORX, together to reveal tales from the production, talk about their journeys as VAs, and take questions from their avid fans. The panel will feature Lizzie Freeman (voice of Pomni, Pokémon Horizons, Jojo’s Bizarre Adventure), Michael Kovach (voice of Jax, Murder Drones, Lackadaisy), Alex Rochon (voice of Caine; Poppy Playtime), Amanda Hufford (voice of Ragatha; Date Everything), Marissa Lenti (voice of Gangle; Borderlands 3), Ashley Nichols (voice of Zooble; Far-Fetched, Lackadaisy). Get your questions answered and see what's next for THE AMAZING DIGITAL CIRCUS and GLITCH PRODUCTIONS as well!",
     "people_list": "",
     "people": []
   },
   "904440": {
     "title": "Misogynoir and Multiverses: A Black Girl’s Guide to Fandom Culture",
     "description": "Misogynoir and Multiverses—culture writer Noella Williams’ (Teen Vogue, Vox, Uproxx) forthcoming debut novel—is an exploration of the racism and sexism directed toward Black women and femmes in the science fiction and fantasy communities. \n\nAlthough fandom culture can provide a sense of community and expression, it can also be a toxic environment, especially when you have intersectional identities like being Black, femme, and queer. Between forming community with other Black women nerds and analyzing harmful tropes, both the book and this panel will celebrate Black women in fandom and highlight the brilliant Black actresses who have blazed a trail.",
-    "people_list": "",
-    "people": []
+    "people_list": "Nadira Goffe, Jordan Brown, Noella Williams, Kaitlyn McNab",
+    "people": [
+      "Nadira Goffe",
+      "Jordan Brown",
+      "Noella  Williams",
+      "Kaitlyn McNab"
+    ]
   },
   "909638": {
     "title": "Prime Video’s Cross",
@@ -634,10 +678,18 @@
   "903866": {
     "title": "From the Guild Archives: Natural History of Monster Hunter",
     "description": "Hunter, to protect the monsters of the surrounding area, the Guild authorizes you access to the science notes of Monster Hunter! In this panel from the Cosplay for Science Alliance, discover the natural history behind the incredible monsters of the Monster Hunter franchise and learn about the amazing ways our world has inspired iconic monsters like Rathalos and Anjanath. We’ll answer questions like: Are the sizes of monsters realistic? How does the classification of monsters work? Do any real-life animals have features like those seen in Monster Hunter? Come talk biology, ecology, ethology, and every other -ology with us about the Monster Hunter franchise! Featuring Dr. Kiersten Formoso, Rutgers University paleontologist and science consultant for Prehistoric Planet; Dr. Khanh To, dinosaur expert and Texas A&amp;M University paleontologist; and Gabriel-Philip Santos, cohost of PBS Eons and Director of Education at the Alf Museum of Paleontology.\n",
-    "people_list": "Gabriel-Philip Santos",
+    "people_list": "Gabriel-Philip Santos, Brenen Wynd, Kiersten Formoso",
     "people": [
-      "Gabriel-Philip Santos"
+      "Gabriel-Philip Santos",
+      "Brenen Wynd",
+      "Kiersten Formoso (Dr. Kiersten Formoso)"
     ]
+  },
+  "911590": {
+    "title": "NEON ICHIBAN: The Future of Digital Comics &amp; Manga",
+    "description": "Discover Neon Ichiban, a new all-in-one digital comics and manga hub from David Steinberger and Chip Mosher. Launching with a stellar line up of  publishers—(in alphabetical order) Dark Horse Comics, DC, DSTLRY, Kodansha, Marvel Comics, Oni Press, Vault Comic and more to be announced—NEON ICHIBAN lets fans read, buy, sell, and collect digital comics like never before.\nThis panel offers a first look at key features: same-day releases, limited digital collectibles, resellable digital comics, and Neon Ichiban’s exclusive remarques technology—where creators can sign and sketch on your digital comics. If you love comics, manga and innovation, this is your new home.\n",
+    "people_list": "",
+    "people": []
   },
   "910553": {
     "title": "How About A Love Story? -- Post Panel Book Signing",
@@ -688,7 +740,7 @@
     "people": []
   },
   "910427": {
-    "title": "Pep &amp; Hugh's Queer History 101 Book Club Queer History 101",
+    "title": "Pep &amp; Hugh's Queer History 101 Book Club featuring George Takei",
     "description": "Peppermint and Hugh Ryan are hosts of a popular podcast on Queer history and books. For this\nspecial episode, taped during the panel, the hosts will discuss queer representation in comics\nand focus on a few comics that are about queer history.\n",
     "people_list": "Hugh Ryan",
     "people": [
@@ -712,9 +764,10 @@
   "900996": {
     "title": "Superpowered Comedy Show (18+)",
     "description": "In an electrifying 90-minute comedy show, we will bring together a superpowered lineup of comedians who are as passionate about pop culture as they are about comedy. Expect jokes on everything from superheroes and sci-fi to fantasy and fandoms. Whether you’re a die-hard fan or just looking for a good laugh, this show will have geeky references for everyone. Join us for this unique experience of unwinding with a crowd that shares your love for all things nerdy while enjoying top-tier comedy.",
-    "people_list": "Alexander Kim",
+    "people_list": "Alexander Kim, Victoria Johnson",
     "people": [
-      "Alexander Kim (Alex Kim)"
+      "Alexander Kim (Alex Kim)",
+      "Victoria Johnson"
     ]
   },
   "909500": {
@@ -765,12 +818,6 @@
       "Matthew Berner"
     ]
   },
-  "909639": {
-    "title": "Panel Coming Soon",
-    "description": "The New York Comic Con team is cooking up something awesome! More details on this panel coming soon.\n\nStay up to date on the latest New York Comic Con news at NewYorkComicCon.com and on Facebook, X, and Instagram.",
-    "people_list": "",
-    "people": []
-  },
   "909503": {
     "title": "Fall's Most Anticipated YA Books (Simon &amp; Schuster)",
     "description": "From breakout debut to buzzy new series and a beloved returning voice, this panel features three must-read YA releases that are redefining what’s next in teen fiction. Chloe Gong (Coldwire), Rebecca Danzenbaker (Soulmatch), and Joelle Wellington (Girls Who Play Dead) dive into fractured futures, buried secrets, and the perilous cost of survival. With virtual wars, soul-deep conspiracies, and twisty small-town mysteries, these authors are serving up high-stakes storytelling that will keep you turning pages—and sleeping with one eye open.",
@@ -796,9 +843,17 @@
       "Campbell Harmon (Rottenartist)"
     ]
   },
+  "911623": {
+    "title": "Tomi Adeyemi Book Signing",
+    "description": "Join Instant #1 New York Times-bestselling &amp; Hugo-award winning fantasy author sensation Tomi Adeyemi as she greets fans and signs books. One book personalized, up to three total books signed, no posed photos. Books will be available for purchase at the Barnes &amp; Noble booth adjacent to the author signing tables. ",
+    "people_list": "Tomi Adeyemi",
+    "people": [
+      "Tomi Adeyemi"
+    ]
+  },
   "902666": {
     "title": "Make your Own Badge Ribbon ",
-    "description": "Get crafty and stand out on the con floor! Join us for a fun, hands-on session where you can design and create your very own custom badge ribbons to express your fandom, mood, or memes. Whether you’re repping your favorite character, adding flair to your cosplay, or just love shiny things, this is the perfect way to personalize your con experience. We’ll have all the supplies you need, including ribbon, letter stickers, glitter, washi tape, and more. All skill levels welcome, just bring your creativity and leave with a ribbon that’s totally you!",
+    "description": "<b>To attend this workshop - it is first come, first served. Limited space is available.</b>\n\nGet crafty and stand out on the con floor! Join us for a fun, hands-on session where you can design and create your very own custom badge ribbons to express your fandom, mood, or memes. Whether you’re repping your favorite character, adding flair to your cosplay, or just love shiny things, this is the perfect way to personalize your con experience. We’ll have all the supplies you need, including ribbon, letter stickers, glitter, washi tape, and more. All skill levels welcome, just bring your creativity and leave with a ribbon that’s totally you!",
     "people_list": "",
     "people": []
   },
@@ -811,9 +866,11 @@
   "896853": {
     "title": "Cosplay in the Neurodivergent Community",
     "description": "This panel features neurodivergent and disabled cosplayers discussing how to adapt costumes to meet their unique needs while staying true to the character. Topics include practical modifications, sensory-friendly fabric alternatives, and tips for making cosplay more accessible. The panel also includes an audience Q&amp;A, fostering an open discussion about the challenges and triumphs of being neurodivergent or disabled in the cosplay community.",
-    "people_list": "Alexandra Koza",
+    "people_list": "Alexandra Koza, Jesse Paratore, David Lehmkuhl",
     "people": [
-      "Alexandra Koza (Alex Koza)"
+      "Alexandra Koza (Alex Koza)",
+      "Jesse Paratore (thedopplegangercosplay)",
+      "David Lehmkuhl (MidwestAvenger)"
     ]
   },
   "908894": {
@@ -876,6 +933,14 @@
     "people_list": "",
     "people": []
   },
+  "911617": {
+    "title": "RESERVATION REQUIRED - Matt Dinniman Book Signing",
+    "description": "Join bestselling author Matt Dinniman, best known for the Dungeon Crawler Carl series, as he greets fans and signs books. PLEASE NOTE: A reservation is required for this event. In addition to the reservation, you must purchase any Dungeon Crawler Carl book from the Barnes &amp; Noble booth (at the front of Hall 1A) to join the signing line. Proof of purchase will be required. In order for Mr. Dinniman to meet the largest number of fans, there is a limit of two books signed per person.\n\nReservations will open on September 29. <a href=\"https://www.newyorkcomiccon.com/en-us/about/reservations.html\">Information about NYCC reservations. </a>",
+    "people_list": "Matt Dinniman",
+    "people": [
+      "Matt  Dinniman"
+    ]
+  },
   "911380": {
     "title": "Panel Coming Soon",
     "description": "The New York Comic Con team is cooking up something awesome! More details on this panel coming soon.\n\nStay up to date on the latest New York Comic Con news at NewYorkComicCon.com and on Facebook, X, and Instagram.",
@@ -887,6 +952,17 @@
     "description": "Kodansha—purveyors of some of the most exciting &amp; heartfelt manga published today like, Blue Lock, Gachiakuta and Witch Hat Atelier and more—invites manga veterans and newbies alike to get a special sneak peek of some of the hottest new series and latest license coming soon to a bookshelf near you! Hear from the manga experts at Kodansha as they detail an upcoming year of huge manga debuts, offer recommendations for soon-to-debut releases and even hand out some special manga giveaways. It’s a panel no manga fan can miss!",
     "people_list": "",
     "people": []
+  },
+  "909739": {
+    "title": "The Cast of Alien",
+    "description": "\"Blast off into the chilling world of Alien with Sigourney Weaver (Ellen Ripley), Tom Skerritt (Dallas), and Veronica Cartwright (Lambert)! This legendary panel, moderated by Josh Horowitz, takes fans behind the scenes of the iconic sci-fi horror film that redefined the genre.\n\nThe cast will share unforgettable stories from the set—from nerve-wracking encounters with the film’s groundbreaking creature effects to the intense dynamics of working aboard the Nostromo. Discover how they brought their characters to life under director Ridley Scott’s visionary guidance and what it was like to face one of cinema’s most terrifying monsters. With Josh Horowitz steering the conversation, this panel promises insight, nostalgia, and a few surprises from the actors who helped make Alien a timeless classic.\"",
+    "people_list": "Sigourney Weaver, Tom Skerritt, Veronica Cartwright, Josh Horowitz",
+    "people": [
+      "Sigourney Weaver",
+      "Tom Skerritt",
+      "Veronica Cartwright",
+      "Josh Horowitz"
+    ]
   },
   "909709": {
     "title": "Playbill presents: BEETLEJUICE on Broadway",
@@ -945,6 +1021,14 @@
       "Shaun Taylor-Corbett"
     ]
   },
+  "909508": {
+    "title": "The Baby-sitters Club with Ann M. Martin: 40 Years of Friendship",
+    "description": "Ann M. Martin, creator of the Baby-sitters Club, comes to New York Comic Con for the 40th anniversary of the iconic book series. After 250 titles, a feature film and Netflix series, and over 190 million books in print, Martin looks back on the success of the beloved series as and offers a glimpse of what comes next for the BSC. ",
+    "people_list": "Ann M. Martin",
+    "people": [
+      "Ann M. Martin"
+    ]
+  },
   "909509": {
     "title": "Spotlight on Hafsah Faizal",
     "description": "Join #1 New York Times and Indie-bestselling author Hafsah Faizal as she discusses her deliciously twisty and seductive romantic vampire fantasy duology finale, A STEEPING OF BLOOD. This spotlight program will also explore her journey to published author - did you know she started as a web designer and book influencer before publishing her epic debut We Hunt the Flame, which became an instant bestseller, heralded a 'best book' by TIME Magazine?! Now she’s a Forbes 30 under 30 honoree and one of the most beloved YA fantasy authors today. ",
@@ -969,9 +1053,11 @@
   },
   "911151": {
     "title": "Star Wars Meetup",
-    "description": "Whether you’re on the light side or the dark side, all Star Wars cosplayers and fans are welcome to this meetup hosted by Rebel Legion’s Echo Base.",
-    "people_list": "",
-    "people": []
+    "description": "Whether you’re on the light side or the dark side, all Star Wars cosplayers and fans are welcome to this meetup hosted by Rebel Legion’s Echo Base.\n\nStar Wars Meetup (Friday):  \nhttps://www.facebook.com/share/1FGaPbHLb9/?mibextid=wwXIfr\n",
+    "people_list": "Lisa Giunta-Popeil",
+    "people": [
+      "Lisa Giunta-Popeil (LiliPopeCosplay)"
+    ]
   },
   "906675": {
     "title": "Teenage Mutant Ninja Turtles: Empire City – World Premiere Gameplay",
@@ -1131,11 +1217,12 @@
   "903505": {
     "title": "Pop Culture Puppets!",
     "description": "Some of pop culture's most colorful characters are brought to life by puppeteers - Yoda, Grogu, Gremlins, the Sesame Street puppets, the Muppets, the original live action Teenage Mutant Ninja Turtles, the aliens in Men In Black, Broadway's Avenue Q characters, the plants in Little Shop of Horrors, and many, many, more, including late night sketches on Saturday Night Live, The Late Show with Stephen Colbert, and Last Week Tonight With John Oliver. But like a magic show, the method behind a puppet performance is usually hidden, and the puppeteers unseen. Come meet puppeteers from some of your favorite TV, film, and theatre shows, and learn about what it takes to do their job, and create characters that light up pop culture! Panelists include Rick Lyon (Avenue Q, Late Show with Stephen Colbert, TMNT, Men In Black), Noel MacNeal (Bear in the Big Blue House, TMNT, Little Shop of Horrors, John Oliver), Jennifer Barnhart (Avenue Q, Sesame, Between the Lions, Helpsters, John Oliver), and Kathleen Kim (Sesame, SNL, Helpsters, Awkwafina is Nora From Queens).",
-    "people_list": "Richard Lyon, Kathleen Kim, Edward MacNeal",
+    "people_list": "Richard Lyon, Kathleen Kim, Edward MacNeal, Jennifer Barnhart",
     "people": [
       "Richard Lyon (Rick Lyon)",
       "Kathleen Kim",
-      "Edward MacNeal (Noel MacNeal)"
+      "Edward MacNeal (Noel MacNeal)",
+      "Jennifer Barnhart"
     ]
   },
   "909655": {
@@ -1147,8 +1234,11 @@
   "909421": {
     "title": "Come Aboard the One Piece Meetup!",
     "description": "Calling all pirates and marines alike for the One Piece cosplay meetup! There's always room for you if you want to meet new friends, take photos, and immerse yourself in the world of One Piece. Come join the crew at New York Comic Con!",
-    "people_list": "",
-    "people": []
+    "people_list": "Kiera Bussiere, Emily Carmichael",
+    "people": [
+      "Kiera Bussiere (Kiera Elizabeth)",
+      "Emily Carmichael (Emmy Noble)"
+    ]
   },
   "909827": {
     "title": "Murray Hill  Meet and Greet",
@@ -1166,7 +1256,7 @@
   },
   "904415": {
     "title": "Learn How to Draw Comics",
-    "description": "Join Whilce Portacio (Uncanny X-Men, Punisher), Ryan Benjamin (Batman Beyond, Grifter), &amp; Alex Sinclair (Batman, Justice League) for a hands-on drawing workshop focused on the process of creating comics. Don't forget to bring your sketchbooks and art materials to follow along with Comic Pro Boot Camp.",
+    "description": "<b>To attend this workshop - it is first come, first served. Limited space is available.</b>\n\nJoin Whilce Portacio (Uncanny X-Men, Punisher), Ryan Benjamin (Batman Beyond, Grifter), &amp; Alex Sinclair (Batman, Justice League) for a hands-on drawing workshop focused on the process of creating comics. Don't forget to bring your sketchbooks and art materials to follow along with Comic Pro Boot Camp.",
     "people_list": "",
     "people": []
   },
@@ -1206,6 +1296,14 @@
       "Emily  Krempholtz",
       "Purpah",
       "Miranda  Mundt"
+    ]
+  },
+  "911593": {
+    "title": "RESERVATION REQUIRED -- George R.R. Martin Book Signing",
+    "description": "Join internationally bestselling author George R. R. Martin, best known for his series A Song of Ice and Fire, as he greets fans and signs books. In order for Mr. Martin to meet the largest number of fans, there is a limit of one book only per person with no personalization and no posed photos. PLEASE NOTE: A reservation is required for this event. Reservations will open on September 29.\n\n<a href=\"https://www.newyorkcomiccon.com/en-us/about/reservations.html\">About NYCC reservations. </a>",
+    "people_list": "George R.R. Martin",
+    "people": [
+      "George R.R.  Martin"
     ]
   },
   "909817": {
@@ -1249,7 +1347,7 @@
     ]
   },
   "909828": {
-    "title": "KINGS of the Con: ",
+    "title": "KINGS of the Con",
     "description": "It’s good to be king—and even better at Comic Con. Join us for a show-stopping panel celebrating the bold, the bearded, and the downright brilliant world of Drag Kings!\n\nHosted by the one and only Murray Hill—fresh off the groundbreaking first season of Drag Kings—this panel brings together a royal court of performers, from trailblazing legends to rising stars redefining the art of masculinity, parody, and performance.\n\nExpect laughs, looks, and a whole lot of love for the often-overlooked kings of drag. Whether you're new to the scene or a longtime fan, come get schooled, entertained, and inspired by the fiercest gentlemen in the game.\n\nBow down. These Kings are here to slay.\n",
     "people_list": "",
     "people": []
@@ -1263,11 +1361,12 @@
   "909409": {
     "title": "Final Fantasy Meetup",
     "description": "Across worlds and timelines, it’s time for all Warriors of Light to unite!\nWhether you've been casting Firaga since the NES days, shed tears in Zanarkand, braved the Void with the Scions, or just really love chocobos and big swords — this is the ultimate gathering for fans of Final Fantasy.\n\nCome dressed as your favorite Warrior of Light, villain, summon, raid boss, or moogle. From Ivalice to Eorzea, Midgar to Galbadia, and beyond — all are welcome to show off their glams, meet fellow fans and creators, and celebrate the series that defined generations of gaming.\n\nStrike a pose, trade stickers, and share your love for everything from pixel classics to XVI's raw chaos. Whether you're rocking a 10/10 glam, a lovingly crafted cosplay, or a casual look straight out of the Gold Saucer, this meetup is your stage.\n\nLet’s make it as legendary as the Lifestream — and yes, the sticker trade tradition lives on!",
-    "people_list": "Luis Combe, Aaron Scouten, Lijia Wang",
+    "people_list": "Luis Combe, Aaron Scouten, Lijia Wang, Michelle Ross",
     "people": [
       "Luis Combe (InitialSpeed.Cos)",
       "Aaron Scouten (Clay Scooter)",
-      "Lijia Wang (narumi.cos)"
+      "Lijia Wang (narumi.cos)",
+      "Michelle Ross (honeytoast.cos)"
     ]
   },
   "911057": {
@@ -1370,7 +1469,7 @@
   },
   "904214": {
     "title": "Introduction to Ita Bags - Design a Spooky Pin",
-    "description": "Ever wonder what those cute bags covered in pins and charms are all about? Welcome to the world of ita bags - the ultimate way to show love for your favorite characters, series, or aesthetics!\n\nIn this beginner-friendly workshop, we’ll explore the history and evolution of ita bags, from their origins in Japanese fan culture to the creative expressions seen today. Then, it's your turn! Guests will receive a design sheet to create their own spooky-themed pin concept and get tips on building an ita bag.\n\nWhether you're a casual fan or a crafting queen, come design, doodle, and get inspired to start your very own ita bag journey!",
+    "description": "<b>To attend this workshop - it is first come, first served. Limited space is available.</b>\n\nEver wonder what those cute bags covered in pins and charms are all about? Welcome to the world of ita bags - the ultimate way to show love for your favorite characters, series, or aesthetics!\n\nIn this beginner-friendly workshop, we’ll explore the history and evolution of ita bags, from their origins in Japanese fan culture to the creative expressions seen today. Then, it's your turn! Guests will receive a design sheet to create their own spooky-themed pin concept and get tips on building an ita bag.\n\nWhether you're a casual fan or a crafting queen, come design, doodle, and get inspired to start your very own ita bag journey!",
     "people_list": "The Cast of Milk Pink Maid Cafe",
     "people": [
       "The Cast of Milk Pink Maid Cafe"
@@ -1500,8 +1599,14 @@
   "897790": {
     "title": "Salaam Fandom! Muslim Gamers, Creators, and Cosplayers ",
     "description": "Join us for a conversation about pop culture and the many intersections with Islam. Come meet Muslim scholars, comics creators, writers, gamers, and cosplayers! Moderated by comics editor, writer, and scholar Dr. Shamika Mitchell (State University of New York, Rockland Community College/Women in Comics). ",
-    "people_list": "",
-    "people": []
+    "people_list": "Shamika Mitchell, Rasheed Chappell, George Spivey, Laylah Abdullah-Poulos, Mazi Oyo",
+    "people": [
+      "Shamika Mitchell",
+      "Rasheed Chappell",
+      "George Spivey (DJ Scratch)",
+      "Laylah Abdullah-Poulos",
+      "Mazi Oyo (Mazi O.)"
+    ]
   },
   "903647": {
     "title": "Spooky Paint &amp; Sip [Reservation Required]",
@@ -1532,12 +1637,6 @@
   "909647": {
     "title": "BlumFest 2025",
     "description": "Blumhouse returns to the Javits Center for an explosive third year with BlumFest 2025 at New York Comic Con! The company will showcase its terrifying upcoming projects for this year plus an electrifying sneak peek at what’s upcoming for 2026.",
-    "people_list": "",
-    "people": []
-  },
-  "909653": {
-    "title": "Panel Coming Soon",
-    "description": "The New York Comic Con team is cooking up something awesome! More details on this panel coming soon.\n\nStay up to date on the latest New York Comic Con news at NewYorkComicCon.com and on Facebook, X, and Instagram.",
     "people_list": "",
     "people": []
   },
@@ -1622,8 +1721,11 @@
   "903428": {
     "title": "Guts, Gore, and Guerrilla Filmmaking with Troma Entertainment &amp; Annum Films (18+)",
     "description": "Dive deep into the wild world of guerrilla filmmaking with Guts, Gore, and Guerrilla Filmmaking with Troma Entertainment &amp; Annum Films (18+). Join the creators behind the award-winning, cult indie horror anthology Bring on the Damned! as they go behind the blood and reveal how they crafted a visceral, unrelenting horror experience on a shoestring budget of just $20,000.\n\nThis panel offers an unfiltered look at the chaos, creativity, and sheer determination it takes to produce gritty, boundary-pushing cinema outside the Hollywood system. From DIY practical effects and guerrilla shooting tactics to navigating the digital and Blu-ray release landscape, hear firsthand stories of passion and perseverance from Troma legend Lloyd Kaufman and the talented filmmakers from Troma Entertainment &amp; Annum Films.\n\nExpect behind-the-scenes insights, exclusive previews of upcoming features and shorts, and a sneak peek at unique collectibles like potential vinyl soundtracks and VHS releases. Plus, get ready for giveaways and audience Q&amp;A as we celebrate the future of indie horror and the raw power of true DIY filmmaking.",
-    "people_list": "",
-    "people": []
+    "people_list": "John Ferri, Matt Lentz",
+    "people": [
+      "John Ferri (Johnny Ferri)",
+      "Matt Lentz (Matt Von Lentz)"
+    ]
   },
   "909422": {
     "title": "Helluva Hangout: A Hellaverse Meetup",
@@ -1648,7 +1750,7 @@
   },
   "909630": {
     "title": "Copyrights and Contracts for Comic Book Creators",
-    "description": "Step into the legal trenches of comic book creation with this fast-paced, one-hour workshop designed for creators, publishers, and dealmakers. We’ll crack open the vault on copyright essentials, decode the fine print of contracts, and tackle the wild frontier of AI-generated content. This year’s spotlight: how artificial intelligence is reshaping rights, royalties, and creative control. Plus, we’ll arm you with savvy negotiation tactics to survive—and thrive—in today’s volatile publishing economy. Celebrate our 20th year at NYCC with Thomas Crowell, Esq., author of The Pocket Lawyer for Comic Book Creators, and entertainment and labor lawyer Sheafe Walker, Esq., along with a few surprise guests. Don’t miss this opportunity to gain valuable knowledge while having fun!",
+    "description": "<b>To attend this workshop - it is first come, first served. Limited space is available.</b>\n\nStep into the legal trenches of comic book creation with this fast-paced, one-hour workshop designed for creators, publishers, and dealmakers. We’ll crack open the vault on copyright essentials, decode the fine print of contracts, and tackle the wild frontier of AI-generated content. This year’s spotlight: how artificial intelligence is reshaping rights, royalties, and creative control. Plus, we’ll arm you with savvy negotiation tactics to survive—and thrive—in today’s volatile publishing economy. Celebrate our 20th year at NYCC with Thomas Crowell, Esq., author of The Pocket Lawyer for Comic Book Creators, and entertainment and labor lawyer Sheafe Walker, Esq., along with a few surprise guests. Don’t miss this opportunity to gain valuable knowledge while having fun!",
     "people_list": "",
     "people": []
   },
@@ -1843,11 +1945,13 @@
   },
   "905853": {
     "title": "LEGO Workshop by 8 Bit Bricks",
-    "description": "In this hands-on workshop, attendees will build an exclusive LEGO creation designed to commemorate NYCC. Participants will receive all the necessary bricks and step-by-step guidance to assemble a predetermined pop culture character -ranging from iconic video game heroes to beloved comic book figures - while also gaining insight into the creative design process behind it.",
-    "people_list": "Jonathan Lazar, Melissa Silvestri",
+    "description": "<b>To attend this workshop - it is first come, first served. Limited space is available.</b>\n\nIn this hands-on workshop, attendees will build an exclusive LEGO creation designed to commemorate NYCC. Participants will receive all the necessary bricks and step-by-step guidance to assemble a predetermined pop culture character -ranging from iconic video game heroes to beloved comic book figures - while also gaining insight into the creative design process behind it.",
+    "people_list": "Jonathan Lazar, Melissa Silvestri, Brian Gaudreault, Jason Rittberg",
     "people": [
       "Jonathan Lazar (Jon Lazar)",
-      "Melissa Silvestri"
+      "Melissa Silvestri",
+      "Brian Gaudreault (BG3D)",
+      "Jason Rittberg"
     ]
   },
   "903900": {
@@ -1886,17 +1990,31 @@
   "896651": {
     "title": "The George Lucas Talk Show",
     "description": "The George Lucas Talk Show is an improvised talk show in New York City hosted by comedian Connor Ratliff (Dead Eyes, Marvelous Mrs. Maisel), who appears as George Lucas, the creator of Star Wars, and he interviews real guests as themselves in a panel format. He is joined by sidekick Watto, played by Griffin Newman (Blank Check, The Tick), and show producer Patrick Cotnoir (Star Wars Live Reads, The Chris Gethard Show, Marvel). The show ran for over 6 years at the UCB Theater in New York and has had guests like Whoopi Goldberg, Jon Hamm, Seth Rogen, Jack Quaid, Tawny Newsome, Rachel Zegler, Kevin Smith, Nicole Byer, Sonia Manzano, Ira Glass, Lea Thompson, Ben Schwartz, Peter Serafinowicz, Ahmed Best, Tony Hale, David K. Harbour, D’Arcy Carden, Solo writer Jon Kasdan, Rogue One writers Chris Weitz and Gary Whitta, Meredith Vieira, and musicians like Aimee Mann.",
-    "people_list": "",
-    "people": []
+    "people_list": "Patrick Cotnoir, Connor Ratliff, Griffin Newman, Zach Cherry",
+    "people": [
+      "Patrick Cotnoir",
+      "Connor Ratliff",
+      "Griffin Newman",
+      "Zach Cherry"
+    ]
+  },
+  "911618": {
+    "title": "RESERVATION REQUIRED - Matt Dinniman Book Signing",
+    "description": "Join bestselling author Matt Dinniman, best known for the Dungeon Crawler Carl series, as he greets fans and signs books. PLEASE NOTE: A reservation is required for this event. In addition to the reservation, you must purchase any Dungeon Crawler Carl book from the Barnes &amp; Noble booth (at the front of Hall 1A) to join the signing line. Proof of purchase will be required. In order for Mr. Dinniman to meet the largest number of fans, there is a limit of two books signed per person.\n\nReservations will open on September 29. <a href=\"https://www.newyorkcomiccon.com/en-us/about/reservations.html\">Information about NYCC reservations. </a>",
+    "people_list": "Matt Dinniman",
+    "people": [
+      "Matt  Dinniman"
+    ]
   },
   "904385": {
     "title": "Transformers &amp; G.I. Joe: A New Era for The Energon Universe",
     "description": "The worlds of Transformers. G.I. Joe, and Void Rivals change forever - and this is THE panel to get all the details! Join superstars Robert Kirkman, Joshua Williamson, Dan Mora, Tom Reilly, Jorge Corona, Conor Hughes, and Skybound Executive Editor Ben Abernathy for all new Energon Universe revelations...and a special surprise giveaway for fans.",
-    "people_list": "Jorge Corona, Robert Kirkman, Conor Hughes",
+    "people_list": "Jorge Corona, Robert Kirkman, Conor Hughes, Joshua Williamson",
     "people": [
       "Jorge Corona (Jorge Corona)",
       "Robert Kirkman",
-      "Conor Hughes"
+      "Conor Hughes",
+      "Joshua Williamson"
     ]
   },
   "909831": {
@@ -1954,7 +2072,7 @@
   },
   "904426": {
     "title": "Justice Juniors Academy, presented by Capes For A Cos",
-    "description": "Join us for an exciting and interactive superhero academy designed especially for our future heroes!  Young trainees will begin by taking the Superhero Pledge, vowing to use their powers to help those in need and restore hope to our planet.  Throughout the session, kids will rotate through hands-on breakout classes including choosing your superhero name, striking your signature superhero pose, and designing your very own uniform!  They will also participate in fun “power training” activities to explore special abilities like invisibility, telekinesis, and superhuman strength!  At the end of training, we'll host a heroic Show &amp; Tell, where each mini-hero can show off what they’ve learned and created.  Every participant will leave with a special Superhero Certificate, officially declaring them a graduate of Superhero Training School!  This engaging, high-energy class encourages creativity, teamwork, and self-confidence, and is sure to be a highlight for both children and families alike!",
+    "description": "<b>To attend this workshop - it is first come, first served. Limited space is available.</b>\n\nJoin us for an exciting and interactive superhero academy designed especially for our future heroes!  Young trainees will begin by taking the Superhero Pledge, vowing to use their powers to help those in need and restore hope to our planet.  Throughout the session, kids will rotate through hands-on breakout classes including choosing your superhero name, striking your signature superhero pose, and designing your very own uniform!  They will also participate in fun “power training” activities to explore special abilities like invisibility, telekinesis, and superhuman strength!  At the end of training, we'll host a heroic Show &amp; Tell, where each mini-hero can show off what they’ve learned and created.  Every participant will leave with a special Superhero Certificate, officially declaring them a graduate of Superhero Training School!  This engaging, high-energy class encourages creativity, teamwork, and self-confidence, and is sure to be a highlight for both children and families alike!",
     "people_list": "",
     "people": []
   },
@@ -1993,22 +2111,34 @@
   "901206": {
     "title": "Behind the Magic: Navigating the Animation Development Pipeline",
     "description": "Have you ever wondered how animated shows and films transform from a single idea into the stories you love? This panel pulls back the curtain on the studio development pipeline, uncovering the steps that turn creative sparks into fully realized projects. From crafting loglines and one-pagers to developing pitches and bibles, industry professionals will share their insider knowledge, tackle challenges, and offer best practices for navigating this complex process. Join T.J. Sullivan (Madagascar: A Little Wild), Pat Stout (Sentinel 6), Ben Feldman (Adventure Noises), Phoebe Hart (Bug Diner), and Kate Costello (The Land of Boggs) as they dive into how projects are brought to life and what it takes to thrive in today’s fast-moving animation landscape. Whether you're an aspiring creator or simply fascinated by the magic behind the scenes, this panel is your all-access pass to the journey from concept to screen.",
-    "people_list": "Samantha Goff, Katelyn Costello, Benjamin Feldman, Patrick Stout, Thomas Sullivan, Phoebe Hart",
+    "people_list": "Samantha Goff, Katelyn Costello, Benjamin Feldman, Patrick Stout, Thomas Sullivan, Phoebe Hart, Monique Henry-Hudson",
     "people": [
       "Samantha Goff",
       "Katelyn Costello (Kate Costello)",
       "Benjamin Feldman (Ben Feldman)",
       "Patrick Stout (Pat Stout)",
       "Thomas Sullivan (T.J. Sullivan)",
-      "Phoebe Hart (Phoebe Jane Hart)"
+      "Phoebe Hart (Phoebe Jane Hart)",
+      "Monique Henry-Hudson"
     ]
   },
   "910188": {
     "title": "Exclusive Premiere of The Littles + Cast Panel featuring the Stars of M3GAN, Shadowhunters, and Pretty Little Liars",
     "description": "Win a Nintendo Switch 2 and more prizes at the exclusive premiere of The Littles, a chilling short film starring Violet McGraw (Marvel’s Thunderbolts, M3GAN 2.0), Janel Parrish (Pretty Little Liars), and Dominic Sherwood (Shadowhunters). From writer Andrew Duplessie (American Horror Story), the story begins with a loose floorboard—where a faint noise and eerie glow draw Juliet toward a discovery like no other. The cast is sticking around after the premiere for a Q&amp;A, autographs, and the big giveaway!",
-    "people_list": "Andrew Duplessie",
+    "people_list": "Andrew Duplessie, Violet McGraw, Dominic Sherwood, Janel Parrish",
     "people": [
-      "Andrew Duplessie"
+      "Andrew Duplessie",
+      "Violet McGraw",
+      "Dominic Sherwood",
+      "Janel Parrish"
+    ]
+  },
+  "911627": {
+    "title": "Tomi Adeyemi Book Signing",
+    "description": "Join Instant #1 New York Times-bestselling &amp; Hugo-award winning fantasy author sensation Tomi Adeyemi as she greets fans and signs books. One book personalized, up to three total books signed, no posed photos. Books will be available for purchase at the Barnes &amp; Noble booth adjacent to the author signing tables. ",
+    "people_list": "Tomi Adeyemi",
+    "people": [
+      "Tomi Adeyemi"
     ]
   },
   "909599": {
@@ -2023,8 +2153,11 @@
   "909426": {
     "title": "Gotta Go Fast! Sonic the Hedgehog Meetup",
     "description": "Calling all Sonic Cosplayers! Suit up with your best Sonic the Hedgehog cosplay and speed into action to join us for the Ultimate Sonic fan meetup! Whether you're cruisin' in Sonic's shoes, or embracing your inner villian with Eggman's genius, this is your chance to show off your look and connect with others who love the Blue Blur just as much! It'll be Way Past Cool!",
-    "people_list": "",
-    "people": []
+    "people_list": "Marc Clark, Joseph Tobon",
+    "people": [
+      "Marc Clark (Knuckleswhochuckles)",
+      "Joseph Tobon"
+    ]
   },
   "909832": {
     "title": "Shutter Presents: Evolution of Queer Horror/ Queens of the Dead and Dragula",
@@ -2034,7 +2167,7 @@
   },
   "909580": {
     "title": "Spotlight on Travis Baldree",
-    "description": "Join Travis Baldree, the bestselling and wildly popular author Legends &amp;Lattes and Bookshops &amp; Bonedust, as he discusses his latest novel, Brigands &amp; Breadknives. ",
+    "description": "Join Travis Baldree, the bestselling and wildly popular author Legends &amp; Lattes and Bookshops &amp;  Bonedust, as he discusses his latest novel, Brigands &amp; Breadknives. ",
     "people_list": "Travis Baldree",
     "people": [
       "Travis Baldree"
@@ -2045,14 +2178,6 @@
     "description": "Led by an award-winning New York State licensed librarian with over fifteen years of youth services experiences. Star Wars-themed books, music, crafts, and special appearances by some friends from a galaxy far, far away. LFL-recognized Star Wars charity costuming clubs will be in Family HQ in Hall 1E all four days, raising money for Make-A-Wish.",
     "people_list": "",
     "people": []
-  },
-  "910209": {
-    "title": "Panel Coming Soon",
-    "description": "The New York Comic Con team is cooking up something awesome! More details on this panel coming soon.\n\nStay up to date on the latest New York Comic Con news at NewYorkComicCon.com and on Facebook, X, and Instagram.",
-    "people_list": "Test One Test Two",
-    "people": [
-      "Test One Test Two"
-    ]
   },
   "911056": {
     "title": "How Influencers Drive Music Discovery",
@@ -2103,6 +2228,14 @@
     "people_list": "",
     "people": []
   },
+  "911594": {
+    "title": "RESERVATION REQUIRED -- George R.R. Martin Book Signing",
+    "description": "Join internationally bestselling author George R. R. Martin, best known for his series A Song of Ice and Fire, as he greets fans and signs books. In order for Mr. Martin to meet the largest number of fans, there is a limit of one book only per person with no personalization and no posed photos. PLEASE NOTE: A reservation is required for this event. Reservations will open on September 29.\n\n<a href=\"https://www.newyorkcomiccon.com/en-us/about/reservations.html\">About NYCC reservations. </a>",
+    "people_list": "George R.R. Martin",
+    "people": [
+      "George R.R.  Martin"
+    ]
+  },
   "909820": {
     "title": "Mixed Material Embroidery with Ribbon, Beads, and Floss [Separately Ticketed]",
     "description": "Looking to add a couture touch to your costumes? Layering and combining materials is a fantastic way to create depth and texture in your embroidery work.  In this class Cowbutt Crunchies will teach hand embroidery techniques such as basic stitches, ribbon embroidery, beading, and more to create beautiful, dimensional floral embellishments that can be added to your next costume. **A separate ticket is required to attend this workshop. Workshop tickets will be going live in September, make sure to keep an eye out so you can grab your ticket before they are gone!",
@@ -2138,10 +2271,11 @@
   "894569": {
     "title": "Cosplay in 3 Dimensions: Software Skills from 3D Modeling to Patternmaking",
     "description": "Have you ever wanted to design and 3D print your own cosplay props, accessories, and armor? Want to learn how to use 3D to make patterns for EVA foam armor and sewing? Join cosplay veterans as we discuss how to use digital tools of the trade to take your cosplay to the next level! Featuring demos of CAD software and 3D technology like Fusion 360 and CLO 3D.",
-    "people_list": "Jeffrey Bigelow, Raisa Karim",
+    "people_list": "Jeffrey Bigelow, Raisa Karim, MEGAN DELLARIO",
     "people": [
       "Jeffrey Bigelow",
-      "Raisa Karim (Raisin Cosplay)"
+      "Raisa Karim (Raisin Cosplay)",
+      "MEGAN DELLARIO (Sewingsilly Cosplay)"
     ]
   },
   "909431": {
@@ -2164,9 +2298,17 @@
     "people_list": "",
     "people": []
   },
+  "911628": {
+    "title": "Travis Baldree Book Signing",
+    "description": "",
+    "people_list": "Travis Baldree",
+    "people": [
+      "Travis Baldree"
+    ]
+  },
   "903234": {
     "title": "The Legend of Sippy: A Cup Awakens",
-    "description": "Calling all young heroes, rebels, and adventurers! In this fun and creative workshop, kids will decorate their very own plastic tumbler using awesome, colorful designs inspired by their favorite comics, cartoons, and characters.\n\nWith easy-to-use sticker-style transfers (DTF), little creators will:\n\t•\tChoose their favorite designs from a galaxy of options\n\t•\tLearn how to safely decorate their cup with help from our team\n\t•\tAdd fun sparkles, names, or symbols to make it truly theirs\n\nThis is a beginner-friendly activity designed especially for kids! No heat tools or sharp items—just imagination, color, and creativity. Each child will take home a one-of-a-kind tumbler perfect for juice boxes, super-sips, or snack-time in style.\n\n⸻\n\n👶 Great For:\n\t•\tAges 5+ (littles are welcome but we don’t think they could decorate it so their parents would have to do it for them)\n\t•\tKids who love superheroes, anime, or magic worlds\n\t•\tCrafty little creators and their families\n\nAll supplies are included—just bring your imagination!",
+    "description": "<b>To attend this workshop - it is first come, first served. Limited space is available.</b>\n\nCalling all young heroes, rebels, and adventurers! In this fun and creative workshop, kids will decorate their very own plastic tumbler using awesome, colorful designs inspired by their favorite comics, cartoons, and characters.\n\nWith easy-to-use sticker-style transfers (DTF), little creators will:\n\t•\tChoose their favorite designs from a galaxy of options\n\t•\tLearn how to safely decorate their cup with help from our team\n\t•\tAdd fun sparkles, names, or symbols to make it truly theirs\n\nThis is a beginner-friendly activity designed especially for kids! No heat tools or sharp items—just imagination, color, and creativity. Each child will take home a one-of-a-kind tumbler perfect for juice boxes, super-sips, or snack-time in style.\n\n⸻\n\n👶 Great For:\n\t•\tAges 5+ (littles are welcome but we don’t think they could decorate it so their parents would have to do it for them)\n\t•\tKids who love superheroes, anime, or magic worlds\n\t•\tCrafty little creators and their families\n\nAll supplies are included—just bring your imagination!",
     "people_list": "Jami Giametta, Lois Mendez Catlin, Sean Mendez Catlin",
     "people": [
       "Jami Giametta (Eternal)",
@@ -2224,8 +2366,8 @@
     "people": []
   },
   "909659": {
-    "title": "Panel Coming Soon",
-    "description": "The New York Comic Con team is cooking up something awesome! More details on this panel coming soon.\n\nStay up to date on the latest New York Comic Con news at NewYorkComicCon.com and on Facebook, X, and Instagram.",
+    "title": "MORTAL KOMBAT II Feature Film",
+    "description": "Return to the brutal glory of the Earthrealm in New Line Cinema’s all-new MORTAL KOMBAT II! The Warner Bros. Pictures presentation at NYCC will offer fans a glimpse into the latest high-stakes installment in the blockbuster video game-inspired film franchise.  The panel guests include stars Karl Urban, Adeline Rudolph, Tati Gabrielle and Martyn Ford, along with filmmakers Simon McQuoid and Ed Boon, moderated by a special guest.",
     "people_list": "",
     "people": []
   },
@@ -2238,10 +2380,12 @@
   "893125": {
     "title": "Empowered Through Expression: Cosplay and Content Creation for People with Disabilities",
     "description": "Join The Apex for an inspiring and fun-filled panel, Empowered Through Expression: Cosplay and Content Creation for People with Disabilities! Discover how cosplay and content creation can be transformative tools for self-expression, confidence, and connection. Learn from passionate creators about how they’ve overcome challenges, built thriving communities, and embraced their unique identities through creativity. Whether you're a seasoned cosplayer, a budding content creator, or just curious about how these mediums can empower individuals with disabilities, this panel offers practical tips, heartfelt stories, and lots of laughs. Don’t miss this opportunity to celebrate creativity, inclusion, and the power of fandom to bring people together. Come ready to be inspired and leave ready to create!\n\n",
-    "people_list": "Justin Santiago, Alfredo Cordovez",
+    "people_list": "Justin Santiago, Alfredo Cordovez, Hector Barreto, Joseph Munisteri",
     "people": [
       "Justin Santiago (The Lionheart)",
-      "Alfredo Cordovez (DarkGaro)"
+      "Alfredo Cordovez (DarkGaro)",
+      "Hector Barreto (Rxsuperstar)",
+      "Joseph Munisteri (Joseph Munisteri / Butterflies in Space LLC)"
     ]
   },
   "893146": {
@@ -2253,9 +2397,12 @@
   "909411": {
     "title": "Marvel Rivals Meetup!",
     "description": "We are undefeatable! Join NikiMuffin, Kenya_G.Love, CucumberCosplay and AnnieLeeCosplay for a meetup of the ages. Whether you're bringing a Squirrel Stampede with Squirrel Girl, tanking with Groot, or doing that...fancy emote with Venom, there is space for you. Come on down and meet fellow fans and have an ultimate experience!",
-    "people_list": "Lyndsey Petrofsky",
+    "people_list": "Lyndsey Petrofsky, Veronika Avloshenko, Jaimee Giorgi, Kenya Gallegos",
     "people": [
-      "Lyndsey Petrofsky (Annie Lee Cosplay)"
+      "Lyndsey Petrofsky (Annie Lee Cosplay)",
+      "Veronika Avloshenko (NikiMuffin)",
+      "Jaimee Giorgi (Kyuri/cucumbercosplay)",
+      "Kenya Gallegos (Kenya_G.Love)"
     ]
   },
   "904081": {
@@ -2266,7 +2413,7 @@
   },
   "909601": {
     "title": "Writing Workshop: Carving Out Your Niche",
-    "description": "Writers: grab your pen and notebook and join authors Matt Dinniman (Dungeon Crawler Carl), Jim Butcher (The Dresden Files), Alexandria Bellefleur (The Devil She Knows), Kimberly Lemming (I Got Abducted by Aliens and Now I’m Trapped in a Rom-Com), and Rachel Harrison (Play) as they do a deep dive on creating writing your niche. Featuring insight into their creation process, exercises to flex your writing muscles, and invaluable advice on finding your voice as a writer, this isn’t one to miss!",
+    "description": "<b>To attend this workshop - it is first come, first served. Limited space is available.</b>\n\nWriters: grab your pen and notebook and join authors Matt Dinniman (Dungeon Crawler Carl), Jim Butcher (The Dresden Files), Alexandria Bellefleur (The Devil She Knows), Kimberly Lemming (I Got Abducted by Aliens and Now I’m Trapped in a Rom-Com), and Rachel Harrison (Play) as they do a deep dive on creating writing your niche. Featuring insight into their creation process, exercises to flex your writing muscles, and invaluable advice on finding your voice as a writer, this isn’t one to miss!",
     "people_list": "Alexandria Bellefleur, Jim Butcher, Matt Dinniman, Rachel Harrison, Kimberly Lemming",
     "people": [
       "Alexandria  Bellefleur",
@@ -2315,8 +2462,10 @@
   "895163": {
     "title": "J-Novel Club NYCC 2025 Industry Announcements",
     "description": "Join J-Novel Club at NYCC 2025 as we unveil the latest manga and light novel series being added to our extensive catalog! If time permits, we'll be sure to answer a couple of questions from the audience too!",
-    "people_list": "",
-    "people": []
+    "people_list": "Madison Salters",
+    "people": [
+      "Madison Salters"
+    ]
   },
   "903455": {
     "title": "Making Monsters",
@@ -2372,7 +2521,7 @@
   },
   "903233": {
     "title": "Sippin’ No Jutsu: Custom Glass Workshop",
-    "description": "Ready to level up your crafting skills? Join Underground Nerd for a hands-on fandom-fueled workshop where you’ll learn how to customize your very own glass tumbler or shot glass using Direct to Film (DTF) transfer techniques.\n\nWhether you’re repping your favorite anime clan, gaming guild, or comic book multiverse, this workshop will walk you step-by-step through the process of:\n\t•\tPrepping your glassware for transfers\n\t•\tApplying DTF designs with precision\n\t•\tAvoiding common beginner mistakes\n\t•\tSealing and curing your custom creation for long-lasting flair\n\nNo experience required—just bring your inner otaku and your creative energy. We’ll provide everything you need, including fandom-inspired DTF designs, high-quality glassware, and tools.\n\nAt the end, you’ll walk away with your own personalized glass tumbler or shot glass—perfect for your next anime binge, DnD session, or shelf display.",
+    "description": "<b>To attend this workshop - it is first come, first served. Limited space is available.</b>\n\nReady to level up your crafting skills? Join Underground Nerd for a hands-on fandom-fueled workshop where you’ll learn how to customize your very own glass tumbler or shot glass using Direct to Film (DTF) transfer techniques.\n\nWhether you’re repping your favorite anime clan, gaming guild, or comic book multiverse, this workshop will walk you step-by-step through the process of:\n\t•\tPrepping your glassware for transfers\n\t•\tApplying DTF designs with precision\n\t•\tAvoiding common beginner mistakes\n\t•\tSealing and curing your custom creation for long-lasting flair\n\nNo experience required—just bring your inner otaku and your creative energy. We’ll provide everything you need, including fandom-inspired DTF designs, high-quality glassware, and tools.\n\nAt the end, you’ll walk away with your own personalized glass tumbler or shot glass—perfect for your next anime binge, DnD session, or shelf display.",
     "people_list": "",
     "people": []
   },
@@ -2391,10 +2540,11 @@
   "902659": {
     "title": "Divas &amp; Death Saves: A Dragventuring D&amp;D Live Play",
     "description": "This is a 90 minute, Live Play, D&amp;D One Shot adventure with a PG-13ish rating. \nWe join a team of four Drag-venturers as they compete in a Drag Race/Dragula/King of Drag inspired show with a high fantasy twist. \nWe will begin with Lipsync Introductions to our cast, followed by our Mini-Challenge with Audience Participation. \nThe Maxi-challenge is  \"Talent Under Fire!\" where our dragventurers must perform a group number during combat against an unknown foe! \nWill they Slay or will they Sashay Away? ",
-    "people_list": "Cameron Conlan, Skylar Hoelscher",
+    "people_list": "Cameron Conlan, Skylar Hoelscher, Deanna Fleysher",
     "people": [
       "Cameron Conlan (Cammy Quandary)",
-      "Skylar Hoelscher (Katja Attenshun)"
+      "Skylar Hoelscher (Katja Attenshun)",
+      "Deanna Fleysher (Big D Fleysher)"
     ]
   },
   "909589": {
@@ -2484,6 +2634,14 @@
       "DeShon Elem (Delta Major)"
     ]
   },
+  "911619": {
+    "title": "RESERVATION REQUIRED - Matt Dinniman Book Signing",
+    "description": "Join bestselling author Matt Dinniman, best known for the Dungeon Crawler Carl series, as he greets fans and signs books. PLEASE NOTE: A reservation is required for this event. In addition to the reservation, you must purchase any Dungeon Crawler Carl book from the Barnes &amp; Noble booth (at the front of Hall 1A) to join the signing line. Proof of purchase will be required. In order for Mr. Dinniman to meet the largest number of fans, there is a limit of two books signed per person.\n\nReservations will open on September 29. <a href=\"https://www.newyorkcomiccon.com/en-us/about/reservations.html\">Information about NYCC reservations. </a>",
+    "people_list": "Matt Dinniman",
+    "people": [
+      "Matt  Dinniman"
+    ]
+  },
   "909585": {
     "title": "Make Some Noise: Abrams Fanfare Panel",
     "description": "Make some noise with Abrams to celebrate a new addition to our graphic novel imprint for young readers, Abrams Fanfare. Hear all about the new authors and titles, including graphic novels for early, middle-grade, and young adult readers, that will be part of the imprint in 2025 and 2026!\n",
@@ -2543,12 +2701,6 @@
   "904409": {
     "title": "The Lost Boys: Adapting the Film for Broadway with Producer Patrick Wilson",
     "description": "We’re inviting you in. The Warner Bros. cult classic comes to Broadway next spring as one of the most anticipated musicals of the season. Join producer Patrick Wilson (The Conjuring, Watchmen), Tony Award–winning director Michael Arden (Maybe Happy Ending), and additional residents of Santa Carla as they discuss bringing Joel Schumacher’s beloved coming-of-age vampire film to the stage. Attendees will hear the first public performance from the cast. The Lost Boys: A New Musical features music and lyrics by The Rescues (Kyler England, Adrianne Gonzalez, and Gabriel Mann), and a book by David Hornsby (“It’s Always Sunny in Philadelphia”) and Chris Hoch.",
-    "people_list": "",
-    "people": []
-  },
-  "909801": {
-    "title": "Celebrating Queer TV &amp; Charting the Road Ahead",
-    "description": "Love queer TV? Don’t miss this special panel celebrating the past 20 years of LGBTQ television and looking ahead to what comes next! Megan Townsend (GLAAD’s Senior Director, Entertainment Research and Analysis) will be sharing brand new research and insights spotlighting LGBTQ TV characters and hosting a conversation with creators and executives about the future of queer storytelling in TV.",
     "people_list": "",
     "people": []
   },
@@ -2645,8 +2797,8 @@
     ]
   },
   "904131": {
-    "title": "Manga Behind the Scenes: From Japan to Your Shelf with Kodama",
-    "description": "Join Kodama, the publisher behind Baki the Grappler, and special guests as they pull back the curtain on what it’s like to launch a manga company, work directly with Japanese publishers, and bring classic titles to new audiences. Get a behind-the-scenes look and enjoy sneak peeks at upcoming series like Smile! and Uchujin Mumu. Whether you're a longtime fan or curious about the industry, this is your chance to hear from the team shaping the future of manga.",
+    "title": "Beyond Baki: Cosplay, Editing &amp; New Challenges",
+    "description": "Step into the underground arena with Baki &amp; Beyond! This special NYCC panel brings together the world of Baki the Grappler like never before. Join Logan Chitwood, the world-renowned Yujiro Hanma cosplayer, as he reveals his journey of becoming the “Strongest Creature on Earth.” Michael, the editor of Baki, will share behind-the-scenes stories from working on one of manga’s most legendary series. And get an exclusive look at what’s next from Kodama Tales, with the announcement of exciting new manga licenses debuting soon.  ",
     "people_list": "",
     "people": []
   },
@@ -2685,10 +2837,11 @@
   "893619": {
     "title": "Manga Mavericks Books Industry Panel",
     "description": "Join the team behind Manga Mavericks Books (store.mangamavericks.com) and find out how a company that started as a manga podcast has transformed itself into one of the newest indie manga publishers! Learn more about our upcoming slate of releases, as well as the library of content from our partner Red String Translations. We’ll have new announcements, prizes, and more!",
-    "people_list": "Varun Gupta, Michael JOKOH",
+    "people_list": "Varun Gupta, Michael JOKOH, Siddharth Gupta",
     "people": [
       "Varun Gupta",
-      "Michael JOKOH"
+      "Michael JOKOH",
+      "Siddharth Gupta"
     ]
   },
   "909834": {
@@ -2705,9 +2858,11 @@
   },
   "911160": {
     "title": "Star Wars Meetup",
-    "description": "Whether you’re on the light side or the dark side, all Star Wars cosplayers and fans are welcome to this meetup hosted by Rebel Legion’s Echo Base.",
-    "people_list": "",
-    "people": []
+    "description": "Whether you’re on the light side or the dark side, all Star Wars cosplayers and fans are welcome to this meetup hosted by Rebel Legion’s Echo Base.\n\nStar Wars Meetup (Sunday):  \nhttps://www.facebook.com/share/19ouqHng4w/?mibextid=wwXIfr\n",
+    "people_list": "Lisa Giunta-Popeil",
+    "people": [
+      "Lisa Giunta-Popeil (LiliPopeCosplay)"
+    ]
   },
   "909027": {
     "title": "Deconstructing Daredevil: Rage, Violence, and the 1980s",
@@ -2721,8 +2876,11 @@
   "902862": {
     "title": "Blerd Who Step: Drums of Liberation Edition",
     "description": "Are you a nerd who steps or who has always wanted to try stepping? This workshop will include a brief history of step in the black community, its evolution to becoming more mainstream, and what that means for those of us blerds who step.  \n\nAs a blerd who steps, I have taken the love for my various fandoms, and incorporated different aspects into my stepping. I run an entire step team composed of geeks of different fandoms, otaku, cosplayers, and gamers.  \n\nThe workshop is open to all levels of steppers and people of all cultural backgrounds. We will learn about step and learn 1 step to music from/inspired by One Piece. Please dress comfortably with supportive footwear (if you will be engaging in the standing portions). Stepping requires movements such as stomping, clapping, and lifting our arms and legs. If you have a disability that restricts your movement we will modify those movements for you. Cosplay is encouraged/welcomed, but not mandatory. So come join Luffy and move to the beat of liberation!",
-    "people_list": "",
-    "people": []
+    "people_list": "Katastrophe Strong, Isake Smith",
+    "people": [
+      "Katastrophe Strong (Thee Katastrophy)",
+      "Isake Smith (Queerly Femmetastic)"
+    ]
   },
   "911375": {
     "title": "R. L. Stine Book Signing",
@@ -2750,6 +2908,16 @@
       "Carlos Smith",
       "Izabelle Garcia (IzieBuilds)",
       "Taylor Van Ackem (SuperTotCosplay)"
+    ]
+  },
+  "909738": {
+    "title": "The Cast of The Matrix ",
+    "description": "Step back into the groundbreaking world of The Matrix with Joe Pantoliano (Cypher) and Laurence Fishburne (Morpheus), moderated by Josh Horowitz! Join these iconic stars as they reminisce about the making of the sci-fi phenomenon that redefined cinema. From mind-bending stunts and revolutionary visual effects to the unforgettable philosophy and world-building that continue to inspire fans and filmmakers alike, this panel is a deep dive into the reality-bending universe of the Matrix.\nUnder Josh Horowitz’s guidance, the cast will share behind-the-scenes stories, reflect on the experience of filming some of the most iconic action sequences in movie history, and discuss their characters’ journeys through a world where nothing is as it seems. Whether you’re a longtime fan or a newcomer to the Matrix, this conversation promises insight, nostalgia, and a few surprises from the legends who brought this universe to life.\"",
+    "people_list": "Laurence Fishburne, Joe Pantoliano, Josh Horowitz",
+    "people": [
+      "Laurence Fishburne",
+      "Joe Pantoliano",
+      "Josh Horowitz"
     ]
   },
   "909835": {
@@ -2829,12 +2997,12 @@
   "904034": {
     "title": "Crossing Thresholds The Rise of Transgressive Horror",
     "description": "Join authors Eric LaRocca, Hailey Piper and Clay McLeod Chapman as they take you on a journey into the heart of transgressive, LGBTQ+ horror fiction. Discover how their bold and fearless narratives challenge conventions and continue to reshape the horror fiction landscape, inviting readers to question, fear, and understand the complexities of the human experience. The panel will conclude with a Q&amp;A session, allowing NYCC attendees to delve deeper into the authors’ processes, challenges, and future projects.",
-    "people_list": "Eric LaRocca, Hailey Piper, Clay McLeod Chapman, Delilah S. Dawson",
+    "people_list": "Hailey Piper, Clay McLeod Chapman, Delilah S. Dawson, Eric LaRocca",
     "people": [
-      "Eric LaRocca",
       "Hailey Piper",
       "Clay McLeod Chapman",
-      "Delilah S. Dawson"
+      "Delilah S. Dawson",
+      "Eric LaRocca"
     ]
   },
   "911161": {
@@ -2960,11 +3128,12 @@
   "901048": {
     "title": "Makeup, madman, monsters and those that make them",
     "description": "A panel of makeup artists that have careers that have collectively spanned over 100 years and have over 100s of credits describe and explain, via, visuals and practical examples of their work",
-    "people_list": "Craig Lindberg, Neal Jones, Melanie Licata",
+    "people_list": "Craig Lindberg, Neal Jones, Melanie Licata, Richard Krusell",
     "people": [
       "Craig Lindberg",
       "Neal Jones",
-      "Melanie Licata (Mel Licata)"
+      "Melanie Licata (Mel Licata)",
+      "Richard Krusell (Rich Krusell)"
     ]
   },
   "909030": {

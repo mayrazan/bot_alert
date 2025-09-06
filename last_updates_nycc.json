@@ -65,6 +65,12 @@
       "Cowbutt Crunchies"
     ]
   },
+  "911146": {
+    "title": "Jedi Meditation",
+    "description": "Calling all Younglings! Learn tips and techniques used by the Jedi Masters themselves, or take a few moments of calm in your busy day at NYCC. Hosted by Saber Guild’s Empire Temple.",
+    "people_list": "",
+    "people": []
+  },
   "902461": {
     "title": "Cafecito at Comic Con",
     "description": "Join us for an engaging panel on national superheroes from different countries, exploring how comic books created by colonial subjects serve as powerful tools for representation and world meaning making. Featuring Edgardo Miranda-Rodriguez, creator of La Borinqueña, alongside [names of one or two other comic book creators to be included ], and moderated by Aníbal Arocho, The Center for Puerto Rican Studies at Hunter College's Library Manager, this conversation will examine themes of NYPL and CENTRO collections, Afro and Indigenous identities, environmental justice, colonization, social activism, and cultural resilience. Through the lens of comics, panelists will discuss how these narratives challenge dominant histories, inspire new forms of storytelling, and empower communities to reimagine their place in the world.\n",
@@ -94,11 +100,14 @@
     "people_list": "",
     "people": []
   },
-  "911146": {
-    "title": "Jedi Meditation",
-    "description": "Calling all Younglings! Learn tips and techniques used by the Jedi Masters themselves, or take a few moments of calm in your busy day at NYCC. Hosted by Saber Guild’s Empire Temple.",
-    "people_list": "",
-    "people": []
+  "911147": {
+    "title": "Star Wars Meetup",
+    "description": "Whether you’re on the light side or the dark side, all Star Wars cosplayers and fans are welcome to this meetup hosted by Rebel Legion’s Echo Base.\n\nStar Wars Meetup (Thursday):  \nhttps://www.facebook.com/share/19dsoJzRm4/?mibextid=wwXIfr\n",
+    "people_list": "Lisa Giunta-Popeil,  Rebel Legion - Echo Base",
+    "people": [
+      "Lisa Giunta-Popeil (LiliPopeCosplay)",
+      "Rebel Legion - Echo Base"
+    ]
   },
   "909632": {
     "title": "HBO / HBO Max presents A Knight of the Seven Kingdoms – Journey into Westeros with Dunk and Egg",
@@ -193,23 +202,6 @@
     "people_list": "",
     "people": []
   },
-  "911145": {
-    "title": "Star Wars Storytime",
-    "description": "Led by an award-winning New York State licensed librarian with over fifteen years of youth services experiences. Star Wars-themed books, music, crafts, and special appearances by some friends from a galaxy far, far away. LFL-recognized Star Wars charity costuming clubs will be in Family HQ in Hall 1E all four days, raising money for Make-A-Wish.",
-    "people_list": " Rebel Legion - Echo Base",
-    "people": [
-      "Rebel Legion - Echo Base"
-    ]
-  },
-  "911147": {
-    "title": "Star Wars Meetup",
-    "description": "Whether you’re on the light side or the dark side, all Star Wars cosplayers and fans are welcome to this meetup hosted by Rebel Legion’s Echo Base.\n\nStar Wars Meetup (Thursday):  \nhttps://www.facebook.com/share/19dsoJzRm4/?mibextid=wwXIfr\n",
-    "people_list": "Lisa Giunta-Popeil,  Rebel Legion - Echo Base",
-    "people": [
-      "Lisa Giunta-Popeil (LiliPopeCosplay)",
-      "Rebel Legion - Echo Base"
-    ]
-  },
   "909160": {
     "title": "How The Toys That Made Us Launched a Toy Company",
     "description": "Brian Volk-Weiss (The Movies That Made Us, Disney’s Behind the Attraction) and the Nacelle team share how The Toys That Made Us docuseries launched Nacelle Toys, who now produce action figures for Star Trek toys, Biker Mice from Mars, RoboForce, The Expanse, C.O.W.-Boys of Moo Mesa, Sectaurs and more. Fans will get a sneak peek of the upcoming Polly Pocket episode from the new episodes of The Toys That Made Us. ",
@@ -221,6 +213,14 @@
     "description": "The New York Comic Con team is cooking up something awesome! More details on this panel coming soon.\n\nStay up to date on the latest New York Comic Con news at NewYorkComicCon.com and on Facebook, X, and Instagram.",
     "people_list": "",
     "people": []
+  },
+  "911145": {
+    "title": "Star Wars Storytime",
+    "description": "Led by an award-winning New York State licensed librarian with over fifteen years of youth services experiences. Star Wars-themed books, music, crafts, and special appearances by some friends from a galaxy far, far away. LFL-recognized Star Wars charity costuming clubs will be in Family HQ in Hall 1E all four days, raising money for Make-A-Wish.",
+    "people_list": " Rebel Legion - Echo Base",
+    "people": [
+      "Rebel Legion - Echo Base"
+    ]
   },
   "901300": {
     "title": "Incorporate Diversity and Accessibility Into Costumes &amp; Content Creating",
@@ -914,9 +914,10 @@
   "909406": {
     "title": "Mario Kart StreetPass 3D World Meetup",
     "description": "Feeling Nostalgic while still enjoying the modern changes of Portable gaming? Well you're not alone! Snag your 3ds family of handhelds and grab a Dash Food at Yoshi's to Experience a Live and in your face meetup of Streetwise Proportions! Come on Dress Downed to the Marked location at this specific time to: Trade Street Passes or Play 3DS games, with/or Without a group of colorful -and Dare we say DASHIONABLE- Cosplayers of the Hit Switch 2 game: Mario Kart World!* \n\n*NPCs/Bowser Minions Welcomed.",
-    "people_list": "Ben-Joseph Umali",
+    "people_list": "Ben-Joseph Umali, Benjamin Campos",
     "people": [
-      "Ben-Joseph Umali (BeanDTea)"
+      "Ben-Joseph Umali (BeanDTea)",
+      "Benjamin Campos (Uni)"
     ]
   },
   "909505": {
@@ -2578,12 +2579,13 @@
   "904751": {
     "title": "Shadowy Scholarships and Mysterious Manuscripts: A Discussion of the Dark Academia Phenomenon",
     "description": "Cloaked in candlelight, dusted with secrets, and steeped in the obsession of knowledge—Dark Academia has captivated readers with its moody halls, morally gray characters, and the tantalizing blend of intellect and danger. But what lies beneath the tweed blazers and Latin quotes? Join these authors for a deep dive into the genre that romanticizes intellect, isolation, and the pursuit of forbidden knowledge. Together, they’ll explore what draws readers into this shadowy aesthetic, how they craft mysterious atmospheres and haunted institutions, and why Dark Academia continues to resonate. Whether you're a longtime lover of dusty tomes and secret societies or just curious about the trend, this panel offers insight, intrigue, and a touch of literary darkness.\n",
-    "people_list": "Maggie Stiefvater, Kristen Pipps, Katie Zhao, Elle Gonzalez Rose",
+    "people_list": "Maggie Stiefvater, Katie Zhao, Elle Gonzalez Rose, S. T. Gibson, Sydney J. Shields",
     "people": [
       "Maggie Stiefvater",
-      "Kristen Pipps",
       "Katie Zhao",
-      "Elle Gonzalez Rose"
+      "Elle Gonzalez Rose",
+      "S. T.  Gibson",
+      "Sydney J. Shields"
     ]
   },
   "903233": {

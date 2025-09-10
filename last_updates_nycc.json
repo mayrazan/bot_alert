@@ -357,6 +357,16 @@
     "people_list": "",
     "people": []
   },
+  "911470": {
+    "title": "Image Comics Presents: The Future of Comics",
+    "description": "Step inside the world of creator-owned comics with some of the most exciting voices shaping the future of the medium. Join Caspar Wijngaard (The Power Fantasy), Chris Condon (News From The Fallout), Marjorie Liu (Monstress), and Deniz Camp (Assorted Crisis Events) for an unfiltered conversation about breaking rules, building worlds, and telling stories only they could create. Expect behind-the-scenes stories, sneak peeks at upcoming projects, and plenty of insight into how the creator-owned spirit keeps Image at the forefront of the industry.",
+    "people_list": "Caspar Wijngaard, Christopher Condon, MARJORIE LIU",
+    "people": [
+      "Caspar Wijngaard (Caspar Wijngaard)",
+      "Christopher Condon (Chris Condon)",
+      "MARJORIE LIU (MARJORIE LIU)"
+    ]
+  },
   "912260": {
     "title": "The Accessibility Alliance: A Disability-Friendly Meetup",
     "description": "Finally … a meet-up for fans with visible and invisible disabilities! This is your space to nerd out, make new friends, and feel included. Last year’s conversations about navigating the con with a disability were amazing, and we can’t wait to welcome you back this year at the Inclusive Communication Services (ICS) table.",
@@ -944,6 +954,12 @@
     "people": [
       "Matthew Berner"
     ]
+  },
+  "909639": {
+    "title": "MR. ROBOT 10TH ANNIVERSARY, A LIVE HAPPY SAD CONFUSED EVENT",
+    "description": "Celebrate the 10th anniversary of the Golden Globe and Emmy-winning series, Mr. Robot, with creator Sam Esmail and stars Rami Malek and Christian Slater in a special live taping of Josh Horowitz’s Happy Sad Confused podcast. Revisit the groundbreaking series that earned Malek a Primetime Emmy and Slater a Golden Globe, explore behind-the-scenes stories and reflect on the lasting impact of the show that hacked its way into modern-day TV history.",
+    "people_list": "",
+    "people": []
   },
   "909503": {
     "title": "Fall's Most Anticipated YA Books (Simon &amp; Schuster)",
@@ -1927,10 +1943,11 @@
   "909422": {
     "title": "Helluva Hangout: A Hellaverse Meetup",
     "description": "Calling all imps and overlords — it’s time to strut your stuff straight outta Hell! Join fellow fans of Helluva Boss for a devilishly fun cosplay meetup where chaos, creativity, and camaraderie reign supreme. Whether you’re rocking a full Stolas ensemble or just here to appreciate the hellishly good looks, this is the place to show off your style and passion.",
-    "people_list": "Taylor Fleming, Paul Winters",
+    "people_list": "Taylor Fleming, Paul Winters, Allison Abney",
     "people": [
       "Taylor Fleming (Fever Dream)",
-      "Paul Winters"
+      "Paul Winters",
+      "Allison Abney (goosefangs)"
     ]
   },
   "909595": {
@@ -2038,6 +2055,16 @@
     "people_list": "Peter McCarty",
     "people": [
       "Peter McCarty"
+    ]
+  },
+  "909568": {
+    "title": "LUCASFILM PUBLISHING: Star Wars: Stories from a Galaxy Far, Far Away",
+    "description": "Join Lucasfilm Publishing and a group of all-star authors and artists for a sneak peek into a galaxy far, far away! From the era of the High Republic to the time of the New Republic and beyond, be here for updates, behind-the-scenes stories, and announcements and reveals that expand the Star Wars saga into books, comics, and magazines! \n",
+    "people_list": "Kwame Mbalia, Charles Soule, Ethan Sacks",
+    "people": [
+      "Kwame Mbalia",
+      "Charles  Soule (Charles Soule )",
+      "Ethan Sacks (Ethan Sacks)"
     ]
   },
   "909570": {
@@ -2192,6 +2219,16 @@
       "Hilaree Caldwell (H.E. Caldwell)",
       "Robert Meyers",
       "Lauren Weber (LaurenZside)"
+    ]
+  },
+  "912310": {
+    "title": "LUCASFILM PUBLISHING - Post Panel Book Signing",
+    "description": "Join authors from the \"Lucasfilm Publishing\" panel as they meet fans and sign books. Books will be available for purchase from the Barnes &amp; Noble booth in Hall 1A, adjacent to the author signing area. \n",
+    "people_list": "Kwame Mbalia, Ethan Sacks, Charles Soule",
+    "people": [
+      "Kwame Mbalia",
+      "Ethan Sacks (Ethan Sacks)",
+      "Charles  Soule (Charles Soule )"
     ]
   },
   "909578": {
@@ -2689,7 +2726,7 @@
   },
   "909583": {
     "title": "Scream Reads: Books to Keep You Up at Night",
-    "description": "Join this collection of critically acclaimed and bestselling authors as they dive into the horror genre and books that will make your hair stand on end. ",
+    "description": "Join Bethany C Morrow, Codie Crowley, Cynthia St Aubin, Laura Leffler, Mary Roach, and Mira Grant as they step into the darkness of all things that haunt us. From the paranormal to the otherworldly, nothing is scarier than surviving the horrors that collide into lives. Presented by Disney Publishing and Tor/Nightfire.",
     "people_list": "Cynthia St. Aubin, Bethany C Morrow, Mira Grant, Mary Roach, Laurel Leffler, Codie Crowley",
     "people": [
       "Cynthia St. Aubin",
@@ -3024,8 +3061,11 @@
   "904766": {
     "title": "Children's Book Council Presents: Draw With the Artists (Session A)",
     "description": "Come and join the fun with each of our amazing graphic novel creators as they show you how they created their characters!",
-    "people_list": "",
-    "people": []
+    "people_list": "John Patrick Green, Katie Risor",
+    "people": [
+      "John Patrick Green",
+      "Katie  Risor"
+    ]
   },
   "908316": {
     "title": "Enter the Popverse",
@@ -3094,6 +3134,15 @@
       "Dan Moulton"
     ]
   },
+  "912319": {
+    "title": "Draw with the Artists - Post Panel Book Signings",
+    "description": "Join authors from the \"Draw with the Artists\" panel as they meet fans and sign books. Books will be available for purchase from the Barnes &amp; Noble booth in Hall 1A, adjacent to the author signing area. ",
+    "people_list": "John Patrick Green, Katie Risor",
+    "people": [
+      "John Patrick Green",
+      "Katie  Risor"
+    ]
+  },
   "904131": {
     "title": "Beyond Baki: Cosplay, Editing &amp; New Challenges",
     "description": "Step into the underground arena with Baki &amp; Beyond! This special NYCC panel brings together the world of Baki the Grappler like never before. Join Logan Chitwood, the world-renowned Yujiro Hanma cosplayer, as he reveals his journey of becoming the “Strongest Creature on Earth.” Michael, the editor of Baki, will share behind-the-scenes stories from working on one of manga’s most legendary series. And get an exclusive look at what’s next from Kodama Tales, with the announcement of exciting new manga licenses debuting soon.  ",
@@ -3122,12 +3171,6 @@
       "Masked Dad Workshop"
     ]
   },
-  "909593": {
-    "title": "Children's Book Council Presents: Draw With the Artists (Session B)",
-    "description": "Come and join the fun with each of our amazing graphic novel creators as they show you how they created their characters!",
-    "people_list": "",
-    "people": []
-  },
   "909671": {
     "title": "“Adventure Time: Fionna and Cake” Season 2 Sneak Peek",
     "description": "Take your nearest subway, taxi, or multiversal portal to the Javits Center cause Adventure Time is returning to New York Comic Con! Join executive producer and showrunner Adam Muto along with voice cast members Madeleine Martin, Roz Ryan, and Ashly Burch for an exclusive sneak peek at the multiversal adventures that await in season 2 of the HBO Max Original series from Cartoon Network Studios, “Adventure Time: Fionna and Cake.”",
@@ -3142,6 +3185,16 @@
       "Varun Gupta",
       "Michael JOKOH",
       "Siddharth Gupta"
+    ]
+  },
+  "912320": {
+    "title": "Children's Book Council Presents: Draw With the Artists (Session B)",
+    "description": "Come and join the fun with each of our amazing graphic novel creators as they show you how they created their characters!",
+    "people_list": "Terrance Crawford, Debbie Fong, Drew Panckeri",
+    "people": [
+      "Terrance Crawford",
+      "Debbie Fong",
+      "Drew Panckeri"
     ]
   },
   "909834": {
@@ -3196,6 +3249,16 @@
     "people_list": "R.L. Stine",
     "people": [
       "R.L. Stine"
+    ]
+  },
+  "909593": {
+    "title": "Draw with the Artists - Post Panel Book Signing",
+    "description": "Join authors from the \"Draw with the Artists\" panel as they meet fans and sign books. Books will be available for purchase from the Barnes &amp; Noble booth in Hall 1A, adjacent to the author signing area. ",
+    "people_list": "Drew Panckeri, Debbie Fong, Terrance Crawford",
+    "people": [
+      "Drew Panckeri",
+      "Debbie Fong",
+      "Terrance Crawford"
     ]
   },
   "909428": {

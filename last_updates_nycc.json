@@ -80,6 +80,24 @@
       "Yume Kitasei"
     ]
   },
+  "912595": {
+    "title": "D&amp;D Demo's ",
+    "description": "Join us for a quick 20-minute session of adventure and excitement. Using the new unreleased Heroes of the Borderland Starter Set - you'll be swinging swords and slinging spells in no time. New tables start every 30 minutes as space is available.",
+    "people_list": "",
+    "people": []
+  },
+  "912599": {
+    "title": "Learn to Play D&amp;D",
+    "description": "Want to learn to play? New, returning after some time off, or introducing others to the game this is your event. Play and be ready for a weekend of fun! Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
+  "912617": {
+    "title": "Forgotten Realms Play Preview",
+    "description": "Be the first to try out new character options and an adventure from the upcoming Forgotten Realms Player's Guide and Adventure Guide, releasing in Nov 2025! 3rd lvl chars are provided. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
   "909813": {
     "title": "Totally Metal!  Create Your Own Chainmail [Separately Ticketed]",
     "description": "Think the idea of knitting with metal rings sounds, well, metal?  Get your pliers ready as Cowbutt Crunchies walks through the basic materials and process for creating chainmail fabric: the building block for all chainmail garments.  Students will practice creating their own sample chainmail pieces, which they will be able to bring home and complete. **A separate ticket is required to attend this workshop. Workshop tickets will be going live in September, make sure to keep an eye out so you can grab your ticket before they are gone!",
@@ -87,6 +105,12 @@
     "people": [
       "Cowbutt Crunchies"
     ]
+  },
+  "912635": {
+    "title": "Stranger Things: Welcome to the Hellfire Club",
+    "description": "The final season of Stranger Things is here and what better way to celebrate than playing some D&amp;D with friends. Eddie needs your help!!! Come play one of the iconic characters from the Hellfire Club and see if you can figure out what's happening in Greyhawkins. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
   },
   "911146": {
     "title": "Jedi Meditation",
@@ -130,6 +154,15 @@
       "Maximillian Sugiura",
       "William Bochbot",
       "Gina Gagliano"
+    ]
+  },
+  "912577": {
+    "title": "Back to the Baxter Building: Ioan Gruffudd &amp; Michael Chiklis In Conversation",
+    "description": "Reed Richards and Ben Grimm are back! Join Ioan Gruffudd and Michael Chiklis for a lively, nostalgic conversation as they reflect on bringing Marvel’s First Family to life in Fantastic Four and Fantastic Four: Rise of the Silver Surfer. Hear behind-the-scenes stories from the set, learn how they built the dynamic between Mr. Fantastic and The Thing, and discover what it was like to step into such iconic roles before the Marvel movie boom really began. Whether you’re a lifelong fan of Marvel’s First Family or just love hearing great Hollywood stories, this panel is a can’t-miss trip back to the Baxter Building.",
+    "people_list": "Ioan Gruffudd, Michael Chiklis",
+    "people": [
+      "Ioan Gruffudd",
+      "Michael Chiklis"
     ]
   },
   "911147": {
@@ -243,8 +276,8 @@
     ]
   },
   "909567": {
-    "title": "DC Black Label, and Beyond!",
-    "description": "Step into a space where convention is reimagined and stories stretch beyond the edge of reality. This year, DC hosts a can’t-miss NYCC panel exploring new frontiers in adult graphic fiction, challenging genre norms, and amplifying unique voices across horror, fantasy, and speculative drama. From surreal explorations of identity and memory to unsettling dystopian visions, DC has always been the home for comics that refuse to fit the mold. Moderated by DC Executive Editor Chris Conroy. ",
+    "title": "DC Vertigo: We’re Back!",
+    "description": "One year ago, at NYCC, DC announced the return of its legendary adult graphic fiction imprint, Vertigo…and this year, we’re welcoming attendees to be the very first fans anywhere to see Vertigo’s new ongoing slate. A series of special guests will have exclusive announcements, reveals, and surprises in store, as DC Vertigo reclaims its title as the home for comics which refuse to fit the mold. Moderated by DC Executive Editor Chris Conroy.",
     "people_list": "",
     "people": []
   },
@@ -256,12 +289,6 @@
       "Brian Volk-Weiss",
       "Bryan W. Adams"
     ]
-  },
-  "909741": {
-    "title": "Panel Coming Soon",
-    "description": "The New York Comic Con team is cooking up something awesome! More details on this panel coming soon.\n\nStay up to date on the latest New York Comic Con news at NewYorkComicCon.com and on Facebook, X, and Instagram.",
-    "people_list": "",
-    "people": []
   },
   "911145": {
     "title": "Star Wars Storytime",
@@ -294,9 +321,27 @@
       "Nancy Amaro"
     ]
   },
+  "912601": {
+    "title": "Learn to Play D&amp;D",
+    "description": "Want to learn to play? New, returning after some time off, or introducing others to the game this is your event. Play and be ready for a weekend of fun! Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
   "909802": {
     "title": "DC Queer Trivia",
     "description": "DC Queer Trivia\n1:00 PM to 2:00 PM\n\nTest your Queer DC Trivia knowledge with the host of the Geeks OUT Podcast. ",
+    "people_list": "",
+    "people": []
+  },
+  "912618": {
+    "title": "Forgotten Realms Play Preview",
+    "description": "Be the first to try out new character options and an adventure from the upcoming Forgotten Realms Player's Guide and Adventure Guide, releasing in Nov 2025! 3rd lvl chars are provided. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
+  "912636": {
+    "title": "Stranger Things: Welcome to the Hellfire Club",
+    "description": "The final season of Stranger Things is here and what better way to celebrate than playing some D&amp;D with friends. Eddie needs your help!!! Come play one of the iconic characters from the Hellfire Club and see if you can figure out what's happening in Greyhawkins. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
     "people_list": "",
     "people": []
   },
@@ -439,14 +484,6 @@
       "Patrick Reed (Patrick A. Reed)"
     ]
   },
-  "911143": {
-    "title": "Spotlight on Todd McFarlane",
-    "description": "Comic legend Todd McFarlane shares what it really takes to create, build, and push past obstacles. From breaking into comics to navigating everyday challenges, Todd brings real talk, practical advice, and inspiration for fans, creators, and anyone chasing their goals",
-    "people_list": "Todd McFarlane",
-    "people": [
-      "Todd McFarlane"
-    ]
-  },
   "909633": {
     "title": "MERCY: Exclusive First Look with Chris Pratt, Kali Reis &amp; Timur Bekmambetov",
     "description": "Step into the world of Mercy with Chris Pratt (actor), Kali Reis (actor), and Timur Bekmambetov (director/producer). Set in the near future, an LAPD detective (Pratt) wakes up strapped to an execution chair, on trial for murdering his wife. He has 90 minutes to prove his innocence to Judge Maddox (Rebecca Ferguson), an advanced A.I. system, or face immediate death. Get an exclusive first look at this high-stakes sci-fi crime thriller and hear directly from the cast and director as they reveal how they brought this race-against-time story to life! Mercy hits theaters Jan. 23, 2026.",
@@ -544,6 +581,24 @@
       "Kenny Curtis",
       "Jillian Hughes"
     ]
+  },
+  "912602": {
+    "title": "Learn to Play D&amp;D",
+    "description": "Want to learn to play? New, returning after some time off, or introducing others to the game this is your event. Play and be ready for a weekend of fun! Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
+  "912619": {
+    "title": "Forgotten Realms Play Preview",
+    "description": "Be the first to try out new character options and an adventure from the upcoming Forgotten Realms Player's Guide and Adventure Guide, releasing in Nov 2025! 3rd lvl chars are provided. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
+  "912637": {
+    "title": "Stranger Things: Welcome to the Hellfire Club",
+    "description": "The final season of Stranger Things is here and what better way to celebrate than playing some D&amp;D with friends. Eddie needs your help!!! Come play one of the iconic characters from the Hellfire Club and see if you can figure out what's happening in Greyhawkins. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
   },
   "911172": {
     "title": "Telling Jewish Stories in YA Fiction - Post Panel Book Signing",
@@ -776,9 +831,21 @@
       "Tamara Fuentes"
     ]
   },
+  "912603": {
+    "title": "Learn to Play D&amp;D",
+    "description": "Want to learn to play? New, returning after some time off, or introducing others to the game this is your event. Play and be ready for a weekend of fun! Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
   "904413": {
     "title": "GLITCH PRODUCTIONS PRESENTS - The Cast of The Amazing Digital Circus",
     "description": "Amazing Digital Circus, the YouTube sensation now also on Netflix, is bringing the entire main cast AND the creator of the show GOOSEWORX, together to reveal tales from the production, talk about their journeys as VAs, and take questions from their avid fans. The panel will feature Lizzie Freeman (voice of Pomni, Pokémon Horizons, Jojo’s Bizarre Adventure), Michael Kovach (voice of Jax, Murder Drones, Lackadaisy), Alex Rochon (voice of Caine; Poppy Playtime), Amanda Hufford (voice of Ragatha; Date Everything), Marissa Lenti (voice of Gangle; Borderlands 3), Ashley Nichols (voice of Zooble; Far-Fetched, Lackadaisy). Get your questions answered and see what's next for THE AMAZING DIGITAL CIRCUS and GLITCH PRODUCTIONS as well!",
+    "people_list": "",
+    "people": []
+  },
+  "912620": {
+    "title": "Forgotten Realms Play Preview",
+    "description": "Be the first to try out new character options and an adventure from the upcoming Forgotten Realms Player's Guide and Adventure Guide, releasing in Nov 2025! 3rd lvl chars are provided. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
     "people_list": "",
     "people": []
   },
@@ -792,6 +859,12 @@
       "Noella  Williams",
       "Kaitlyn McNab"
     ]
+  },
+  "912638": {
+    "title": "Stranger Things: Welcome to the Hellfire Club",
+    "description": "The final season of Stranger Things is here and what better way to celebrate than playing some D&amp;D with friends. Eddie needs your help!!! Come play one of the iconic characters from the Hellfire Club and see if you can figure out what's happening in Greyhawkins. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
   },
   "909638": {
     "title": "Prime Video’s Cross",
@@ -1015,6 +1088,24 @@
     "people_list": "",
     "people": []
   },
+  "912604": {
+    "title": "Learn to Play D&amp;D",
+    "description": "Want to learn to play? New, returning after some time off, or introducing others to the game this is your event. Play and be ready for a weekend of fun! Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
+  "912621": {
+    "title": " Forgotten Realms Play Preview",
+    "description": "Be the first to try out new character options and an adventure from the upcoming Forgotten Realms Player's Guide and Adventure Guide, releasing in Nov 2025! 3rd lvl chars are provided. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
+  "912639": {
+    "title": "Stranger Things: Welcome to the Hellfire Club",
+    "description": "The final season of Stranger Things is here and what better way to celebrate than playing some D&amp;D with friends. Eddie needs your help!!! Come play one of the iconic characters from the Hellfire Club and see if you can figure out what's happening in Greyhawkins. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
   "909501": {
     "title": "Battle of the Tropes",
     "description": "A comic convention favorite is coming in back for another round of chaos! Battle of the Tropes pits teams of authors against each other in an argument for the ages. Think part game show, part debate, and part improv. Audience members provide tropes for the teams to debate and decide the winner of each round with sheer volume. Whether you're team chosen one or long for only one bed situations, these enemies will become lovers again at the end of the session.",
@@ -1073,6 +1164,12 @@
     "people": [
       "TU Creators"
     ]
+  },
+  "912640": {
+    "title": "Stranger Things: Welcome to the Hellfire Club",
+    "description": "The final season of Stranger Things is here and what better way to celebrate than playing some D&amp;D with friends. Eddie needs your help!!! Come play one of the iconic characters from the Hellfire Club and see if you can figure out what's happening in Greyhawkins. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
   },
   "911623": {
     "title": "Tomi Adeyemi Book Signing",
@@ -1154,6 +1251,24 @@
       "Lindsay Barnett",
       "Christopher Waters (Chris Waters)"
     ]
+  },
+  "912596": {
+    "title": "D&amp;D Demo's",
+    "description": "Join us for a quick 20-minute session of adventure and excitement. Using the new unreleased Heroes of the Borderland Starter Set - you'll be swinging swords and slinging spells in no time. New tables start every 30 minutes as space is available.",
+    "people_list": "",
+    "people": []
+  },
+  "912605": {
+    "title": "Learn to Play D&amp;D",
+    "description": "Want to learn to play? New, returning after some time off, or introducing others to the game this is your event. Play and be ready for a weekend of fun! Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
+  "912623": {
+    "title": "Forgotten Realms Play Preview",
+    "description": "Be the first to try out new character options and an adventure from the upcoming Forgotten Realms Player's Guide and Adventure Guide, releasing in Nov 2025! 3rd lvl chars are provided. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
   },
   "909816": {
     "title": "Organics, Textures, and Detailing: The Art of Foamwork  [Separately Ticketed]",
@@ -1341,6 +1456,12 @@
     "people_list": "",
     "people": []
   },
+  "912641": {
+    "title": "Stranger Things: Welcome to the Hellfire Club",
+    "description": "The final season of Stranger Things is here and what better way to celebrate than playing some D&amp;D with friends. Eddie needs your help!!! Come play one of the iconic characters from the Hellfire Club and see if you can figure out what's happening in Greyhawkins. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
   "912433": {
     "title": "Robert McCollum, Lydia Mackay and MAH from SiM Signing  at Booth #HB906",
     "description": "Rober McCollum, Lydia McCay &amp; MAH from SiM will be signing at the CGC Booth (#HB906) in Hall 1B during this time. Please inquire at the CGC booth for pricing and signing information ",
@@ -1350,6 +1471,18 @@
   "909681": {
     "title": "Enter MAYA, The Brand-New Multimedia Sci-Fi Fantasy Franchise From Department Of Lore",
     "description": "Join Award Winning film director: Anand Gandhi (Tumbbad, Ship of Theseus) and acclaimed game maker: Zain Memon (Shasn) as they invite fans into the world of Maya where immortality is a commodity, and minds are shaped, choices nudged, and futures manufactured - invisibly, systemically. Launched with the novel MAYA: Seed Takes Root, and continuing through board games and into graphic novels, the creators will share behind-the-scenes information, stunning visuals, and upcoming news.",
+    "people_list": "",
+    "people": []
+  },
+  "912606": {
+    "title": "Learn to Play D&amp;D",
+    "description": "Want to learn to play? New, returning after some time off, or introducing others to the game this is your event. Play and be ready for a weekend of fun! Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
+  "912624": {
+    "title": "Forgotten Realms Play Preview",
+    "description": "Be the first to try out new character options and an adventure from the upcoming Forgotten Realms Player's Guide and Adventure Guide, releasing in Nov 2025! 3rd lvl chars are provided. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
     "people_list": "",
     "people": []
   },
@@ -1487,6 +1620,14 @@
     "people_list": "",
     "people": []
   },
+  "911143": {
+    "title": "Spotlight on Todd McFarlane",
+    "description": "Comic legend Todd McFarlane shares what it really takes to create, build, and push past obstacles. From breaking into comics to navigating everyday challenges, Todd brings real talk, practical advice, and inspiration for fans, creators, and anyone chasing their goals",
+    "people_list": "Todd McFarlane",
+    "people": [
+      "Todd McFarlane"
+    ]
+  },
   "911091": {
     "title": "Pop Cultr Marketing Summit Session Three: Anime  ",
     "description": "Description: Learn how Anime has become a dominant cultural force while flying under traditional marketing's radar, and what other industries can learn from it. ",
@@ -1532,6 +1673,12 @@
       "Emily Carmichael (Emmy Noble)"
     ]
   },
+  "912642": {
+    "title": "Stranger Things: Welcome to the Hellfire Club",
+    "description": "The final season of Stranger Things is here and what better way to celebrate than playing some D&amp;D with friends. Eddie needs your help!!! Come play one of the iconic characters from the Hellfire Club and see if you can figure out what's happening in Greyhawkins. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
   "912434": {
     "title": "Yoshimasa Hosoya and Shiori Mikami Signing at Booth #3001",
     "description": "Yoshimasa Hosoya &amp; Shiori Mikami will be signing at the CGC Booth (#3001) on the show floor during this time. Please inquire at the CGC booth for pricing and signing information",
@@ -1541,6 +1688,18 @@
   "912264": {
     "title": "Accessible Game: TTRPG 1-Shot [Live captions, description, &amp; ASL] Session 1 (Play / Spectate)",
     "description": "As the town of Hickory Haven counts down to its 200th Harvest Festival, an unknown force stirs, unleashing chaos and destruction. Will you use your powers to save the Festival? Or will you uncover the past and reveal the secrets lurking below the surface? Step into an accessible world of 5E Dungeons &amp; Dragons (D&amp;D) with Inclusive Communication Services (ICS) at NYCC! Games run Friday through Sunday—join one, two, or all three. Open to players of all abilities. Reservations encouraged, walk-ins welcome. Join the adventure: https://inclusiveasl.com/new-york-comic-con/",
+    "people_list": "",
+    "people": []
+  },
+  "912607": {
+    "title": "Learn to Play D&amp;D",
+    "description": "Want to learn to play? New, returning after some time off, or introducing others to the game this is your event. Play and be ready for a weekend of fun! Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
+  "912625": {
+    "title": "Forgotten Realms Play Preview",
+    "description": "Be the first to try out new character options and an adventure from the upcoming Forgotten Realms Player's Guide and Adventure Guide, releasing in Nov 2025! 3rd lvl chars are provided. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
     "people_list": "",
     "people": []
   },
@@ -1571,12 +1730,6 @@
     "people": [
       "Rodney Barnes (Rodney Barnes)"
     ]
-  },
-  "911382": {
-    "title": "Panel Coming Soon",
-    "description": "The New York Comic Con team is cooking up something awesome! More details on this panel coming soon.\n\nStay up to date on the latest New York Comic Con news at NewYorkComicCon.com and on Facebook, X, and Instagram.",
-    "people_list": "",
-    "people": []
   },
   "909652": {
     "title": "MARVEL COMICS: X-Men",
@@ -1740,6 +1893,12 @@
       "Miranda  Mundt"
     ]
   },
+  "912643": {
+    "title": "Stranger Things: Welcome to the Hellfire Club",
+    "description": "The final season of Stranger Things is here and what better way to celebrate than playing some D&amp;D with friends. Eddie needs your help!!! Come play one of the iconic characters from the Hellfire Club and see if you can figure out what's happening in Greyhawkins. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
   "904762": {
     "title": "FIGHT LIKE A MOTHER: Ronda Rousey on Fighting, Family, and Her Groundbreaking Graphic Novel with AWA",
     "description": "UFC champion. WWE superstar. Now, best-selling author, screenwriter, and comic book creator. Join Ronda Rousey as she dives into the creation of her debut graphic novel, EXPECTING THE UNEXPECTED, an unflinching thriller about survival and fierce motherhood. In conversation with a special moderator (TBA), Ronda will reveal how her own pregnancy, fears, and personal growth helped shape this raw, high-stakes story. Fans will get an exclusive look behind the scenes, from her first script pages to how Ronda collaborated with legendary comic book artist Mike Deodato to turn her words and fight scenes into these unforgettable pages with AWA.\n",
@@ -1763,6 +1922,12 @@
       "Lauren Roberts"
     ]
   },
+  "912608": {
+    "title": "Learn to Play D&amp;D",
+    "description": "Want to learn to play? New, returning after some time off, or introducing others to the game this is your event. Play and be ready for a weekend of fun! Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
   "909806": {
     "title": "Making a Cosplay Prop with Masked Dad Workshop [Reservation Required]",
     "description": "Learn to build a cosplay prop with Masked Dad Workshop, a cosplay supply company founded by two dads of color in NYC. This hands-on workshop will teach you essential tips and tricks to get started, and give you the chance to ask questions in person with experienced, award-winning cosplayers. **A reservation Is required to attend this workshop. Reservations will be going live in September- For more information about NYCC Reservations, visit: https://www.newyorkcomiccon.com/en-us/about/reservations.html",
@@ -1770,6 +1935,12 @@
     "people": [
       "Masked Dad Workshop"
     ]
+  },
+  "912626": {
+    "title": "Forgotten Realms Play Preview",
+    "description": "Be the first to try out new character options and an adventure from the upcoming Forgotten Realms Player's Guide and Adventure Guide, releasing in Nov 2025! 3rd lvl chars are provided. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
   },
   "904784": {
     "title": "TMNT: What’s Next for the Heroes in a Half Shell?",
@@ -1962,6 +2133,24 @@
       "MrBallen"
     ]
   },
+  "912644": {
+    "title": "Stranger Things: Welcome to the Hellfire Club",
+    "description": "The final season of Stranger Things is here and what better way to celebrate than playing some D&amp;D with friends. Eddie needs your help!!! Come play one of the iconic characters from the Hellfire Club and see if you can figure out what's happening in Greyhawkins. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
+  "912609": {
+    "title": "Learn to Play D&amp;D",
+    "description": "Want to learn to play? New, returning after some time off, or introducing others to the game this is your event. Play and be ready for a weekend of fun! Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
+  "912627": {
+    "title": "Forgotten Realms Play Preview",
+    "description": "Be the first to try out new character options and an adventure from the upcoming Forgotten Realms Player's Guide and Adventure Guide, releasing in Nov 2025! 3rd lvl chars are provided. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
   "897790": {
     "title": "Salaam Fandom! Muslim Gamers, Creators, and Cosplayers ",
     "description": "Join us for a conversation about pop culture and the many intersections with Islam. Come meet Muslim scholars, comics creators, writers, gamers, and cosplayers! Moderated by comics editor, writer, and scholar Dr. Shamika Mitchell (State University of New York, Rockland Community College/Women in Comics). ",
@@ -2128,6 +2317,12 @@
     "people_list": "",
     "people": []
   },
+  "912645": {
+    "title": "Stranger Things: Welcome to the Hellfire Club",
+    "description": "The final season of Stranger Things is here and what better way to celebrate than playing some D&amp;D with friends. Eddie needs your help!!! Come play one of the iconic characters from the Hellfire Club and see if you can figure out what's happening in Greyhawkins. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
   "909630": {
     "title": "Copyrights and Contracts for Comic Book Creators",
     "description": "<b>To attend this workshop - it is first come, first served. Limited space is available.</b>\n\nStep into the legal trenches of comic book creation with this fast-paced, one-hour workshop designed for creators, publishers, and dealmakers. We’ll crack open the vault on copyright essentials, decode the fine print of contracts, and tackle the wild frontier of AI-generated content. This year’s spotlight: how artificial intelligence is reshaping rights, royalties, and creative control. Plus, we’ll arm you with savvy negotiation tactics to survive—and thrive—in today’s volatile publishing economy. Celebrate our 20th year at NYCC with Thomas Crowell, Esq., author of The Pocket Lawyer for Comic Book Creators, and entertainment and labor lawyer Sheafe Walker, Esq., along with a few surprise guests. Don’t miss this opportunity to gain valuable knowledge while having fun!",
@@ -2169,6 +2364,24 @@
   "909710": {
     "title": "Playbill presents: DEATH BECOMES HER on Broadway",
     "description": "The Tony Award®-Winning Musical\n\nMadeline Ashton is the most beautiful actress (just ask her) ever to grace the stage and screen. Helen Sharp is the long-suffering author (just ask her) who lives in her shadow. They have always been the best of frenemies…until Madeline steals Helen’s fiancé away. As Helen plots revenge and Madeline clings to her rapidly fading star, their world is suddenly turned upside down by Viola Van Horn, a mysterious woman with a secret that’s to die for.\n\nAfter one sip of Viola’s magical potion, Madeline and Helen begin a new era of life (and death) with their youth and beauty restored…and a grudge to last eternity.\n\nNow a warning! You may not be ready for the unbelievable amount of comedy, glamour, and magic onstage at the Lunt-Fontanne Theatre. Death Becomes Her is a “wildly entertaining, perfect musical comedy. It grabs the audience by the jugular and doesn’t let go” (Deadline). Starring Tony nominees Megan Hilty, Jennifer Simard, and Christopher Sieber, plus Grammy® winner Michelle Williams, with direction and choreography by Tony winner Christopher Gattelli, Death Becomes Her is “a laugh-filled, tuneful musical to die for” (Variety) and “a cheek-aching laughter roller coaster — the most fun night out on Broadway!” (The Daily Beast). Experience the “savagely funny” (Time Out) pop-culture phenomenon that’s been certified “hilarious” by The New York Times, Entertainment Weekly, Z100, Beyoncé (!!), Goldie Hawn, Superman aka David Corenswet, Michelle Williams (the other one), and countless fans on Instagram, TikTok, and beyond. See it now, and laugh for eternity.",
+    "people_list": "",
+    "people": []
+  },
+  "912597": {
+    "title": "D&amp;D Demo's",
+    "description": "Join us for a quick 20-minute session of adventure and excitement. Using the new unreleased Heroes of the Borderland Starter Set - you'll be swinging swords and slinging spells in no time. New tables start every 30 minutes as space is available.",
+    "people_list": "",
+    "people": []
+  },
+  "912610": {
+    "title": "Learn to Play D&amp;D",
+    "description": "Want to learn to play? New, returning after some time off, or introducing others to the game this is your event. Play and be ready for a weekend of fun! Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
+  "912628": {
+    "title": "Forgotten Realms Play Preview",
+    "description": "Be the first to try out new character options and an adventure from the upcoming Forgotten Realms Player's Guide and Adventure Guide, releasing in Nov 2025! 3rd lvl chars are provided. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
     "people_list": "",
     "people": []
   },
@@ -2398,6 +2611,12 @@
       "Marc Guggenheim"
     ]
   },
+  "912646": {
+    "title": "Stranger Things: Welcome to the Hellfire Club",
+    "description": "The final season of Stranger Things is here and what better way to celebrate than playing some D&amp;D with friends. Eddie needs your help!!! Come play one of the iconic characters from the Hellfire Club and see if you can figure out what's happening in Greyhawkins. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
   "909578": {
     "title": "Embodying Evil: Creating Villain Characters for Young Adult Fiction",
     "description": "The best villain characters might crackle with green lightening or transform into 20-foot cryptids… or they might dox you on TikTok when you start dating their ex-boyfriend. In this workshop led by YA thriller author and creative writing nonprofit founder Rowana Miller, participants will dissect what makes a villain resonate with teen readers and design their own original characters that embody the principles of YA darkness. ",
@@ -2424,6 +2643,18 @@
       "Tini Howard (Tini Howard)",
       "Troy Baker"
     ]
+  },
+  "912611": {
+    "title": "Learn to Play D&amp;D",
+    "description": "Want to learn to play? New, returning after some time off, or introducing others to the game this is your event. Play and be ready for a weekend of fun! Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
+  "912629": {
+    "title": "Forgotten Realms Play Preview",
+    "description": "Be the first to try out new character options and an adventure from the upcoming Forgotten Realms Player's Guide and Adventure Guide, releasing in Nov 2025! 3rd lvl chars are provided. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
   },
   "911618": {
     "title": "RESERVATION REQUIRED - Matt Dinniman Book Signing",
@@ -2488,9 +2719,9 @@
   "912496": {
     "title": "Comedy Fandom: How Audiences are Built in 2025",
     "description": "With the comedy landscape ever evolving, it’s becoming more important for comedians to build their own audience. As gatekeepers seem to be less relevant, comedians no longer need a late-night set, buzzy festival performance, or network-produced special to break through. Today’s comedians are utilizing new tactics to reach and develop audiences. Whether that be social media, Youtube, or podcasts, a single path to success is gone as comics are building their own new ways.\n\nThis panel will discuss ways comedians are building their audiences today, how the industry is evolving to support them, how clubs are booking them, and predictions on how things could look in the future.",
-    "people_list": "Damien Grenon, Matt Kleinschmidt, Julian Hernandes, Steve Mazilli",
+    "people_list": "Damion Grenon, Matt Kleinschmidt, Julian Hernandes, Steve Mazilli",
     "people": [
-      "Damien Grenon",
+      "Damion Grenon",
       "Matt Kleinschmidt",
       "Julian Hernandes",
       "Steve Mazilli"
@@ -2632,6 +2863,12 @@
       "Joseph Tobon"
     ]
   },
+  "912647": {
+    "title": "Stranger Things: Welcome to the Hellfire Club",
+    "description": "The final season of Stranger Things is here and what better way to celebrate than playing some D&amp;D with friends. Eddie needs your help!!! Come play one of the iconic characters from the Hellfire Club and see if you can figure out what's happening in Greyhawkins. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
   "909580": {
     "title": "Spotlight on Travis Baldree",
     "description": "Join Travis Baldree, the bestselling and wildly popular author Legends &amp; Lattes and Bookshops &amp;  Bonedust, as he discusses his latest novel, Brigands &amp; Breadknives. ",
@@ -2664,6 +2901,18 @@
       "Sean Rameau",
       "Skye Sweetnam"
     ]
+  },
+  "912612": {
+    "title": "Learn to Play D&amp;D",
+    "description": "Want to learn to play? New, returning after some time off, or introducing others to the game this is your event. Play and be ready for a weekend of fun! Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
+  "912630": {
+    "title": "Forgotten Realms Play Preview",
+    "description": "Be the first to try out new character options and an adventure from the upcoming Forgotten Realms Player's Guide and Adventure Guide, releasing in Nov 2025! 3rd lvl chars are provided. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
   },
   "909581": {
     "title": "Beyond Boundaries: The Art of Genre Bending",
@@ -2861,6 +3110,12 @@
       "Down the Yellow Brick Pod"
     ]
   },
+  "912648": {
+    "title": "Stranger Things: Welcome to the Hellfire Club",
+    "description": "The final season of Stranger Things is here and what better way to celebrate than playing some D&amp;D with friends. Eddie needs your help!!! Come play one of the iconic characters from the Hellfire Club and see if you can figure out what's happening in Greyhawkins. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
   "896310": {
     "title": "Yen Press Industry Panel",
     "description": "For over a decade, Yen Press has been one of the biggest publishers of manga, releasing the likes of Black Butler, Fruits Basket and Toilet-bound Hanako-kun. Yen Press has also given a home to fan favorite categories such as light novels, audiobooks and manhwa. Join us for new announcements and Q&amp;A!",
@@ -2895,6 +3150,18 @@
   "893146": {
     "title": "Build a Mimic Dice Box with The Artist and The Carpenter [Separately Ticketed]",
     "description": "Come build your very own Mimic Dice box guided by the Artist and the carpenter! Guests will assemble their own Foldy the Dice Guardian with the provided tools and materials. Foldys hold 6 sets of dice, feature a classic folding accordion design, have two magnetic lids that double as dice trays, and are made of hardwood cherry. Adventurers should be sure not to miss this! **A separate ticket is required to attend this workshop. Workshop tickets will be going live in September, make sure to keep an eye out so you can grab your ticket before they are gone!",
+    "people_list": "",
+    "people": []
+  },
+  "912613": {
+    "title": "Learn to Play D&amp;D",
+    "description": "Want to learn to play? New, returning after some time off, or introducing others to the game this is your event. Play and be ready for a weekend of fun! Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
+  "912631": {
+    "title": "Forgotten Realms Play Preview",
+    "description": "Be the first to try out new character options and an adventure from the upcoming Forgotten Realms Player's Guide and Adventure Guide, releasing in Nov 2025! 3rd lvl chars are provided. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
     "people_list": "",
     "people": []
   },
@@ -3028,6 +3295,12 @@
       "Taylor Van Ackem (SuperTotCosplay)"
     ]
   },
+  "912649": {
+    "title": "Stranger Things: Welcome to the Hellfire Club",
+    "description": "The final season of Stranger Things is here and what better way to celebrate than playing some D&amp;D with friends. Eddie needs your help!!! Come play one of the iconic characters from the Hellfire Club and see if you can figure out what's happening in Greyhawkins. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
   "904751": {
     "title": "Shadowy Scholarships and Mysterious Manuscripts: A Discussion of the Dark Academia Phenomenon",
     "description": "Cloaked in candlelight, dusted with secrets, and steeped in the obsession of knowledge—Dark Academia has captivated readers with its moody halls, morally gray characters, and the tantalizing blend of intellect and danger. But what lies beneath the tweed blazers and Latin quotes? Join these authors for a deep dive into the genre that romanticizes intellect, isolation, and the pursuit of forbidden knowledge. Together, they’ll explore what draws readers into this shadowy aesthetic, how they craft mysterious atmospheres and haunted institutions, and why Dark Academia continues to resonate. Whether you're a longtime lover of dusty tomes and secret societies or just curious about the trend, this panel offers insight, intrigue, and a touch of literary darkness.\n",
@@ -3055,6 +3328,18 @@
   "909487": {
     "title": "NYCC Charity Art Auction",
     "description": "You Can Make A Difference! The NYCC Charity Art Auction benefits St. Jude Children's Research Hospital; an internationally recognized organization for its pioneering research and treatment of children with cancer and other catastrophic diseases. Your participation in this event will help support lifesaving research and treatment for the children of St. Jude. Come down and bid with other art enthusiasts for the chance to own a piece of original art from some of your favorite creators, all for a good cause! Have Fun. Get Art. Save Lives.",
+    "people_list": "",
+    "people": []
+  },
+  "912614": {
+    "title": "Learn to Play D&amp;D",
+    "description": "Want to learn to play? New, returning after some time off, or introducing others to the game this is your event. Play and be ready for a weekend of fun! Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
+  "912632": {
+    "title": "Forgotten Realms Play Preview",
+    "description": "Be the first to try out new character options and an adventure from the upcoming Forgotten Realms Player's Guide and Adventure Guide, releasing in Nov 2025! 3rd lvl chars are provided. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
     "people_list": "",
     "people": []
   },
@@ -3187,6 +3472,12 @@
       "Matt  Dinniman"
     ]
   },
+  "912650": {
+    "title": "Stranger Things: Welcome to the Hellfire Club",
+    "description": "The final season of Stranger Things is here and what better way to celebrate than playing some D&amp;D with friends. Eddie needs your help!!! Come play one of the iconic characters from the Hellfire Club and see if you can figure out what's happening in Greyhawkins. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
   "909585": {
     "title": "Make Some Noise: Abrams Fanfare Panel",
     "description": "Make some noise with Abrams to celebrate a new addition to our graphic novel imprint for young readers, Abrams Fanfare. Hear all about the new authors and titles, including graphic novels for early, middle-grade, and young adult readers, that will be part of the imprint in 2025 and 2026!\n",
@@ -3252,9 +3543,27 @@
     "people_list": "",
     "people": []
   },
+  "912598": {
+    "title": "D&amp;D Demo's",
+    "description": "Join us for a quick 20-minute session of adventure and excitement. Using the new unreleased Heroes of the Borderland Starter Set - you'll be swinging swords and slinging spells in no time. New tables start every 30 minutes as space is available.",
+    "people_list": "",
+    "people": []
+  },
   "904409": {
     "title": "The Lost Boys: Adapting the Film for Broadway with Producer Patrick Wilson",
     "description": "We’re inviting you in. The Warner Bros. cult classic comes to Broadway next spring as one of the most anticipated musicals of the season. Join producer Patrick Wilson (The Conjuring, Watchmen), Tony Award–winning director Michael Arden (Maybe Happy Ending), and additional residents of Santa Carla as they discuss bringing Joel Schumacher’s beloved coming-of-age vampire film to the stage. Attendees will hear the first public performance from the cast. The Lost Boys: A New Musical features music and lyrics by The Rescues (Kyler England, Adrianne Gonzalez, and Gabriel Mann), and a book by David Hornsby (“It’s Always Sunny in Philadelphia”) and Chris Hoch.",
+    "people_list": "",
+    "people": []
+  },
+  "912615": {
+    "title": "Learn to Play D&amp;D",
+    "description": "Want to learn to play? New, returning after some time off, or introducing others to the game this is your event. Play and be ready for a weekend of fun! Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
+  "912633": {
+    "title": "Forgotten Realms Play Preview",
+    "description": "Be the first to try out new character options and an adventure from the upcoming Forgotten Realms Player's Guide and Adventure Guide, releasing in Nov 2025! 3rd lvl chars are provided. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
     "people_list": "",
     "people": []
   },
@@ -3440,9 +3749,27 @@
     "people_list": "",
     "people": []
   },
+  "912651": {
+    "title": "Stranger Things: Welcome to the Hellfire Club",
+    "description": "The final season of Stranger Things is here and what better way to celebrate than playing some D&amp;D with friends. Eddie needs your help!!! Come play one of the iconic characters from the Hellfire Club and see if you can figure out what's happening in Greyhawkins. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
   "909480": {
     "title": "NYCC Staff Q+A",
     "description": "Come say hi to the team, ask any question you want about the show or join our never-ending argument about X-Men vs Avengers.",
+    "people_list": "",
+    "people": []
+  },
+  "912616": {
+    "title": "Learn to Play D&amp;D",
+    "description": "Want to learn to play? New, returning after some time off, or introducing others to the game this is your event. Play and be ready for a weekend of fun! Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
+  "912634": {
+    "title": "Forgotten Realms Play Preview",
+    "description": "Be the first to try out new character options and an adventure from the upcoming Forgotten Realms Player's Guide and Adventure Guide, releasing in Nov 2025! 3rd lvl chars are provided. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
     "people_list": "",
     "people": []
   },
@@ -3692,7 +4019,7 @@
     "description": "Join legendary actor, activist, and author George Takei for a rare and personal conversation to close out his national book tour for It Rhymes With Takei. In this intimate room near Artist Alley, Takei reflects on his extraordinary life from internment to iconhood and the power of joy, resistance, and storytelling. Seating is limited for this special NYCC experience.",
     "people_list": "George Takei, Leigh Walton",
     "people": [
-      "George Takei",
+      "George Takei (George Takei)",
       "Leigh Walton"
     ]
   },
@@ -3752,13 +4079,15 @@
   "901048": {
     "title": "Makeup, madman, monsters and those that make them",
     "description": "A panel of makeup artists that have careers that have collectively spanned over 100 years and have over 100s of credits describe and explain, via, visuals and practical examples of their work",
-    "people_list": "Craig Lindberg, Neal Jones, Melanie Licata, Richard Krusell, David Presto",
+    "people_list": "Craig Lindberg, Neal Jones, Melanie Licata, Richard Krusell, David Presto, Michael Laudati, Jeremy Selenfriend",
     "people": [
       "Craig Lindberg",
       "Neal Jones",
       "Melanie Licata (Mel Licata)",
       "Richard Krusell (Rich Krusell)",
-      "David Presto"
+      "David Presto",
+      "Michael Laudati",
+      "Jeremy Selenfriend"
     ]
   },
   "909030": {

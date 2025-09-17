@@ -404,7 +404,7 @@
   },
   "909632": {
     "title": "HBO / HBO Max presents A Knight of the Seven Kingdoms – Journey into Westeros with Dunk and Egg",
-    "description": "Step back into Westeros, a century before Game of Thrones, with unlikely duo, Ser Duncan the Tall, and his diminutive squire, Egg. Co-creator and executive producer George R.R. Martin, co-creator/showrunner Ira Parker, and stars Peter Claffey (Ser Duncan “Dunk” the Tall) and Dexter Sol Ansell (Egg) introduce the new HBO series A Knight of the Seven Kingdoms.",
+    "description": "Step back into Westeros, a century before Game of Thrones, with unlikely duo, Ser Duncan the Tall, and his diminutive squire, Egg. Co-creator and executive producer George R.R. Martin, co-creator/showrunner Ira Parker, and stars Peter Claffey (Ser Duncan “Dunk” the Tall) and Dexter Sol Ansell (Egg) introduce the new HBO series A Knight of the Seven Kingdoms. The panel will be moderated by Brandon Davis, host of Phase Hero: A Film &amp; TV Podcast. This series will debut on HBO and HBO Max in 2026.",
     "people_list": "Dexter Sol Ansell, George R.R. Martin, Ira Parker, Peter Claffey",
     "people": [
       "Dexter Sol Ansell",
@@ -1799,6 +1799,12 @@
       "Simu Liu"
     ]
   },
+  "912273": {
+    "title": "GUNDAM Showcase – Featuring Iron-Blooded Orphans, Hathaway, and the Future of Gundam",
+    "description": "Join us for an action-packed panel celebrating the past, present, and future of the Gundam universe! Explore Mobile Suit Gundam Hathaway, honor the 10th Anniversary of Mobile Suit Gundam Iron-Blooded Orphans, and be the first to hear about exciting upcoming plans for the Gundam series. Special guests include members of the English voice casts and director Tatsuyuki Nagai, who will share behind-the-scenes stories and exclusive insights. Don’t miss this unforgettable opportunity—plus, attendees will receive special giveaways such as an Iron-Blooded Orphans poster and more!",
+    "people_list": "",
+    "people": []
+  },
   "909499": {
     "title": "How About A Love Story? (presented by Cosmo Reads)",
     "description": "Presented by Cosmo Reads, Tamara Fuentes (Cosmopolitan's entertainment editor) will lead a thoughtful discussion with some of the industry's bestselling authors of romance, romantasy and women's fiction on why this genre is having a cultural \"moment\" and how it inspires female empowerment despite the often-underestimated appeal of anything created by and for women. Featured authors include Iman Hariri-Kia (Cosmo Reads), Alysha Rameera (Casablanca), K.A. Linde (Bloom), Kate Dramis (Casablanca), KJ Micciche (Cosmo Reads). Official book signing to follow.",
@@ -2532,6 +2538,12 @@
       "Karen Gillan"
     ]
   },
+  "912670": {
+    "title": "Akira Himekawa Signing Presented by VIZ",
+    "description": "Join VIZ for a special chance to meet Akira Himekawa, the acclaimed manga duo behind the brand-new hit series Kamudo, and the artists behind The Legend of Zelda manga. Fans attending the signing will receive a free, exclusive art card! Availability is limited, and spots will be offered on a first-come, first-served basis. 1 item per person.",
+    "people_list": "",
+    "people": []
+  },
   "904285": {
     "title": "Grading 101 with CGC Comics",
     "description": "Join CGC Comics grading experts Matt Nelson and Shawn Caffrey for an in-depth panel on comic book grading and preservation. The panel will have a behind-the-scenes look at how comics get graded at CGC. Plus, watch live grading demos, learn how to spot pressable defects and restoration and get expert insight into what really affects a comic's grade. You'll also get the chance to guess the grade for prizes, test your knowledge with comic book trivia and ask questions during an open Q&amp;A. Whether you're a seasoned collector or just love comics, this panel is packed with helpful tips and insider knowledge you won't want to miss!",
@@ -2749,10 +2761,11 @@
   },
   "909509": {
     "title": "Spotlight on Hafsah Faizal",
-    "description": "Join #1 New York Times and Indie-bestselling author Hafsah Faizal as she discusses her deliciously twisty and seductive romantic vampire fantasy duology finale, A STEEPING OF BLOOD. This spotlight program will also explore her journey to published author - did you know she started as a web designer and book influencer before publishing her epic debut We Hunt the Flame, which became an instant bestseller, heralded a 'best book' by TIME Magazine?! Now she’s a Forbes 30 under 30 honoree and one of the most beloved YA fantasy authors today. ",
-    "people_list": "Hafsah Faizal",
+    "description": "Join #1 New York Times and Indie-bestselling author Hafsah Faizal as she discusses her deliciously twisty and seductive romantic vampire fantasy duology finale, A STEEPING OF BLOOD. This spotlight program will also explore her journey to published author - did you know she started as a web designer and book influencer before publishing her epic debut We Hunt the Flame, which became an instant bestseller, heralded a 'best book' by TIME Magazine?! Now she’s a Forbes 30 under 30 honoree and one of the most beloved YA fantasy authors today. Moderated by Cosmopolitan entertainment editor, Tamara Fuentes. ",
+    "people_list": "Hafsah Faizal, Tamara Fuentes",
     "people": [
-      "Hafsah  Faizal"
+      "Hafsah  Faizal",
+      "Tamara Fuentes"
     ]
   },
   "903890": {
@@ -3190,6 +3203,14 @@
     "people_list": "Jennifer Hale",
     "people": [
       "Jennifer Hale"
+    ]
+  },
+  "913354": {
+    "title": "Ann M. Martin Book Signing",
+    "description": "Join Ann M. Martin, beloved and bestselling author of the Baby-Sitters Club books, will meet fans and sign books. One book personalized, up to three total books signed, no posed photos. Books will be for sale at the Barnes &amp; Noble booth adjacent to the autographing tables. ",
+    "people_list": "Ann M. Martin",
+    "people": [
+      "Ann M. Martin"
     ]
   },
   "910559": {
@@ -4856,6 +4877,12 @@
       "Jennifer Hale"
     ]
   },
+  "912671": {
+    "title": "Akira Himekawa Signing Presented by VIZ",
+    "description": "Join VIZ for a special chance to meet Akira Himekawa, the acclaimed manga duo behind the brand-new hit series Kamudo, and the artists behind The Legend of Zelda manga. Fans attending the signing will receive a free, exclusive art card! Availability is limited, and spots will be offered on a first-come, first-served basis. 1 item per person.",
+    "people_list": "",
+    "people": []
+  },
   "909732": {
     "title": "Agents of S.H.I.E.L.D.: A Reunion with Clark Gregg, Ming-Na Wen &amp; Chloe Bennet",
     "description": "Your favorite agents have returned to NYCC —this time for a special cast reunion with the stars who helped turn a one-shot revival into seven seasons of unforgettable storytelling. Join Clark Gregg (Agent Phil Coulson), Ming-Na Wen (Agent Melinda May), and Chloe Bennet (Daisy Johnson/Quake) as they reflect on the show's lasting legacy, share behind-the-scenes stories, and celebrate the passionate fan community that kept the S.H.I.E.L.D. mission alive. From “Coulson Lives!” to the rise of Quake and the saga of time-hopping agents and LMDs, this is the ultimate reunion for anyone who rode the bus from day one.",
@@ -6460,7 +6487,7 @@
   },
   "909659": {
     "title": "MORTAL KOMBAT II Feature Film",
-    "description": "Return to the brutal glory of the Earthrealm in New Line Cinema’s all-new MORTAL KOMBAT II! The Warner Bros. Pictures presentation at NYCC will offer fans a glimpse into the latest high-stakes installment in the blockbuster video game-inspired film franchise.  The panel guests include stars Karl Urban, Adeline Rudolph, Tati Gabrielle and Martyn Ford, along with filmmakers Simon McQuoid and Ed Boon, moderated by a special guest.",
+    "description": "Return to the brutal glory of the Earthrealm in New Line Cinema’s all-new MORTAL KOMBAT II! The Warner Bros. Pictures presentation at NYCC will offer fans a glimpse into the latest high-stakes installment in the blockbuster video game-inspired film franchise.  The panel guests include stars Karl Urban, Adeline Rudolph, Tati Gabrielle and Martyn Ford, along with filmmakers Simon McQuoid and Ed Boon, and screenwriter Jeremy Slater, moderated by a special guest.",
     "people_list": "",
     "people": []
   },
@@ -6813,8 +6840,8 @@
     "people": []
   },
   "911657": {
-    "title": "Betty Boop – The Evolution of an Animated Icon Through Entertainment Media",
-    "description": "Join the panel in exploring Betty Boop’s history, popularity, and impact on pop culture through her appearance in virtually every entertainment medium, including early animated film, TV, comic strips, and now Broadway musical theater as the headliner of “BOOP! The Musical.”  Presented by members of the Fleischer Studios team, the “BOOP!” production team, and the newly released “BOOP!” cast album production team.",
+    "title": "BETTY BOOP – The 100-year evolution from Animation to Broadway and Beyond",
+    "description": "Join the panel to discuss the history of Betty Boop, her cultural impact and her enduring popularity around the world. Having conquered virtually every entertainment medium, from early animated shorts, to TV and comic strips and now Broadway stardom! Explore the creative journey that led to BOOP! The Musical, it’s dazzling original cast recording and more! Presented by Fleischer Studios and the Broadway production team along with a special appearance from the star of Boop! The Musical herself, Jasmine Amy Rogers!",
     "people_list": "",
     "people": []
   },
@@ -7606,14 +7633,6 @@
     "people_list": "",
     "people": []
   },
-  "913181": {
-    "title": "Mae Whitman Autographing Session",
-    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
-    "people_list": "Mae Whitman",
-    "people": [
-      "Mae Whitman"
-    ]
-  },
   "913224": {
     "title": "Michaela Murphy Autographing Session",
     "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
@@ -7689,6 +7708,14 @@
     "people_list": "Krysten Ritter",
     "people": [
       "Krysten Ritter"
+    ]
+  },
+  "913181": {
+    "title": "Mae Whitman Autographing Session",
+    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
+    "people_list": "Mae Whitman",
+    "people": [
+      "Mae Whitman"
     ]
   },
   "912926": {

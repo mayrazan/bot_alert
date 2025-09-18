@@ -1386,13 +1386,14 @@
   "909497": {
     "title": "Women in Fantasy: Shaping New Worlds",
     "description": "Join these bestselling authors for an empowering discussion on the role of women in fantasy—both on the page and behind the pen. From crafting fierce heroines to building intricate magical worlds, these trailblazing storytellers will explore the challenges and triumphs of writing fantasy as women, the evolving landscape of the genre, and how they channel myth, romance, and rebellion into unforgettable tales.",
-    "people_list": "Alex Aster, Abigail Owen, Mai Corland, Laini Taylor, Delilah S. Dawson",
+    "people_list": "Alex Aster, Abigail Owen, Mai Corland, Laini Taylor, Delilah S. Dawson, Jane Harrington",
     "people": [
       "Alex  Aster",
       "Abigail Owen",
       "Mai Corland",
       "Laini Taylor",
-      "Delilah S. Dawson"
+      "Delilah S. Dawson",
+      "Jane Harrington"
     ]
   },
   "903871": {
@@ -1787,13 +1788,14 @@
   "911179": {
     "title": "Women in Fantasy - Post Panel Book Signing",
     "description": "Join authors from the \"Women in Fantasy\" panel as they meet fans and sign books. Books will be available for purchase from the Barnes &amp; Noble booth in Hall 1A, adjacent to the author signing area.  Oner book personalized, up to three total books signed. No posed photos. ",
-    "people_list": "Alex Aster, Mai Corland, Delilah S. Dawson, Abigail Owen, Laini Taylor",
+    "people_list": "Alex Aster, Mai Corland, Delilah S. Dawson, Abigail Owen, Laini Taylor, Jane Harrington",
     "people": [
       "Alex  Aster",
       "Mai Corland",
       "Delilah S. Dawson",
       "Abigail Owen",
-      "Laini Taylor"
+      "Laini Taylor",
+      "Jane Harrington"
     ]
   },
   "912783": {
@@ -2089,10 +2091,11 @@
   "910427": {
     "title": "Pep &amp; Hugh's Queer History 101 Book Club featuring George Takei",
     "description": "Peppermint and Hugh Ryan are hosts of a popular podcast on Queer history and books. For this\nspecial episode, taped during the panel, the hosts will discuss queer representation in comics\nand focus on a few comics that are about queer history.\n",
-    "people_list": "Hugh Ryan,  Peppermint",
+    "people_list": "Hugh Ryan,  Peppermint, George Takei",
     "people": [
       "Hugh Ryan",
-      "Peppermint (Peppermint)"
+      "Peppermint (Peppermint)",
+      "George Takei (George Takei)"
     ]
   },
   "912479": {
@@ -6553,8 +6556,16 @@
   "909659": {
     "title": "MORTAL KOMBAT II Feature Film",
     "description": "Return to the brutal glory of the Earthrealm in New Line Cinema’s all-new MORTAL KOMBAT II! The Warner Bros. Pictures presentation at NYCC will offer fans a glimpse into the latest high-stakes installment in the blockbuster video game-inspired film franchise.  The panel guests include stars Karl Urban, Adeline Rudolph, Tati Gabrielle and Martyn Ford, along with filmmakers Simon McQuoid and Ed Boon, and screenwriter Jeremy Slater, moderated by a special guest.",
-    "people_list": "",
-    "people": []
+    "people_list": "Adeline Rudolph, Ed Boon, Jeremy Slater, Karl Urban, Martyn Ford, Simon McQuoid, Tati Gabrielle",
+    "people": [
+      "Adeline Rudolph",
+      "Ed Boon",
+      "Jeremy Slater",
+      "Karl Urban",
+      "Martyn Ford",
+      "Simon McQuoid",
+      "Tati Gabrielle"
+    ]
   },
   "909666": {
     "title": "Marvel: Comics to Screen",
@@ -6713,6 +6724,12 @@
       "Laurel Leffler",
       "Codie Crowley"
     ]
+  },
+  "913432": {
+    "title": "NY Times Bestselling author Casey McQuiston Booksigning",
+    "description": "Casey will personalize 1 book, and sign (signature only) up to 3 additional books",
+    "people_list": "",
+    "people": []
   },
   "913240": {
     "title": "Nicholas Hoult Autographing Session",
@@ -7024,6 +7041,12 @@
     "people": [
       "Alia Hanna  Habib"
     ]
+  },
+  "913433": {
+    "title": "Sneak Peek: Lucas Museum of Narrative Art",
+    "description": "Description coming soon!",
+    "people_list": "",
+    "people": []
   },
   "910118": {
     "title": "Playbill presents: Little Shop of Horrors on Broadway",
@@ -7997,13 +8020,14 @@
   "909594": {
     "title": "Enchanting Entanglements",
     "description": "Have you ever been reading a scene between a hero and their antagonist and thought “yes, good…now kiss!”? Have you ever wondered what it would be like to date your magic-wielding rival?  Then you know you are a Romantasy Lover… From epic fantasy and romance, to dark and twisted love stories and beyond, join Carissa Broadbent, Sara Raasch, Tricia Levenseller, Maddie Martinez, and Sarah Beth Durst for discussion of why romantasy is on the top of all of our TBRs.\n",
-    "people_list": "Tricia Levenseller, Sarah Raasch, Carissa Broadbent, Sarah Beth Durst, Maddie Martinez",
+    "people_list": "Tricia Levenseller, Sarah Raasch, Carissa Broadbent, Sarah Beth Durst, Maddie Martinez, Bel Banta",
     "people": [
       "Tricia Levenseller",
       "Sarah Raasch",
       "Carissa Broadbent",
       "Sarah Beth Durst",
-      "Maddie Martinez"
+      "Maddie Martinez",
+      "Bel Banta"
     ]
   },
   "913236": {
@@ -8090,12 +8114,6 @@
       "Deborah Gluzband (IndieDebz)",
       "Sean Sullivan"
     ]
-  },
-  "911092": {
-    "title": "NYCC Networking",
-    "description": "Unwind and connect at NYCC Networking, the ultimate networking meetup designed for comic book creators, cosplayers, industry professionals, and fans eager to dive into the latest and greatest in the pop culture world! Enjoy a relaxed atmosphere perfect for forging new connections. Whether you’re looking to collaborate, find inspiration, or simply meet fellow enthusiasts, this is your chance to make meaningful connections in a low-key setting. Build relationships with key players in the community and discover new opportunities. Join us and take your networking experience to the next level! Let's celebrate creativity, exchange ideas, and forge new connections in a vibrant and friendly atmosphere.",
-    "people_list": "",
-    "people": []
   },
   "909822": {
     "title": "Totally Metal!  Create Your Own Chainmail [Separately Ticketed]",
@@ -8565,6 +8583,12 @@
     "people": [
       "Masked Dad Workshop"
     ]
+  },
+  "911092": {
+    "title": "NYCC Networking",
+    "description": "Unwind and connect at NYCC Networking, the ultimate networking meetup designed for comic book creators, cosplayers, industry professionals, and fans eager to dive into the latest and greatest in the pop culture world! Enjoy a relaxed atmosphere perfect for forging new connections. Whether you’re looking to collaborate, find inspiration, or simply meet fellow enthusiasts, this is your chance to make meaningful connections in a low-key setting. Build relationships with key players in the community and discover new opportunities. Join us and take your networking experience to the next level! Let's celebrate creativity, exchange ideas, and forge new connections in a vibrant and friendly atmosphere.",
+    "people_list": "",
+    "people": []
   },
   "913140": {
     "title": "Joe Pantoliano Autographing Session",

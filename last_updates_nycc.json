@@ -5,6 +5,14 @@
     "people_list": "",
     "people": []
   },
+  "913411": {
+    "title": "Ghostbusters Training Center Slime Lab",
+    "description": "<b>WHO YOU GONNA CALL? New York City GHOSTBUSTERS!</b>\n\nStep into the Slime Lab and create your own slime samples (nontoxic and mostly not haunted), get an up-close look at the tools of the paranormal elimination trade (though the proton pack is not a toy), and take photos with a playful backdrop inspired by The Real Ghostbusters cartoon. There will be a variety of prizes and original merchandise, including a selection of special NYCC exclusives! ",
+    "people_list": "Nicholas DeTiberiis",
+    "people": [
+      "Nicholas DeTiberiis (New York City Ghostbusters)"
+    ]
+  },
   "912402": {
     "title": "RESERVATION REQUIRED - Todd McFarlane Autographing",
     "description": "Table 44, Requires a Separate Reservation, 1 Signature per person/reservation.",
@@ -27,14 +35,6 @@
     "people_list": "Karl Urban",
     "people": [
       "Karl Urban"
-    ]
-  },
-  "913411": {
-    "title": "Ghostbusters Training Center Slime Lab",
-    "description": "<b>WHO YOU GONNA CALL? New York City GHOSTBUSTERS!</b>\n\nStep into the Slime Lab and create your own slime samples (nontoxic and mostly not haunted), get an up-close look at the tools of the paranormal elimination trade (though the proton pack is not a toy), and take photos with a playful backdrop inspired by The Real Ghostbusters cartoon. There will be a variety of prizes and original merchandise, including a selection of special NYCC exclusives! ",
-    "people_list": "Nicholas DeTiberiis",
-    "people": [
-      "Nicholas DeTiberiis (New York City Ghostbusters)"
     ]
   },
   "911127": {
@@ -310,6 +310,30 @@
       "Jennifer Hale"
     ]
   },
+  "913885": {
+    "title": "Amir Talai Photo Op",
+    "description": null,
+    "people_list": "",
+    "people": []
+  },
+  "913886": {
+    "title": "Christian Borle Photo Op",
+    "description": null,
+    "people_list": "",
+    "people": []
+  },
+  "913888": {
+    "title": "Joel Perez Photo Op",
+    "description": null,
+    "people_list": "",
+    "people": []
+  },
+  "913889": {
+    "title": "Lilli Cooper Photo Op",
+    "description": null,
+    "people_list": "",
+    "people": []
+  },
   "913125": {
     "title": "Jodi Benson Autographing Session",
     "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
@@ -335,6 +359,12 @@
   "912635": {
     "title": "Stranger Things: Welcome to the Hellfire Club",
     "description": "The final season of Stranger Things is here and what better way to celebrate than playing some D&amp;D with friends. Eddie needs your help!!! Come play one of the iconic characters from the Hellfire Club and see if you can figure out what's happening in Greyhawkins. Join us for a 90-minute game that will get you all the basics you need to know. Signups happen each morning at D&amp;D HQ in Hall 1E",
+    "people_list": "",
+    "people": []
+  },
+  "913863": {
+    "title": "TeamUp - Hazbin Hotel Cast Photo Op",
+    "description": null,
     "people_list": "",
     "people": []
   },
@@ -377,6 +407,36 @@
     "people_list": "",
     "people": []
   },
+  "913890": {
+    "title": "Kimiko Glenn Photo Op",
+    "description": null,
+    "people_list": "",
+    "people": []
+  },
+  "913891": {
+    "title": "Krystina Alabado Photo Op",
+    "description": null,
+    "people_list": "",
+    "people": []
+  },
+  "913892": {
+    "title": "TeamUp - Hazbin Hotel - Angel Dust &amp; Alastor Photo Op",
+    "description": null,
+    "people_list": "",
+    "people": []
+  },
+  "913893": {
+    "title": "TeamUp - Hazbin Hotel -The Vees Photo Op",
+    "description": null,
+    "people_list": "",
+    "people": []
+  },
+  "913895": {
+    "title": "TeamUp - Hazbin Hotel - Vox &amp; Alastor Photo Op",
+    "description": null,
+    "people_list": "",
+    "people": []
+  },
   "909683": {
     "title": "Comic Con in Your School",
     "description": "Want to make your own Comic Con for your school community? Join a panel of educators and administrators who have successfully implemented school-wide Comic Cons. Learn practical strategies for incorporating comics into your curriculum, build excitement around student creations, and transform your school into a dynamic hub for creativity and collaboration. Discover how to leverage Comic Cons as powerful learning experiences that celebrate student achievement and foster a love of storytelling.",
@@ -389,6 +449,12 @@
       "William Bochbot",
       "Gina Gagliano"
     ]
+  },
+  "913896": {
+    "title": "TeamUp - Hazbin Hotel - Hotel Residents Photo Op",
+    "description": null,
+    "people_list": "",
+    "people": []
   },
   "911147": {
     "title": "Star Wars Meetup",
@@ -1459,14 +1525,6 @@
     "people_list": "",
     "people": []
   },
-  "913416": {
-    "title": "Ghostbusters Training Center Slime Lab",
-    "description": "<b>WHO YOU GONNA CALL? New York City GHOSTBUSTERS!</b>\n\nStep into the Slime Lab and create your own slime samples (nontoxic and mostly not haunted), get an up-close look at the tools of the paranormal elimination trade (though the proton pack is not a toy), and take photos with a playful backdrop inspired by The Real Ghostbusters cartoon. There will be a variety of prizes and original merchandise, including a selection of special NYCC exclusives! ",
-    "people_list": "Nicholas DeTiberiis",
-    "people": [
-      "Nicholas DeTiberiis (New York City Ghostbusters)"
-    ]
-  },
   "894243": {
     "title": "Dollar Store to Con Floor: Budget Crafting for Cosplay",
     "description": "Expensive materials aren’t required for high-quality cosplays! Discover budget-friendly crafting techniques using dollar-store items, household materials, and alternative supplies to create armor, props, and accessories that look incredible without costing a fortune.",
@@ -1659,12 +1717,6 @@
       "Kimberly Savino",
       "Esraa Luna"
     ]
-  },
-  "911381": {
-    "title": "Panel Coming Soon",
-    "description": "The New York Comic Con team is cooking up something awesome! More details on this panel coming soon.\n\nStay up to date on the latest New York Comic Con news at NewYorkComicCon.com and on Facebook, X, and Instagram.",
-    "people_list": "",
-    "people": []
   },
   "911173": {
     "title": "Lost in Illustration - Post Panel Book Signing",
@@ -2306,6 +2358,14 @@
       "Joelle Wellington"
     ]
   },
+  "913412": {
+    "title": "Ghostbusters Training Center Slime Lab",
+    "description": "<b>WHO YOU GONNA CALL? New York City GHOSTBUSTERS!</b>\n\nStep into the Slime Lab and create your own slime samples (nontoxic and mostly not haunted), get an up-close look at the tools of the paranormal elimination trade (though the proton pack is not a toy), and take photos with a playful backdrop inspired by The Real Ghostbusters cartoon. There will be a variety of prizes and original merchandise, including a selection of special NYCC exclusives! ",
+    "people_list": "Nicholas DeTiberiis",
+    "people": [
+      "Nicholas DeTiberiis (New York City Ghostbusters)"
+    ]
+  },
   "912490": {
     "title": "Yearbook Photos",
     "description": "<b>Yearbook Photo Pricing by TU Creators<b>\n</b></b><p>\n<b>Free Digital Yearbook:</b> Everyone can have their photo taken and included in the yearbook at no cost. A digital copy will be emailed to all participants.\n</p><p>\n<b>Optional Portrait Package ($20):</b> For those who’d like a professionally edited portrait of their yearbook photo. This is completely optional and not required to appear in the book.\n</p><p>\n<b>Printed Yearbook ($55 + shipping):</b>A full physical copy of the yearbook delivered to your door.</p>",
@@ -2326,14 +2386,6 @@
     "people_list": "Karl Urban",
     "people": [
       "Karl Urban"
-    ]
-  },
-  "913412": {
-    "title": "Ghostbusters Training Center Slime Lab",
-    "description": "<b>WHO YOU GONNA CALL? New York City GHOSTBUSTERS!</b>\n\nStep into the Slime Lab and create your own slime samples (nontoxic and mostly not haunted), get an up-close look at the tools of the paranormal elimination trade (though the proton pack is not a toy), and take photos with a playful backdrop inspired by The Real Ghostbusters cartoon. There will be a variety of prizes and original merchandise, including a selection of special NYCC exclusives! ",
-    "people_list": "Nicholas DeTiberiis",
-    "people": [
-      "Nicholas DeTiberiis (New York City Ghostbusters)"
     ]
   },
   "911623": {
@@ -3914,14 +3966,6 @@
     "people_list": "",
     "people": []
   },
-  "913417": {
-    "title": "Ghostbusters Training Center Slime Lab",
-    "description": "<b>WHO YOU GONNA CALL? New York City GHOSTBUSTERS!</b>\n\nStep into the Slime Lab and create your own slime samples (nontoxic and mostly not haunted), get an up-close look at the tools of the paranormal elimination trade (though the proton pack is not a toy), and take photos with a playful backdrop inspired by The Real Ghostbusters cartoon. There will be a variety of prizes and original merchandise, including a selection of special NYCC exclusives! ",
-    "people_list": "Nicholas DeTiberiis",
-    "people": [
-      "Nicholas DeTiberiis (New York City Ghostbusters)"
-    ]
-  },
   "911153": {
     "title": "Jedi Meditation",
     "description": "Calling all Younglings! Learn tips and techniques used by the Jedi Masters themselves, or take a few moments of calm in your busy day at NYCC. Hosted by Saber Guild’s Empire Temple.",
@@ -4665,6 +4709,14 @@
     "people_list": "",
     "people": []
   },
+  "913413": {
+    "title": "Ghostbusters Training Center Slime Lab",
+    "description": "<b>WHO YOU GONNA CALL? New York City GHOSTBUSTERS!</b>\n\nStep into the Slime Lab and create your own slime samples (nontoxic and mostly not haunted), get an up-close look at the tools of the paranormal elimination trade (though the proton pack is not a toy), and take photos with a playful backdrop inspired by The Real Ghostbusters cartoon. There will be a variety of prizes and original merchandise, including a selection of special NYCC exclusives! ",
+    "people_list": "Nicholas DeTiberiis",
+    "people": [
+      "Nicholas DeTiberiis (New York City Ghostbusters)"
+    ]
+  },
   "912491": {
     "title": "Yearbook Photos",
     "description": "<b>Yearbook Photo Pricing by TU Creators<b>\n</b></b><p>\n<b>Free Digital Yearbook:</b> Everyone can have their photo taken and included in the yearbook at no cost. A digital copy will be emailed to all participants.\n</p><p>\n<b>Optional Portrait Package ($20):</b> For those who’d like a professionally edited portrait of their yearbook photo. This is completely optional and not required to appear in the book.\n</p><p>\n<b>Printed Yearbook ($55 + shipping):</b>A full physical copy of the yearbook delivered to your door.</p>",
@@ -4691,14 +4743,6 @@
     "people_list": "Krysten Ritter",
     "people": [
       "Krysten Ritter"
-    ]
-  },
-  "913413": {
-    "title": "Ghostbusters Training Center Slime Lab",
-    "description": "<b>WHO YOU GONNA CALL? New York City GHOSTBUSTERS!</b>\n\nStep into the Slime Lab and create your own slime samples (nontoxic and mostly not haunted), get an up-close look at the tools of the paranormal elimination trade (though the proton pack is not a toy), and take photos with a playful backdrop inspired by The Real Ghostbusters cartoon. There will be a variety of prizes and original merchandise, including a selection of special NYCC exclusives! ",
-    "people_list": "Nicholas DeTiberiis",
-    "people": [
-      "Nicholas DeTiberiis (New York City Ghostbusters)"
     ]
   },
   "913166": {
@@ -6314,14 +6358,6 @@
     "people_list": "",
     "people": []
   },
-  "913418": {
-    "title": "Ghostbusters Training Center Slime Lab",
-    "description": "<b>WHO YOU GONNA CALL? New York City GHOSTBUSTERS!</b>\n\nStep into the Slime Lab and create your own slime samples (nontoxic and mostly not haunted), get an up-close look at the tools of the paranormal elimination trade (though the proton pack is not a toy), and take photos with a playful backdrop inspired by The Real Ghostbusters cartoon. There will be a variety of prizes and original merchandise, including a selection of special NYCC exclusives! ",
-    "people_list": "Nicholas DeTiberiis",
-    "people": [
-      "Nicholas DeTiberiis (New York City Ghostbusters)"
-    ]
-  },
   "911157": {
     "title": "Blast-A-Trooper",
     "description": "Interactive experience to “blast” Stormtroopers and Mandalorians with foam dart blasters; fundraiser for charity led by 501st ECG and Mandalorian Mercs Falco Clan.",
@@ -7198,6 +7234,14 @@
       "DeShon Elem (Delta Major)"
     ]
   },
+  "913414": {
+    "title": "Ghostbusters Training Center Slime Lab",
+    "description": "<b>WHO YOU GONNA CALL? New York City GHOSTBUSTERS!</b>\n\nStep into the Slime Lab and create your own slime samples (nontoxic and mostly not haunted), get an up-close look at the tools of the paranormal elimination trade (though the proton pack is not a toy), and take photos with a playful backdrop inspired by The Real Ghostbusters cartoon. There will be a variety of prizes and original merchandise, including a selection of special NYCC exclusives! ",
+    "people_list": "Nicholas DeTiberiis",
+    "people": [
+      "Nicholas DeTiberiis (New York City Ghostbusters)"
+    ]
+  },
   "912492": {
     "title": "Yearbook Photos",
     "description": "<b>Yearbook Photo Pricing by TU Creators<b>\n</b></b><p>\n<b>Free Digital Yearbook:</b> Everyone can have their photo taken and included in the yearbook at no cost. A digital copy will be emailed to all participants.\n</p><p>\n<b>Optional Portrait Package ($20):</b> For those who’d like a professionally edited portrait of their yearbook photo. This is completely optional and not required to appear in the book.\n</p><p>\n<b>Printed Yearbook ($55 + shipping):</b>A full physical copy of the yearbook delivered to your door.</p>",
@@ -7220,14 +7264,6 @@
     "people_list": "Matt Dinniman",
     "people": [
       "Matt  Dinniman"
-    ]
-  },
-  "913414": {
-    "title": "Ghostbusters Training Center Slime Lab",
-    "description": "<b>WHO YOU GONNA CALL? New York City GHOSTBUSTERS!</b>\n\nStep into the Slime Lab and create your own slime samples (nontoxic and mostly not haunted), get an up-close look at the tools of the paranormal elimination trade (though the proton pack is not a toy), and take photos with a playful backdrop inspired by The Real Ghostbusters cartoon. There will be a variety of prizes and original merchandise, including a selection of special NYCC exclusives! ",
-    "people_list": "Nicholas DeTiberiis",
-    "people": [
-      "Nicholas DeTiberiis (New York City Ghostbusters)"
     ]
   },
   "913159": {
@@ -8240,14 +8276,6 @@
       "Troy Baker"
     ]
   },
-  "913415": {
-    "title": "Ghostbusters Training Center Slime Lab",
-    "description": "<b>WHO YOU GONNA CALL? New York City GHOSTBUSTERS!</b>\n\nStep into the Slime Lab and create your own slime samples (nontoxic and mostly not haunted), get an up-close look at the tools of the paranormal elimination trade (though the proton pack is not a toy), and take photos with a playful backdrop inspired by The Real Ghostbusters cartoon. There will be a variety of prizes and original merchandise, including a selection of special NYCC exclusives! ",
-    "people_list": "Nicholas DeTiberiis",
-    "people": [
-      "Nicholas DeTiberiis (New York City Ghostbusters)"
-    ]
-  },
   "909835": {
     "title": "KIDS COSPLAY CONTEST",
     "description": "It’s Kids Day at Comic Con, and the runway is calling! RuPaul’s Drag Race stars Yuhua Hamasaki and Megami join forces to bring extra sparkle, laughs, and glam to the cutest cosplay competition of the weekend.\n\nCheer on our young superheroes, wizards, and warriors as they strut, twirl, and show off their creative costumes. With Yuhua and Megami at the helm, expect big smiles, fabulous energy, and a celebration of fandom for fans of all ages!",
@@ -8419,7 +8447,7 @@
   },
   "901427": {
     "title": "Chainsaw Man SPECIAL PANEL",
-    "description": "Get an inside look at the making of Chainsaw Man – The Movie: Reze Arc with the creative team behind the film, brought to you by MAPPA!  The film hits U.S. theaters on October 29, 2025.  Hear behind-the-scenes stories, creative insights, and what to expect as the team gets ready to bring it to the big screen.",
+    "description": "Get an inside look at the making of Chainsaw Man – The Movie: Reze Arc with the creative team behind the film, brought to you by MAPPA!  The film hits U.S. theaters on October 24, 2025.  Hear behind-the-scenes stories, creative insights, and what to expect as the team gets ready to bring it to the big screen.",
     "people_list": "",
     "people": []
   },

@@ -313,7 +313,7 @@
   },
   "913885": {
     "title": "Amir Talai Photo Op",
-    "description": null,
+    "description": "",
     "people_list": "",
     "people": []
   },
@@ -6019,6 +6019,14 @@
       "Nicholas Hoult"
     ]
   },
+  "914156": {
+    "title": "Norman Reedus Photo Op",
+    "description": null,
+    "people_list": "Norman Reedus",
+    "people": [
+      "Norman Reedus"
+    ]
+  },
   "913070": {
     "title": "Deborah Ann Woll Autographing Session",
     "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
@@ -6033,14 +6041,6 @@
     "people_list": "Ernie Hudson",
     "people": [
       "Ernie Hudson"
-    ]
-  },
-  "912851": {
-    "title": "Jon Bernthal Photo Op",
-    "description": null,
-    "people_list": "Jon Bernthal",
-    "people": [
-      "Jon Bernthal"
     ]
   },
   "912852": {
@@ -6274,21 +6274,13 @@
       "Simon Pegg"
     ]
   },
-  "912858": {
-    "title": "Krysten Ritter Photo Op",
+  "914157": {
+    "title": "TeamUp - Daredevil &amp; Jessica Jones Photo Op",
     "description": null,
-    "people_list": "Krysten Ritter",
+    "people_list": "Charlie Cox, Krysten Ritter",
     "people": [
+      "Charlie Cox",
       "Krysten Ritter"
-    ]
-  },
-  "912859": {
-    "title": "TeamUp - Daredevil &amp; Punisher Photo Op",
-    "description": null,
-    "people_list": "Jon Bernthal, Charlie Cox",
-    "people": [
-      "Jon Bernthal",
-      "Charlie Cox"
     ]
   },
   "912438": {
@@ -6323,6 +6315,14 @@
     "people_list": "James McAvoy",
     "people": [
       "James McAvoy"
+    ]
+  },
+  "912858": {
+    "title": "Krysten Ritter Photo Op",
+    "description": null,
+    "people_list": "Krysten Ritter",
+    "people": [
+      "Krysten Ritter"
     ]
   },
   "912860": {
@@ -7248,12 +7248,6 @@
     "people_list": "",
     "people": []
   },
-  "904290": {
-    "title": "Travel Channel/HBO Max's Paranormal Caught On Camera Season 9 - Still bringing the scares",
-    "description": "For Nine Seasons, the hit show Paranormal Caught On Camera has been bringing spooky footage from around the world into the homes of viewers. As one of the only remaining paranormal shows with new seasons on network TV, the show has traveled the globe searching for folklore, weird tales of monsters, and of course ghosts. Join the cast for a spirited conversation about making the show, and the behind the scenes secrets.",
-    "people_list": "",
-    "people": []
-  },
   "909418": {
     "title": "The Lineup's Horror Cosplay Meetup",
     "description": "Do you love all things horrifying? The unsettling and the macabre? Slashers, monsters, and ghouls galore? Show up in your most chilling horror cosplay for a ghastly group picture—or swing by in your civvies to talk terror with likeminded fans. Guests who join us will have the opportunity to enter giveaways to take home some awesome horror swag! Stay tuned for more info on the-line-up.com",
@@ -7752,6 +7746,14 @@
       "Tatiana Maslany"
     ]
   },
+  "912914": {
+    "title": "Krysten Ritter Photo Op",
+    "description": null,
+    "people_list": "Krysten Ritter",
+    "people": [
+      "Krysten Ritter"
+    ]
+  },
   "913324": {
     "title": "Vincent D'Onofrio Autographing Session",
     "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
@@ -7821,14 +7823,6 @@
       "Cintia Castro (Cin' Von Quinzel)"
     ]
   },
-  "912914": {
-    "title": "Krysten Ritter Photo Op",
-    "description": null,
-    "people_list": "Krysten Ritter",
-    "people": [
-      "Krysten Ritter"
-    ]
-  },
   "912915": {
     "title": "Mike Colter Photo Op",
     "description": null,
@@ -7849,13 +7843,13 @@
       "Michaela Jill Murphy"
     ]
   },
-  "912917": {
-    "title": "TeamUp - Daredevil &amp; Punisher Photo Op",
+  "914158": {
+    "title": "TeamUp - Daredevil &amp; Jessica Jones Photo Op",
     "description": null,
-    "people_list": "Jon Bernthal, Charlie Cox",
+    "people_list": "Charlie Cox, Krysten Ritter",
     "people": [
-      "Jon Bernthal",
-      "Charlie Cox"
+      "Charlie Cox",
+      "Krysten Ritter"
     ]
   },
   "909591": {
@@ -7953,14 +7947,6 @@
     "people_list": "Dante Basco",
     "people": [
       "Dante Basco"
-    ]
-  },
-  "912920": {
-    "title": "Jon Bernthal Photo Op",
-    "description": null,
-    "people_list": "Jon Bernthal",
-    "people": [
-      "Jon Bernthal"
     ]
   },
   "912921": {

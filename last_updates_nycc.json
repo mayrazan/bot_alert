@@ -337,14 +337,18 @@
   "913885": {
     "title": "Amir Talai Photo Op",
     "description": "",
-    "people_list": "",
-    "people": []
+    "people_list": "Amir Talai",
+    "people": [
+      "Amir Talai"
+    ]
   },
   "913886": {
     "title": "Christian Borle Photo Op",
     "description": null,
-    "people_list": "",
-    "people": []
+    "people_list": "Christian Borle",
+    "people": [
+      "Christian Borle"
+    ]
   },
   "914399": {
     "title": "11 a.m. to 7 p.m. | Live Giant-Card Painting with Andy Price – Comic Illustrator, MY LITTLE PONY | Kayou Booth",
@@ -363,8 +367,10 @@
   "913889": {
     "title": "Lilli Cooper Photo Op",
     "description": null,
-    "people_list": "",
-    "people": []
+    "people_list": "Lilli Cooper",
+    "people": [
+      "Lilli Cooper"
+    ]
   },
   "913125": {
     "title": "Jodi Benson Autographing Session",
@@ -397,8 +403,14 @@
   "913863": {
     "title": "TeamUp - Hazbin Hotel Cast Photo Op",
     "description": null,
-    "people_list": "",
-    "people": []
+    "people_list": "Kimiko Glenn, Amir Talai, Krystina Alabado, Christian Borle, Lilli Cooper",
+    "people": [
+      "Kimiko Glenn",
+      "Amir Talai",
+      "Krystina Alabado",
+      "Christian Borle",
+      "Lilli Cooper"
+    ]
   },
   "911146": {
     "title": "Jedi Meditation",
@@ -442,26 +454,35 @@
   "913890": {
     "title": "Kimiko Glenn Photo Op",
     "description": null,
-    "people_list": "",
-    "people": []
+    "people_list": "Kimiko Glenn",
+    "people": [
+      "Kimiko Glenn"
+    ]
   },
   "913891": {
     "title": "Krystina Alabado Photo Op",
     "description": null,
-    "people_list": "",
-    "people": []
+    "people_list": "Krystina Alabado",
+    "people": [
+      "Krystina Alabado"
+    ]
   },
   "913892": {
     "title": "TeamUp - Hazbin Hotel - Angel Dust &amp; Alastor Photo Op",
     "description": null,
-    "people_list": "",
-    "people": []
+    "people_list": "Amir Talai",
+    "people": [
+      "Amir Talai"
+    ]
   },
   "913893": {
     "title": "TeamUp - Hazbin Hotel -The Vees Photo Op",
     "description": null,
-    "people_list": "",
-    "people": []
+    "people_list": "Christian Borle, Lilli Cooper",
+    "people": [
+      "Christian Borle",
+      "Lilli Cooper"
+    ]
   },
   "913960": {
     "title": "Blake Roman Photo Op",
@@ -472,8 +493,11 @@
   "913895": {
     "title": "TeamUp - Hazbin Hotel - Vox &amp; Alastor Photo Op",
     "description": null,
-    "people_list": "",
-    "people": []
+    "people_list": "Amir Talai, Christian Borle",
+    "people": [
+      "Amir Talai",
+      "Christian Borle"
+    ]
   },
   "909683": {
     "title": "Comic Con in Your School",
@@ -491,8 +515,12 @@
   "913896": {
     "title": "TeamUp - Hazbin Hotel - Hotel Residents Photo Op",
     "description": null,
-    "people_list": "",
-    "people": []
+    "people_list": "Kimiko Glenn, Amir Talai, Krystina Alabado",
+    "people": [
+      "Kimiko Glenn",
+      "Amir Talai",
+      "Krystina Alabado"
+    ]
   },
   "911147": {
     "title": "Star Wars Meetup",
@@ -572,6 +600,12 @@
     "people": [
       "Julia Lepetit (Drawfee Show)"
     ]
+  },
+  "915283": {
+    "title": "Jujutsu Kaisen Cast Signing (RESERVATION REQUIRED)",
+    "description": "RESERVATION REQUIRED - Jujutsu Kaisen Cast Signing. Please arrive 15-20 minutes ahead of the scheduled start time for queueing.",
+    "people_list": "",
+    "people": []
   },
   "912486": {
     "title": "Crunchyroll Premieres - Round 1",
@@ -1338,9 +1372,10 @@
   "909408": {
     "title": "Huntr/x Don’t Miss: A KPop Demon Hunters Meetup ",
     "description": "<b> There will also be dance demonstration of a popular KPop Demon Hunter song at the meetup, the song will be a surprise!</b>\n\nAre you XQUAD or Pride? Or just vibing to the beats of KPop Demon Hunters? Whether you're a die-hard fan or just discovering the music, this is your call to arms (and glowsticks)!\n\n🎶 Come meet fellow demon-slaying stans who live for the lore, the looks, and the legendary tracks. 🧝‍♀️ Cosplay your favorite characters or roll through in your chillest fit, either way, you're part of the squad. 📸 Expect photo ops, spontaneous dance breaks, and a great time all together.\n\nThis is more than a meetup, it’s a mission. Let’s make some noise, rep our factions, and show NYCC what a real fandom looks like.",
-    "people_list": "Eenae Tam",
+    "people_list": "Eenae Tam, Mai Tan",
     "people": [
-      "Eenae Tam"
+      "Eenae Tam",
+      "Mai Tan (Mai Tan Cosplay)"
     ]
   },
   "909684": {
@@ -1960,6 +1995,14 @@
       "Daniel Fingeroth (Danny Fingeroth)"
     ]
   },
+  "915292": {
+    "title": "Chloe Gong - BookCon Booth (#3405) Book Signing",
+    "description": "Critically acclaimed and bestselling author Chloe Gong will be signing books in the BookCon booth (#3405 on the show floor). Fans can bring books from home, purchase books from the Barnes &amp; Noble Union Square booth in Hall 1A, or purchase copies of Foul Heart Huntsman in the BookCon booth. One book personalized, up to three signed, no posed photos. ",
+    "people_list": "Chloe Gong",
+    "people": [
+      "Chloe Gong"
+    ]
+  },
   "912784": {
     "title": "TeamUp - Shang-Chi Duo Photo Op",
     "description": null,
@@ -2026,6 +2069,12 @@
   "909638": {
     "title": "Prime Video Unveils an Exclusive First Look of Cross Season Two!",
     "description": "Prime Video’s hit series Cross, based on the worldwide bestselling novels by James Patterson, returns to the New York Comic Con stage with an exclusive first look at the second season of the thrilling crime drama. Aldis Hodge is back as Detective Alex Cross, joined by Isaiah Mustafa, Alona Tal, Samantha Walkes, Jeanine Mason, Wes Chatham, Matthew Lillard, and showrunner and executive producer Ben Watkins, for a darker, jaw-dropping, and more unpredictable new season. The panel will reveal shocking new cases, high-stakes revelations, and the intense character moments that have made Cross a standout hit.",
+    "people_list": "",
+    "people": []
+  },
+  "915282": {
+    "title": "Comics &amp; Advocacy",
+    "description": "Women in Comics Collective International (WinC for short, pronounced  \"wink\"), is an Eisner Award-winning artistic and informative initiative. It serves to highlight the merit and craftwork of Women and Gender Expansive people working in the comic book and multimedia industry through professional and educational events\n\nIn this discussion, panelists will talk about how they use comics as an advocacy tool for social change both in their communities and the outside world. Featured panelists are: Award Winning Comic Book Writer Greg Pak, Famed Cartoonist Barbara Brandon-Croft, and Veteran Comic Book Creator &amp; Illustrator Micheline Hess. Panel moderated by WinC Founder &amp; Comic Book Writer Regine L. Sawyer. ",
     "people_list": "",
     "people": []
   },
@@ -3346,14 +3395,6 @@
       "Travis Willingham"
     ]
   },
-  "913310": {
-    "title": "Troy Baker Autographing Session",
-    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
-    "people_list": "Troy Baker",
-    "people": [
-      "Troy Baker"
-    ]
-  },
   "911373": {
     "title": "Joe Hill Book Signing",
     "description": "Bestselling and critically acclaimed author Joe Hill will be on hand to meet fans and sign books. One book personalized, up to three total books signed, no posed photos. Books will be available for purchase from the Barnes &amp; Noble at the front of Hall 1A. ",
@@ -3425,6 +3466,14 @@
     "people_list": "Christopher Randolph",
     "people": [
       "Christopher Randolph"
+    ]
+  },
+  "913310": {
+    "title": "Troy Baker Autographing Session",
+    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
+    "people_list": "Troy Baker",
+    "people": [
+      "Troy Baker"
     ]
   },
   "912801": {
@@ -3888,14 +3937,6 @@
     "people_list": "",
     "people": []
   },
-  "913311": {
-    "title": "Troy Baker Autographing Session",
-    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
-    "people_list": "Troy Baker",
-    "people": [
-      "Troy Baker"
-    ]
-  },
   "904353": {
     "title": "Aniplex of America 20th Anniversary Industry Panel",
     "description": "For the past 20 years, Aniplex of America has brought a wide variety of shows that have captured the hearts of many fans the world over! Join us as we celebrate our past, present, and future with a jam-packed anime industry anniversary panel!",
@@ -4176,6 +4217,14 @@
       "Michelle Ross (honeytoast.cos)"
     ]
   },
+  "915300": {
+    "title": "Tessa Bailey - BookCon Booth (#3405) Book Signing",
+    "description": "Critically acclaimed and bestselling author Tessa Bailey will be signing books in the BookCon booth (#3405 on the show floor). Fans can bring books from home, purchase books from the Barnes &amp; Noble Union Square booth in Hall 1A, or purchase copies of PITCHER PERFECT in the BookCon booth. One book personalized, up to three signed, no posed photos.",
+    "people_list": "Tessa Bailey",
+    "people": [
+      "Tessa Bailey"
+    ]
+  },
   "913005": {
     "title": "Cam Clarke Autographing Session",
     "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
@@ -4289,6 +4338,14 @@
     "people_list": "Sigourney Weaver",
     "people": [
       "Sigourney Weaver"
+    ]
+  },
+  "913311": {
+    "title": "Troy Baker Autographing Session",
+    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
+    "people_list": "Troy Baker",
+    "people": [
+      "Troy Baker"
     ]
   },
   "903792": {
@@ -4865,7 +4922,7 @@
   "909595": {
     "title": "The New York Comic Con Talent Show!",
     "description": "We are proudly welcoming back The New York Comic Con Talent Show, a dazzling display of creativity, skill, and entertainment, starring your fellow con-goers! Come on by and support your local performers as they showcase their unique talents, whether they be singing, dancing, juggling, playing an instrument, magic, comedy, or any other extraordinary ability, for a chance to win some fabulous prizes (and bragging rights)! \n**Please note you must sign up in advance to participate as a performer in the Talent show! Submissions are now closed.",
-    "people_list": "Erika Jasmine Sandler, Yalda Mostajeran, Tajah Ramsey, Cole Perillo, Sean Augustin, Julia Gosztyla, Suchita Lal, David Koch, Jarrid Crespo, Teresa Hui, Guilherme Queiroz, Demetrius Lee, Shalisha Witherspoon, Adrianna Jarvis, Matt Guarino, Alyssa Cecere, Caroline Beckwith, Arielle Scena-Shifrin, Christian Pagan, Cassidy Wells, Juliana Frangella, Jessica Richardson, Hallie Dolin, Daniel Lomb, Thomas Rivera, Andrew Duplessie, Asta Darling",
+    "people_list": "Erika Jasmine Sandler, Yalda Mostajeran, Tajah Ramsey, Cole Perillo, Sean Augustin, Julia Gosztyla, Suchita Lal, David Koch, Jarrid Crespo, Teresa Hui, Guilherme Queiroz, Demetrius Lee, Shalisha Witherspoon, Adrianna Jarvis, Matt Guarino, Alyssa Cecere, Caroline Beckwith, Arielle Scena-Shifrin, Christian Pagan, Cassidy Wells, Juliana Frangella, Jessica Richardson, Hallie Dolin, Daniel Lomb, Thomas Rivera, Andrew Duplessie, Asta Darling, Erica Fett",
     "people": [
       "Erika Jasmine Sandler (JazzRock)",
       "Yalda Mostajeran (Yaldamn)",
@@ -4893,7 +4950,8 @@
       "Daniel Lomb (Liam Ettlers)",
       "Thomas Rivera (Dj Thyst1)",
       "Andrew Duplessie",
-      "Asta Darling"
+      "Asta Darling",
+      "Erica Fett"
     ]
   },
   "907937": {
@@ -5759,6 +5817,14 @@
       "Bryce Dallas Howard"
     ]
   },
+  "915302": {
+    "title": "Casey McQuiston - BookCon Booth (#3405) Book Signing",
+    "description": "Critically acclaimed and bestselling author Casey McQuiston will be signing books in the BookCon booth (#3405 on the show floor). Fans can bring books from home, purchase books from the Barnes &amp; Noble Union Square booth in Hall 1A, or purchase copies of THE PAIRING in the BookCon booth. One book personalized, up to three signed, no posed photos.",
+    "people_list": "Casey McQuiston",
+    "people": [
+      "Casey McQuiston"
+    ]
+  },
   "896651": {
     "title": "The George Lucas Talk Show",
     "description": "The George Lucas Talk Show is an improvised talk show in New York City hosted by comedian Connor Ratliff (Dead Eyes, Marvelous Mrs. Maisel), who appears as George Lucas, the creator of Star Wars, and he interviews real guests as themselves in a panel format. He is joined by sidekick Watto, played by Griffin Newman (Blank Check, The Tick), and show producer Patrick Cotnoir (Star Wars Live Reads, The Chris Gethard Show, Marvel). The show ran for over 6 years at the UCB Theater in New York and has had guests like Whoopi Goldberg, Jon Hamm, Seth Rogen, Jack Quaid, Tawny Newsome, Rachel Zegler, Kevin Smith, Nicole Byer, Sonia Manzano, Ira Glass, Lea Thompson, Ben Schwartz, Peter Serafinowicz, Ahmed Best, Tony Hale, David K. Harbour, D’Arcy Carden, Solo writer Jon Kasdan, Rogue One writers Chris Weitz and Gary Whitta, Meredith Vieira, and musicians like Aimee Mann.",
@@ -5995,14 +6061,6 @@
       "Christopher Daniel Barnes"
     ]
   },
-  "913313": {
-    "title": "Troy Baker Autographing Session",
-    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
-    "people_list": "Troy Baker",
-    "people": [
-      "Troy Baker"
-    ]
-  },
   "912846": {
     "title": "Hamish Linklater Photo Op",
     "description": null,
@@ -6078,16 +6136,6 @@
       "Hamish Linklater"
     ]
   },
-  "909586": {
-    "title": "Human Nature: Darren Aronofsky Breaks New Ground in Comics",
-    "description": " From the creative team behind the films Black Swan and The Whale, Human Nature marks Darren Aronofsky's bold debut in the world of comics. He joins forces with longtime collaborator Ari Handel, writer Jeff Welch, and artist Martín Morazzo, known for his work on Ice Cream Man, to create a darkly funny and deeply unsettling graphic novel trilogy. The story follows Duke, a once-average man who becomes a billionaire chicken tycoon obsessed with living forever. With surreal twists, razor-sharp satire, and unforgettable visuals, Human Nature dives into themes of power, ego, and humanity's refusal to accept mortality. Book One arrives in Spring 2026, but fans can get an early look at NYCC. A limited edition signed preview comic is available exclusively at the Abrams ComicArts booth.",
-    "people_list": "Darren Aronofsky, Martín Morazzo, Ari Handel",
-    "people": [
-      "Darren Aronofsky",
-      "Martín Morazzo",
-      "Ari Handel"
-    ]
-  },
   "912408": {
     "title": "RESERVATION REQUIRED - Todd McFarlane Autographing",
     "description": "Table 44, Requires a Separate Reservation, 1 Signature per person/reservation.",
@@ -6153,6 +6201,14 @@
     "people_list": "Ernie Hudson",
     "people": [
       "Ernie Hudson"
+    ]
+  },
+  "913313": {
+    "title": "Troy Baker Autographing Session",
+    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
+    "people_list": "Troy Baker",
+    "people": [
+      "Troy Baker"
     ]
   },
   "913132": {
@@ -6451,16 +6507,6 @@
       "Marie Lu",
       "Chuck Tingle",
       "Bethany C Morrow"
-    ]
-  },
-  "913936": {
-    "title": "Human Nature: Darren Aronofsky Breaks New Ground - Post Panel Book Signing",
-    "description": "Join authors from the \"Human Nature: Darren Aronofsky Breaks New Ground \" panel as they meet fans and sign books. Books will be available for purchase from the Barnes &amp; Noble booth in Hall 1A, adjacent to the author signing area. ",
-    "people_list": "Darren Aronofsky, Ari Handel, Martín Morazzo",
-    "people": [
-      "Darren Aronofsky",
-      "Ari Handel",
-      "Martín Morazzo"
     ]
   },
   "903500": {
@@ -7512,6 +7558,14 @@
     "people_list": "Nicholas DeTiberiis",
     "people": [
       "Nicholas DeTiberiis (New York City Ghostbusters)"
+    ]
+  },
+  "915304": {
+    "title": "Tricia Levenseller - BookCon Booth (#3405) Book Signing",
+    "description": "Critically acclaimed and bestselling author Tricia Levenseller will be signing books in the BookCon booth (#3405 on the show floor). Fans can bring books from home, purchase books from the Barnes &amp; Noble Union Square booth in Hall 1A, or purchase copies of WHAT FURY BRINGS in the BookCon booth. One book personalized, up to three signed, no posed photos.",
+    "people_list": "Tricia Levenseller",
+    "people": [
+      "Tricia Levenseller"
     ]
   },
   "912492": {

@@ -21,6 +21,12 @@
       "Maile Flanagan"
     ]
   },
+  "915842": {
+    "title": "NYCC Mahjong",
+    "description": " <b> (Reservations are needed in advance and can be made at the Mahjong Sparrow’s Nest booth in Side Quest.) </b>\nJoin Sparrow's Nest Studio and the United States Professional Mahjong League to experience one of the most popular games in the world. Mahjong is a fast-paced game that combines luck, strategy, and most importantly -- fun! If you're new to the game, our experienced instructors can get you started; or if you already have a crew, feel free to grab a table and hit the tiles. ",
+    "people_list": "",
+    "people": []
+  },
   "912402": {
     "title": "RESERVATION REQUIRED - Todd McFarlane Autographing",
     "description": "Table 44, Requires a Separate Reservation, 1 Signature per person/reservation.",
@@ -2026,7 +2032,7 @@
   },
   "915292": {
     "title": "Chloe Gong - BookCon Booth (#3405) Book Signing",
-    "description": "Critically acclaimed and bestselling author Chloe Gong will be signing books in the BookCon booth (#3405 on the show floor). Fans can bring books from home, purchase books from the Barnes &amp; Noble Union Square booth in Hall 1A, or purchase copies of Foul Heart Huntsman in the BookCon booth. One book personalized, up to three signed, no posed photos. ",
+    "description": "Critically acclaimed and bestselling author Chloe Gong will be signing books in the BookCon booth (#3405 on the show floor). \n<p>\nTo join the signing, visit our BookCon Booth (#3405) to pick up a wristband beginning at 11:00 AM on Thursday. Wristbands are limited and will be available on a first-come, first-served basis. Please return to the booth with your wristband no more than 30 minutes before the start of the signing.\n</p><p>\nThe signings are free and fans can bring books from home, purchase books from the Barnes &amp; Noble Union Square booth in Hall 1A, or purchase copies of FOUL HEART HUNTSMAN in the BookCon booth. \n</p><p>\nOne book personalized, up to three signed, no posed photos.\n</p>",
     "people_list": "Chloe Gong",
     "people": [
       "Chloe Gong"
@@ -2537,6 +2543,12 @@
       "Tara Strong"
     ]
   },
+  "915843": {
+    "title": "NYCC Mahjong",
+    "description": " <b> (Reservations are needed in advance and can be made at the Mahjong Sparrow’s Nest booth in Side Quest.) </b>\nJoin Sparrow's Nest Studio and the United States Professional Mahjong League to experience one of the most popular games in the world. Mahjong is a fast-paced game that combines luck, strategy, and most importantly -- fun! If you're new to the game, our experienced instructors can get you started; or if you already have a crew, feel free to grab a table and hit the tiles. ",
+    "people_list": "",
+    "people": []
+  },
   "912490": {
     "title": "Yearbook Photos",
     "description": "<b>Yearbook Photo Pricing by TU Creators<b>\n</b></b><p>\n<b>Free Digital Yearbook:</b> Everyone can have their photo taken and included in the yearbook at no cost. A digital copy will be emailed to all participants.\n</p><p>\n<b>Optional Portrait Package ($20):</b> For those who’d like a professionally edited portrait of their yearbook photo. This is completely optional and not required to appear in the book.\n</p><p>\n<b>Printed Yearbook ($55 + shipping):</b>A full physical copy of the yearbook delivered to your door.</p>",
@@ -2801,11 +2813,12 @@
     ]
   },
   "909505": {
-    "title": "Spotlight on Veronica Roth",
-    "description": "The #1 New York Times bestselling author of When Among Crows, the Divergent Series,  Chosen Ones, Poster Girl, and more, will be on hand to discuss her latest work, To Clutch a Razor, the second book in the Curse Bearer series. ",
-    "people_list": "Veronica Roth",
+    "title": "Spotlight on Veronica Roth and Marie Lu",
+    "description": "Join Veronica Roth (To Clutch a Razor) and Marie Lu (Red City) for an exciting discussion. All attendees will receive an advanced copy of Roth's next novel, Seek the Traitor's Son.",
+    "people_list": "Veronica Roth, Marie Lu",
     "people": [
-      "Veronica Roth"
+      "Veronica Roth",
+      "Marie Lu"
     ]
   },
   "913093": {
@@ -3074,7 +3087,7 @@
     ]
   },
   "910554": {
-    "title": "Spotlight on Veronica Roth - Post Panel Book Signing",
+    "title": "Veronica Roth Book Signing",
     "description": "Join, Veronica Roth, the award-winning and acclaimed author of the Divergent Series, The Chosen Ones, Poster Girl, and many other books, as she greets fans and signs books. Books will be available for purchase from the Barnes &amp; Noble booth in Hall 1A, adjacent to the author signing area. ",
     "people_list": "Veronica Roth",
     "people": [
@@ -3180,10 +3193,11 @@
   "906675": {
     "title": "Teenage Mutant Ninja Turtles: Empire City – World Premiere Gameplay",
     "description": "Join creative director Ace St. Germain and story consultant Tom Waltz (IDW's TMNT comics, The Last Ronin) on stage for the gameplay world premiere of Teenage Mutant Ninja Turtles: Empire City, the first ever Teenage Mutant Ninja Turtles game in VR. Ace and Tom will give a first glimpse of the game in action, talk about the story, setting, and characters, and answer questions from the audience.",
-    "people_list": "James Squires, Arthur St. Germain",
+    "people_list": "James Squires, Arthur St. Germain, Tom Waltz",
     "people": [
       "James Squires (Jim Squires)",
-      "Arthur St. Germain (Ace St. Germain)"
+      "Arthur St. Germain (Ace St. Germain)",
+      "Tom Waltz"
     ]
   },
   "904419": {
@@ -3715,14 +3729,6 @@
       "Robbie Daymond"
     ]
   },
-  "912806": {
-    "title": "May Hong Photo Op",
-    "description": null,
-    "people_list": "May Hong",
-    "people": [
-      "May Hong"
-    ]
-  },
   "909648": {
     "title": "Prime Video’s Hazbin Hotel",
     "description": "It’s almost time to check in for Season Two of Prime Video’s Hazbin Hotel, so join creator and executive producer Vivienne Medrano, and series stars Erika Henningsen, Blake Roman, Amir Talai, Kimiko Glenn, Alex Brightman, Jessica Vosk, Joel Perez, Lilli Cooper, Krystina Alabado and more for one helluva good panel filled with Season Two insights and breaking news that fans won’t want to miss. Trust Us.",
@@ -3763,6 +3769,14 @@
     "people_list": "Steve Burns",
     "people": [
       "Steve Burns"
+    ]
+  },
+  "912806": {
+    "title": "May Hong Photo Op",
+    "description": null,
+    "people_list": "May Hong",
+    "people": [
+      "May Hong"
     ]
   },
   "911143": {
@@ -4293,7 +4307,7 @@
   },
   "915300": {
     "title": "Tessa Bailey - BookCon Booth (#3405) Book Signing",
-    "description": "Critically acclaimed and bestselling author Tessa Bailey will be signing books in the BookCon booth (#3405 on the show floor). Fans can bring books from home, purchase books from the Barnes &amp; Noble Union Square booth in Hall 1A, or purchase copies of PITCHER PERFECT in the BookCon booth. One book personalized, up to three signed, no posed photos.",
+    "description": "Critically acclaimed and bestselling author Tessa Bailey will be signing books in the BookCon booth (#3405 on the show floor). \n<p>\nTo join the signing, visit the BookCon Booth to pick up a wristband beginning at 11:00 AM Friday morning. Wristbands are limited and will be available on a first-come, first-served basis. Please return to the booth with your wristband no more than 30 minutes before the start of the signing.\n</p><p>\nThe signings are free and fans can bring books from home, purchase books from the Barnes &amp; Noble Union Square booth in Hall 1A, or purchase copies of PITCHER PERFECT in the BookCon booth. One book personalized, up to three signed, no posed photos.\n</p><p></p>",
     "people_list": "Tessa Bailey",
     "people": [
       "Tessa Bailey"
@@ -4835,8 +4849,18 @@
   "909649": {
     "title": "Anne Rice's Immortal Universe (AMC/AMC+)",
     "description": "AMC and AMC+ present panels featuring the casts and executive producers from two series within  Anne Rice's Immortal Universe, including the highly anticipated new series Anne Rice’s Talamasca: The Secret Order, focused on the secretive society responsible for tracking and containing the witches, vampires, and other creatures around the globe, ahead of its October 26 premiere on AMC and AMC+, and the new rock-and-roll season of Anne Rice’s The Vampire Lestat, which follows rockstar Lestat and his band on tour and returns in 2026.",
-    "people_list": "",
-    "people": []
+    "people_list": "Eric Bogosian, William Fichtner, Nicholas Denton, Mark Johnson, John Lee Hancock, Jacob Anderson, Sam Reid, Assad Zaman, Jennifer Ehle",
+    "people": [
+      "Eric Bogosian",
+      "William Fichtner",
+      "Nicholas Denton",
+      "Mark Johnson",
+      "John Lee Hancock",
+      "Jacob Anderson",
+      "Sam Reid",
+      "Assad Zaman",
+      "Jennifer Ehle"
+    ]
   },
   "909517": {
     "title": "MrBallen Presents: Where Nightmares Live ",
@@ -4973,8 +4997,14 @@
   "909650": {
     "title": "The Walking Dead: Daryl Dixon (AMC/AMC+) ",
     "description": "Ahead of season three’s final two episodes, the cast and executive producers discuss the remainder of the season, which tracks Carol and Daryl as they continue their journey towards home and the ones they love, and share exclusive new footage from the show.",
-    "people_list": "",
-    "people": []
+    "people_list": "Norman Reedus, David Zabel, Greg Nicotero, Melissa McBride, Scott M. Gimple",
+    "people": [
+      "Norman Reedus",
+      "David Zabel",
+      "Greg Nicotero",
+      "Melissa McBride",
+      "Scott M. Gimple"
+    ]
   },
   "904022": {
     "title": "The Voices of Ash Ketchum &amp; Professor Oak BATTLE with \"BALLS: The Monster-Catchin' Comédy\"",
@@ -5085,6 +5115,12 @@
     "people": [
       "Tara Strong"
     ]
+  },
+  "915844": {
+    "title": "NYCC Mahjong",
+    "description": " <b> (Reservations are needed in advance and can be made at the Mahjong Sparrow’s Nest booth in Side Quest.) </b>\nJoin Sparrow's Nest Studio and the United States Professional Mahjong League to experience one of the most popular games in the world. Mahjong is a fast-paced game that combines luck, strategy, and most importantly -- fun! If you're new to the game, our experienced instructors can get you started; or if you already have a crew, feel free to grab a table and hit the tiles. ",
+    "people_list": "",
+    "people": []
   },
   "912491": {
     "title": "Yearbook Photos",
@@ -5948,7 +5984,7 @@
   },
   "915302": {
     "title": "Casey McQuiston - BookCon Booth (#3405) Book Signing",
-    "description": "Critically acclaimed and bestselling author Casey McQuiston will be signing books in the BookCon booth (#3405 on the show floor). Fans can bring books from home, purchase books from the Barnes &amp; Noble Union Square booth in Hall 1A, or purchase copies of THE PAIRING in the BookCon booth. One book personalized, up to three signed, no posed photos.",
+    "description": "Critically acclaimed and bestselling author Casey McQuiston will be signing books in the BookCon booth (#3405 on the show floor). \n<p>\nTo join the signing, visit our BookCon Booth (#3405) to pick up a wristband beginning at 11:00 AM Saturday morning. Wristbands are limited and will be available on a first-come, first-served basis. Please return to the booth with your wristband no more than 30 minutes before the start of the signing.\n</p><p>\nThe signings are free and fans can bring books from home, purchase books from the Barnes &amp; Noble Union Square booth in Hall 1A, or purchase copies of THE PAIRING in the BookCon booth. \n</p><p>\nOne book personalized, up to three signed, no posed photos.</p>",
     "people_list": "Casey McQuiston",
     "people": [
       "Casey McQuiston"
@@ -5972,6 +6008,14 @@
     "description": "",
     "people_list": "",
     "people": []
+  },
+  "912838": {
+    "title": "Sigourney Weaver Photo Op",
+    "description": null,
+    "people_list": "Sigourney Weaver",
+    "people": [
+      "Sigourney Weaver"
+    ]
   },
   "912843": {
     "title": "Nicholas Hoult Photo Op",
@@ -6154,14 +6198,6 @@
       "Zach Tyler Eisen"
     ]
   },
-  "912838": {
-    "title": "Sigourney Weaver Photo Op",
-    "description": null,
-    "people_list": "Sigourney Weaver",
-    "people": [
-      "Sigourney Weaver"
-    ]
-  },
   "912845": {
     "title": "TeamUp - The Little Mermaid Photo Op",
     "description": null,
@@ -6298,8 +6334,16 @@
   "909661": {
     "title": "Bob’s Burgers",
     "description": "Bob’s Burgers is heading to New York Comic Con! Join creator and executive producer Loren Bouchard and cast members H. Jon Benjamin, John Roberts, Kristen Schaal, Eugene Mirman, Dan Mintz and Larry Murphy as they celebrate the series’ milestone 300th episode with a lively discussion, behind-the-scenes stories, exclusive sneak peek clips, and plenty of laughs. Don’t miss your chance to catch the Belchers live at the Javits Center – Main Stage.",
-    "people_list": "",
-    "people": []
+    "people_list": "Loren Bouchard, Larry Murphy, Kristen Schaal, John Roberts, H. Jon Benjamin, Eugene Mirman, Dan Mintz",
+    "people": [
+      "Loren Bouchard",
+      "Larry Murphy",
+      "Kristen Schaal",
+      "John Roberts",
+      "H. Jon Benjamin",
+      "Eugene Mirman",
+      "Dan Mintz"
+    ]
   },
   "913041": {
     "title": "Clark Gregg Autographing Session",
@@ -6420,7 +6464,7 @@
   },
   "910188": {
     "title": "Exclusive Premiere of The Littles + Cast Panel featuring the Stars of M3GAN, Shadowhunters, and Pretty Little Liars",
-    "description": "Win a Nintendo Switch 2 and more prizes at the exclusive premiere of The Littles, a chilling short film starring Violet McGraw (Marvel’s Thunderbolts, M3GAN 2.0), Janel Parrish (Pretty Little Liars), and Dominic Sherwood (Shadowhunters). From writer Andrew Duplessie (American Horror Story), the story begins with a loose floorboard—where a faint noise and eerie glow draw Juliet toward a discovery like no other. The cast is sticking around after the premiere for a Q&amp;A, autographs, and the big giveaway!",
+    "description": "Win a Nintendo Switch 2 and more prizes at the exclusive premiere of The Littles, a chilling short film starring Violet McGraw (Marvel’s Thunderbolts, M3GAN 2.0), Janel Parrish (Pretty Little Liars), and Dominic Sherwood (Shadowhunters). From writer Andrew Duplessie (American Horror Story), the story begins with a loose floorboard—where a faint noise and eerie glow draw Juliet toward a discovery like no other. The cast is sticking around after the premiere for a Q&amp;A and the big giveaway!",
     "people_list": "Andrew Duplessie, Violet McGraw, Dominic Sherwood, Janel Parrish",
     "people": [
       "Andrew Duplessie",
@@ -7742,11 +7786,17 @@
   },
   "915304": {
     "title": "Tricia Levenseller - BookCon Booth (#3405) Book Signing",
-    "description": "Critically acclaimed and bestselling author Tricia Levenseller will be signing books in the BookCon booth (#3405 on the show floor). Fans can bring books from home, purchase books from the Barnes &amp; Noble Union Square booth in Hall 1A, or purchase copies of WHAT FURY BRINGS in the BookCon booth. One book personalized, up to three signed, no posed photos.",
+    "description": "Critically acclaimed and bestselling author Tricia Levenseller will be signing books in the BookCon booth (#3405 on the show floor). \n<p>\nTo join the signing, wristbands will be distributed when the Show Floor opens at our booth.\n</p><p>\nThe signings are free and fans can bring books from home, purchase books from the Barnes &amp; Noble Union Square booth in Hall 1A, or purchase copies of WHAT FURY BRINGS in the BookCon booth. \n</p><p>\nOne book personalized, up to three signed, no posed photos.\n</p>",
     "people_list": "Tricia Levenseller",
     "people": [
       "Tricia Levenseller"
     ]
+  },
+  "915845": {
+    "title": "NYCC Mahjong",
+    "description": " <b> (Reservations are needed in advance and can be made at the Mahjong Sparrow’s Nest booth in Side Quest.) </b>\nJoin Sparrow's Nest Studio and the United States Professional Mahjong League to experience one of the most popular games in the world. Mahjong is a fast-paced game that combines luck, strategy, and most importantly -- fun! If you're new to the game, our experienced instructors can get you started; or if you already have a crew, feel free to grab a table and hit the tiles. ",
+    "people_list": "",
+    "people": []
   },
   "912492": {
     "title": "Yearbook Photos",
@@ -8426,7 +8476,7 @@
   },
   "908263": {
     "title": "Toei Animation Presents: DIGIMON BEATBREAK Panel",
-    "description": "Join Toei Animation for a special panel of Digimon Beatbreak, the next evolution in the iconic Digimon Franchise. Get a first look at what's to come with exclusive insights from Producer Hiroyuki Sakurada and special guest Megumi Han [Voice of Gekkomon]. Big surprises await fans at this NYCC exclusive panel!",
+    "description": "Join Toei Animation for a special panel of Digimon Beatbreak, the next evolution in the iconic Digimon Franchise. Get a first look at what's to come with exclusive insights and special guest Megumi Han [Voice of Gekkomon]. Big surprises await fans at this NYCC exclusive panel!",
     "people_list": "",
     "people": []
   },

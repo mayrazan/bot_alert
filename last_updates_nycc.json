@@ -458,9 +458,14 @@
   },
   "904352": {
     "title": "3rd Annual Broadway To Hollywood: A Look at the New Age of Musicals",
-    "description": "Featuring panelists from Kiss of the Spider Woman, Miley Cyrus:\nSomething Beautiful, Joker: Folie à Deux, Barbie The Movie In Concert, and\nmore!\n\nStep into the spotlight with the creative powerhouses behind hit musical productions as they\nreveal how to take ideas to the stage or screen! From writing show-stopping musical moments\nto editing scenes together and more, this is your exclusive insight into the behind-the-scenes\nbrilliance that brings musicals to life!\n\nWith Brian A. Kates (Editor of Kiss of the Spider Woman), David Meyer (Production Designer of\nMiley Cyrus: Something Beautiful and Art Director of Joker: Folie à Deux), Macy Schmidt\n(Orchestrator and Founder of The Sinfonietta, Barbie The Movie In Concert), and more to be\nannounced. Moderated by Katharine Quinn (Founder and CEO of And That's Showbiz). Part 1\nof Impact24 PR’s Panel Superblock Series. Follow us on Instagram: @impact24pr",
-    "people_list": "",
-    "people": []
+    "description": "Featuring panelists from Kiss of the Spider Woman, Miley Cyrus: Something Beautiful, Joker: Folie à Deux, Barbie The Movie In Concert, and more!\n\nStep into the spotlight with the creative powerhouses behind hit musical productions as they reveal how to take ideas to the stage or screen! From writing show-stopping musical moments to editing scenes together and more, this is your exclusive insight into the behind-the-scenes brilliance that brings musicals to life!\n\nWith Brian A. Kates (Editor of Kiss of the Spider Woman), David Meyer (Production Designer of Miley Cyrus: Something Beautiful and Art Director of Joker: Folie à Deux), and Macy Schmidt (Orchestrator and Founder of The Sinfonietta, Barbie The Movie In Concert). Moderated by Katharine Quinn (Founder and CEO of And That's Showbiz). \n\nPart 1 of Impact24 PR’s Panel Superblock Series. Follow us on Instagram: @impact24pr",
+    "people_list": "Brian A. Kates, Macy Schmidt, David Meyer, Katharine Quinn",
+    "people": [
+      "Brian A. Kates",
+      "Macy Schmidt",
+      "David Meyer",
+      "Katharine Quinn"
+    ]
   },
   "913890": {
     "title": "Kimiko Glenn Photo Op",
@@ -1747,14 +1752,6 @@
       "Simu Liu"
     ]
   },
-  "912780": {
-    "title": "Tom Skerritt Photo Op",
-    "description": null,
-    "people_list": "Tom Skerritt",
-    "people": [
-      "Tom Skerritt"
-    ]
-  },
   "912781": {
     "title": "Veronica Cartwright Photo Op",
     "description": null,
@@ -1843,15 +1840,6 @@
     "people_list": "Arden Cho",
     "people": [
       "Arden Cho"
-    ]
-  },
-  "912782": {
-    "title": "TeamUp - Alien Photo Op",
-    "description": null,
-    "people_list": "Tom Skerritt, Veronica Cartwright",
-    "people": [
-      "Tom Skerritt",
-      "Veronica Cartwright"
     ]
   },
   "913048": {
@@ -3890,6 +3878,15 @@
     "people_list": "",
     "people": []
   },
+  "915799": {
+    "title": "TeamUp - Alien Photo Op",
+    "description": null,
+    "people_list": "Tom Skerritt, Veronica Cartwright",
+    "people": [
+      "Tom Skerritt",
+      "Veronica Cartwright"
+    ]
+  },
   "912264": {
     "title": "Accessible Game: TTRPG 1-Shot [Live captions, description, &amp; ASL] Session 1 (Play / Spectate)",
     "description": "As the town of Hickory Haven counts down to its 200th Harvest Festival, an unknown force stirs, unleashing chaos and destruction. Will you use your powers to save the Festival? Or will you uncover the past and reveal the secrets lurking below the surface? Step into an accessible world of 5E Dungeons &amp; Dragons (D&amp;D) with Inclusive Communication Services (ICS) at NYCC! Games run Friday through Sunday—join one, two, or all three. Open to players of all abilities. Reservations encouraged, walk-ins welcome. Join the adventure: https://inclusiveasl.com/new-york-comic-con/",
@@ -5776,6 +5773,16 @@
       "Ming-Na Wen"
     ]
   },
+  "915797": {
+    "title": "TeamUp - Ghostbusters Trio Photo Op",
+    "description": null,
+    "people_list": "Ernie Hudson, Sigourney Weaver, Annie Potts",
+    "people": [
+      "Ernie Hudson",
+      "Sigourney Weaver",
+      "Annie Potts"
+    ]
+  },
   "909664": {
     "title": "BAT-FAM SNEAK PEEK SCREENING AND Q&amp;A",
     "description": "Warner Bros. Animation and Prime Video are shining the Bat Signal for all ages with an exclusive sneak peek of your next favorite Batman series, BAT-FAM. Join executive producer and showrunner Mike Roth alongside surprise cast members for an in-depth look at this next animated iteration of the Caped Crusader, and be the first to preview an episode of the new series. BAT-FAM follows the events of the hit film, MERRY LITTLE BATMAN, focusing on Batman, Alfred, and young Damian Wayne—who has now taken on the mantle of Little Batman—alongside a few newcomers to Wayne Manor, as they navigate the fun and frustrations of life as a super family. You won’t want to miss it!",
@@ -5813,14 +5820,6 @@
     "people_list": "James McAvoy",
     "people": [
       "James McAvoy"
-    ]
-  },
-  "912838": {
-    "title": "Sigourney Weaver Photo Op",
-    "description": null,
-    "people_list": "Sigourney Weaver",
-    "people": [
-      "Sigourney Weaver"
     ]
   },
   "912839": {
@@ -6153,6 +6152,14 @@
     "people_list": "Zach Tyler Eisen",
     "people": [
       "Zach Tyler Eisen"
+    ]
+  },
+  "912838": {
+    "title": "Sigourney Weaver Photo Op",
+    "description": null,
+    "people_list": "Sigourney Weaver",
+    "people": [
+      "Sigourney Weaver"
     ]
   },
   "912845": {
@@ -6854,9 +6861,16 @@
   },
   "904354": {
     "title": "Frame by Frame: Behind-the-Scenes with Hollywood’s Visual Storytellers",
-    "description": "Featuring creatives from The Handmaid’s Tale, SurrealEstate, Apple Cider Vinegar, Pam &amp;\nTommy, and more!\n\nStep behind the scenes of popular film and television projects with the creatives who craft every\nchilling, thrilling, and mind-bending moment! From sound editing to design and storytelling, this\npanel spotlights the behind-the-camera artists who bring your favorite worlds to life, frame by\nframe!\n\nWith Annette Davey (Editor of Apple Cider Vinegar), Bella Gonzales (Director of Photography of\nAlien: Earth and The Twisted Tale of Amanda Knox), Burton LeBlanc (Makeup Designer of The\nHandmaid’s Tale), Ralph Jean-Pierre (Editor of Tokyo Vice and The Beast in Me), and Spencer\nCreaghan (Composer of SurrealEstate, Slasher, and Hot Wheels). Moderated by Marissa Hill\n(Executive Producer at Shade Studios and Host at ShadeTV). Part 2 of Impact24 PR’s Panel\nSuperblock Series. Follow us on Instagram: @impact24pr",
-    "people_list": "",
-    "people": []
+    "description": "Featuring creatives from The Handmaid’s Tale, SurrealEstate, Apple Cider Vinegar, Pam &amp; Tommy, and more!\n\nStep behind the scenes of popular film and television projects with the creatives who craft every chilling, thrilling, and mind-bending moment! From sound editing to design and storytelling, this panel spotlights the behind-the-camera artists who bring your favorite worlds to life, frame by\nframe!\n\nWith Annette Davey (Editor of Apple Cider Vinegar), Bella Gonzales (Director of Photography of Alien: Earth and The Twisted Tale of Amanda Knox), Burton LeBlanc (Makeup Designer of The Handmaid’s Tale), Ralph Jean-Pierre (Editor of Tokyo Vice and The Beast in Me), and Spencer Creaghan (Composer of SurrealEstate, Slasher, and Hot Wheels). Moderated by Marissa Hill (Executive Producer at Shade Studios and Host at ShadeTV). \n\nPart 2 of Impact24 PR’s Panel Superblock Series. Follow us on Instagram: @impact24pr",
+    "people_list": "Annette Davey, Bella Gonzalez, Burton LeBlanc, Ralph Jean-Pierre, Spencer Creaghan, Marissa Hill",
+    "people": [
+      "Annette Davey",
+      "Bella Gonzalez",
+      "Burton LeBlanc",
+      "Ralph Jean-Pierre",
+      "Spencer Creaghan",
+      "Marissa Hill"
+    ]
   },
   "915366": {
     "title": "Meet and Greet with Max / @CaptainSalute",

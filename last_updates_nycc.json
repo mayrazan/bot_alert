@@ -1909,10 +1909,15 @@
     "people": []
   },
   "912487": {
-    "title": "Ghosts, Aliens, and Supernatural Shenanigans! Starring the English Voice Cast of DAN DA DAN",
-    "description": "Are we alone in the universe? Why can I see dead people? Aliens and ghosts can’t possibly BOTH exist… Unless? Join Crunchyroll as we dive headfirst into the paranormal mayhem of the hit anime series DAN DA DAN with the English voice cast: Abby Trott (Momo), A.J. Beckles (Okarun), and Aleks Le (Jiji). Whether you believe in apparitions or extraterrestrials, buckle up for a behind-the-scenes, one-of-a-kind wild ride! ",
-    "people_list": "",
-    "people": []
+    "title": "Ghosts, Aliens, and Supernatural Shenanigans! Starring the English Voice Cast of Dan Da Dan",
+    "description": "Are we alone in the universe? Why can I see dead people? Aliens and ghosts can’t possibly BOTH exist… Unless? Join Crunchyroll as we dive headfirst into the paranormal mayhem of the hit anime series Dan Da Dan with the English voice cast: Abby Trott (Momo), A.J. Beckles (Okarun), and Aleks Le (Jiji). Whether you believe in apparitions or extraterrestrials, buckle up for a behind-the-scenes, one-of-a-kind wild ride! ",
+    "people_list": "Abby Trott, A.J. Beckles, Aleks Le, Ashley V Robinson",
+    "people": [
+      "Abby Trott",
+      "A.J. Beckles",
+      "Aleks Le",
+      "Ashley V Robinson"
+    ]
   },
   "911595": {
     "title": "RESERVATION REQUIRED - Matt Dinniman Book Signing",
@@ -4434,14 +4439,6 @@
       "Mae Whitman"
     ]
   },
-  "913192": {
-    "title": "Martin Sheen Autographing Session",
-    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
-    "people_list": "Martin Sheen",
-    "people": [
-      "Martin Sheen"
-    ]
-  },
   "913258": {
     "title": "Sigourney Weaver Autographing Session",
     "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
@@ -4493,6 +4490,14 @@
     "people_list": "George R.R. Martin",
     "people": [
       "George R.R.  Martin"
+    ]
+  },
+  "913192": {
+    "title": "Martin Sheen Autographing Session",
+    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
+    "people_list": "Martin Sheen",
+    "people": [
+      "Martin Sheen"
     ]
   },
   "913151": {
@@ -5007,8 +5012,8 @@
     "people": []
   },
   "909812": {
-    "title": "Nas and Special Guests present Comics and Hip-Hop: A Marvel x Mass Appeal Conversation ",
-    "description": "Marvel and Mass Appeal assemble a panel of legends to discuss the cultural power of comics and hip-hop ",
+    "title": "Nas and Legendary Friends present Comics and Hip-Hop: A Marvel and Mass Appeal Conversation",
+    "description": "Join Mass Appeal and Marvel for a one time only experience! A panel of legends will assemble to discuss the cultural power of comics and hip-hop.",
     "people_list": " Nas",
     "people": [
       "Nas"
@@ -6307,14 +6312,6 @@
     "people_list": "",
     "people": []
   },
-  "912951": {
-    "title": "Abby Trott Autographing Session",
-    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
-    "people_list": "Abby Trott",
-    "people": [
-      "Abby Trott"
-    ]
-  },
   "913250": {
     "title": "Robbie Daymond Autographing Session",
     "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
@@ -6345,6 +6342,14 @@
     "people_list": "Todd McFarlane",
     "people": [
       "Todd McFarlane"
+    ]
+  },
+  "912951": {
+    "title": "Abby Trott Autographing Session",
+    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
+    "people_list": "Abby Trott",
+    "people": [
+      "Abby Trott"
     ]
   },
   "913233": {

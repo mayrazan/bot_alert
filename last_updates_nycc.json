@@ -1012,14 +1012,6 @@
       "Veronica Cartwright"
     ]
   },
-  "913115": {
-    "title": "Jennifer Hale Autographing Session",
-    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
-    "people_list": "Jennifer Hale",
-    "people": [
-      "Jennifer Hale"
-    ]
-  },
   "912984": {
     "title": "Arden Cho Autographing Session",
     "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
@@ -1119,6 +1111,14 @@
     "people_list": "Travis Willingham",
     "people": [
       "Travis Willingham"
+    ]
+  },
+  "913115": {
+    "title": "Jennifer Hale Autographing Session",
+    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
+    "people_list": "Jennifer Hale",
+    "people": [
+      "Jennifer Hale"
     ]
   },
   "913126": {
@@ -1649,30 +1649,6 @@
     "people_list": "",
     "people": []
   },
-  "913273": {
-    "title": "Steve Burns Autographing Session",
-    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
-    "people_list": "Steve Burns",
-    "people": [
-      "Steve Burns"
-    ]
-  },
-  "913058": {
-    "title": "David Errigo Jr. Autographing Session",
-    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
-    "people_list": "David Errigo Jr.",
-    "people": [
-      "David Errigo Jr."
-    ]
-  },
-  "913329": {
-    "title": "Vincent Martella Autographing Session",
-    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
-    "people_list": "Vincent Martella",
-    "people": [
-      "Vincent Martella"
-    ]
-  },
   "913092": {
     "title": "Ioan Gruffudd Autographing Session",
     "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
@@ -1724,6 +1700,14 @@
     "description": "Attention Arcane fans and cosplayers! This is YOUR chance to connect with fellow fans and celebrate the world of Zaun and Piltover at New York Comic Con! Whether you're rocking a detailed Jinx cosplay or just showing up for your favorite blue-haired Zaunite orphan, this meetup is for ALL fans! Come together with others who share your love for the stunning animation, compelling characters, and epic storylines of Arcane (sing-alongs to Ma Meilleure Ennemie optional). From the towering ambitions of Mel and Ambessa to the pursuit of hextech by Jayce and Viktor to the gritty underworld of Silco and Sevika, we’ll be gathering to chat, take photos, and celebrate the world of Arcane in a fun, inclusive environment. This is your chance to make new friends, share your theories (we see you, Jayvik fans), and get lost in the magic of Arcane in the heart of NYCC. See you there!",
     "people_list": "",
     "people": []
+  },
+  "913273": {
+    "title": "Steve Burns Autographing Session",
+    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
+    "people_list": "Steve Burns",
+    "people": [
+      "Steve Burns"
+    ]
   },
   "913283": {
     "title": "Tasia Valenza Autographing Session",
@@ -1837,6 +1821,22 @@
     "people_list": "Dante Basco",
     "people": [
       "Dante Basco"
+    ]
+  },
+  "913058": {
+    "title": "David Errigo Jr. Autographing Session",
+    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
+    "people_list": "David Errigo Jr.",
+    "people": [
+      "David Errigo Jr."
+    ]
+  },
+  "913329": {
+    "title": "Vincent Martella Autographing Session",
+    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
+    "people_list": "Vincent Martella",
+    "people": [
+      "Vincent Martella"
     ]
   },
   "913391": {
@@ -3562,14 +3562,6 @@
       "Christopher Daniel Barnes"
     ]
   },
-  "913063": {
-    "title": "David Hayter Autographing Session",
-    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
-    "people_list": "David Hayter",
-    "people": [
-      "David Hayter"
-    ]
-  },
   "913331": {
     "title": "Zach Tyler Eisen Autographing Session",
     "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
@@ -3629,6 +3621,14 @@
     "people_list": "Martin Sheen",
     "people": [
       "Martin Sheen"
+    ]
+  },
+  "913063": {
+    "title": "David Hayter Autographing Session",
+    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
+    "people_list": "David Hayter",
+    "people": [
+      "David Hayter"
     ]
   },
   "913129": {
@@ -4591,6 +4591,12 @@
       "Meng'er Zhang",
       "Simu Liu"
     ]
+  },
+  "903353": {
+    "title": "Post Malone Talks BIG RIG",
+    "description": "Members of the BIG RIG creative team talk about Post Malone's hit comic, BIG RIG.",
+    "people_list": "",
+    "people": []
   },
   "909514": {
     "title": "Spotlight on Lauren Roberts",
@@ -6145,14 +6151,6 @@
       "Michaela Jill Murphy"
     ]
   },
-  "913227": {
-    "title": "Mike Colter Autographing Session",
-    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
-    "people_list": "Mike Colter",
-    "people": [
-      "Mike Colter"
-    ]
-  },
   "912973": {
     "title": "Aleks Le Autographing Session",
     "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
@@ -6849,6 +6847,14 @@
       "Rob Lake"
     ]
   },
+  "913228": {
+    "title": "Mike Colter Autographing Session",
+    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
+    "people_list": "Mike Colter",
+    "people": [
+      "Mike Colter"
+    ]
+  },
   "909833": {
     "title": "Meet and Greet Queens of the Dead",
     "description": "Up close and personal, meet the panel and get your photos and merch\n",
@@ -6948,14 +6954,6 @@
     "people_list": "Robbie Daymond",
     "people": [
       "Robbie Daymond"
-    ]
-  },
-  "913228": {
-    "title": "Mike Colter Autographing Session",
-    "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
-    "people_list": "Mike Colter",
-    "people": [
-      "Mike Colter"
     ]
   },
   "913251": {
@@ -7871,7 +7869,7 @@
   },
   "913433": {
     "title": "Sneak Peek: Lucas Museum of Narrative Art",
-    "description": "The Lucas Museum of Art, founded by George Lucas and Mellody Hobson, is organizing an expansive conversation titled Sneak Peek: Lucas Museum of Narrative Art in room 406.3 at New York Comic Con on Sunday, October 12 at 11:00 am. The panel will feature artists from the inaugural exhibitions and offer a sneak peek of the museum including renderings, artworks, and a pre-recorded video with the founders. ",
+    "description": "The Lucas Museum of Art, founded by George Lucas and Mellody Hobson, is organizing an expansive conversation titled Sneak Peek: Lucas Museum of Narrative Art. Moderated by filmmaking legend Martin Scorsese, the panel will feature photographer and street artist JR with fantasy and science fiction artists Boris Vallejo and Julie Bell. The group will come together to share perspectives on the power of illustrated storytelling and the importance of celebrating popular art forms. The panel will also feature a sneak peek of the museum including renderings, artworks, and a pre-recorded interview with the founders.",
     "people_list": "",
     "people": []
   },

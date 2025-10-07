@@ -97,14 +97,15 @@
   "912440": {
     "title": "Playbill Presents: The World Turned Upside Down: Bringing Hamilton To Life Across the Globe",
     "description": "Join us for an unforgettable conversation with Hamilton cast and creative team members who have brought the show to life on stages across the globe. Performers and creatives will give a behind-the-scenes look at the musical and share stories from productions around the world.",
-    "people_list": "Alex Birsh, Trey Curtis, Morgan Anita Wood, Tamar Greene, Cherry Torres, Jisel Ayon",
+    "people_list": "Alex Birsh, Trey Curtis, Morgan Anita Wood, Tamar Greene, Cherry Torres, Jisel Ayon, Patrick Vassel",
     "people": [
       "Alex Birsh",
       "Trey Curtis",
       "Morgan Anita  Wood",
       "Tamar Greene",
       "Cherry Torres",
-      "Jisel Ayon"
+      "Jisel Ayon",
+      "Patrick Vassel"
     ]
   },
   "913210": {
@@ -638,7 +639,7 @@
   },
   "915283": {
     "title": "Jujutsu Kaisen Cast Signing (RESERVATION REQUIRED)",
-    "description": "RESERVATION REQUIRED - Jujutsu Kaisen Cast Signing. Please arrive 15-20 minutes ahead of the scheduled start time for queueing.",
+    "description": "RESERVATION REQUIRED - Jujutsu Kaisen Cast Signing. Please arrive 15-20 minutes ahead of the scheduled start time for queueing.\n\nPoster will be provided for signature. ",
     "people_list": "",
     "people": []
   },
@@ -2953,13 +2954,11 @@
     "people": []
   },
   "909739": {
-    "title": "The Cast of Alien",
-    "description": "\"Blast off into the chilling world of Alien with Sigourney Weaver (Ellen Ripley), Tom Skerritt (Dallas), and Veronica Cartwright (Lambert)! This legendary panel, moderated by Josh Horowitz, takes fans behind the scenes of the iconic sci-fi horror film that redefined the genre.\n\nThe cast will share unforgettable stories from the set—from nerve-wracking encounters with the film’s groundbreaking creature effects to the intense dynamics of working aboard the Nostromo. Discover how they brought their characters to life under director Ridley Scott’s visionary guidance and what it was like to face one of cinema’s most terrifying monsters. With Josh Horowitz steering the conversation, this panel promises insight, nostalgia, and a few surprises from the actors who helped make Alien a timeless classic.\"",
-    "people_list": "Sigourney Weaver, Tom Skerritt, Veronica Cartwright, Josh Horowitz",
+    "title": "Sigourney Weaver on ALIEN and Beyond",
+    "description": "Join screen legend Sigourney Weaver as she sits down with Josh Horowitz of Happy Sad Confused to discuss her work in the legendary ALIEN films as well as her other iconic Sci-Fi roles. ",
+    "people_list": "Sigourney Weaver, Josh Horowitz",
     "people": [
       "Sigourney Weaver",
-      "Tom Skerritt",
-      "Veronica Cartwright",
       "Josh Horowitz"
     ]
   },
@@ -3544,14 +3543,6 @@
     "people_list": "Troy Baker",
     "people": [
       "Troy Baker"
-    ]
-  },
-  "912801": {
-    "title": "Karl Urban Photo Op",
-    "description": null,
-    "people_list": "Karl Urban",
-    "people": [
-      "Karl Urban"
     ]
   },
   "912802": {
@@ -4363,6 +4354,14 @@
     "people_list": "",
     "people": []
   },
+  "912801": {
+    "title": "Karl Urban Photo Op",
+    "description": null,
+    "people_list": "Karl Urban",
+    "people": [
+      "Karl Urban"
+    ]
+  },
   "913064": {
     "title": "David Hayter Autographing Session",
     "description": "Want to purchase an autograph or photo op? Buy here: https://store.epic.leapevent.tech/new-york-comic-con/2025",
@@ -4595,12 +4594,6 @@
   "915359": {
     "title": "Meet and Greet with Jason Keith / @jasonraykeith",
     "description": "",
-    "people_list": "",
-    "people": []
-  },
-  "909483": {
-    "title": "Panel Coming Soon",
-    "description": "The New York Comic Con team is cooking up something awesome! More details on this panel coming soon.\n\nStay up to date on the latest New York Comic Con news at NewYorkComicCon.com and on Facebook, X, and Instagram.",
     "people_list": "",
     "people": []
   },
@@ -6493,6 +6486,15 @@
       "Janel Parrish"
     ]
   },
+  "916623": {
+    "title": "TeamUp - X-Men Photo Op",
+    "description": null,
+    "people_list": "James McAvoy, Elliot Page",
+    "people": [
+      "James McAvoy",
+      "Elliot Page"
+    ]
+  },
   "914156": {
     "title": "Norman Reedus Photo Op",
     "description": null,
@@ -6846,13 +6848,14 @@
   "909711": {
     "title": "Playbill presents: The Big Broadway Nerd Panel",
     "description": "Theatre is filled with passionate artists creating stunning new works, and many of those artists are giant nerds! Playbill returns to New York Comic Con in 2025 with even MORE of Broadway’s Biggest Nerds to share how fantasy, comic-books, and science fiction have had in inspiring and engaging their performances, personas, and personal lives.",
-    "people_list": "Bryan Campione, Jak Malone, Jasmine Amy Rogers, Emma Hunton, Rob Lake",
+    "people_list": "Bryan Campione, Jak Malone, Jasmine Amy Rogers, Emma Hunton, Rob Lake, Lea DeLaria",
     "people": [
       "Bryan Campione",
       "Jak Malone",
       "Jasmine Amy Rogers",
       "Emma Hunton",
-      "Rob Lake"
+      "Rob Lake",
+      "Lea DeLaria"
     ]
   },
   "913228": {
@@ -8762,6 +8765,15 @@
       "Katastrophe Strong (Thee Katastrophy)",
       "Isake Smith (Queerly Femmetastic)",
       "Tanya Johnson (Livi Phoenix)"
+    ]
+  },
+  "916624": {
+    "title": "TeamUp - X-Men Photo Op",
+    "description": null,
+    "people_list": "James McAvoy, Elliot Page",
+    "people": [
+      "James McAvoy",
+      "Elliot Page"
     ]
   },
   "911375": {

@@ -9127,14 +9127,6 @@
       "Elliot Page"
     ]
   },
-  "912905": {
-    "title": "Hamish Linklater Photo Op",
-    "description": null,
-    "people_list": "Hamish Linklater",
-    "people": [
-      "Hamish Linklater"
-    ]
-  },
   "912906": {
     "title": "TeamUp - Ghostbusters Photo Op",
     "description": null,
@@ -9157,9 +9149,10 @@
   "909029": {
     "title": "Popversations",
     "description": "What to make of Hamish Linklater, who plays the untrustworthy Cipher in Prime Video’s Gen V, and Bruce Wayne’s none-more-heroic alter ego in Batman: Caped Crusader? Only one person can get to the heart of the matter: Popverse’s Ashley V. Robinson, who’ll be sitting down with Linklater to find out everything there is to know about what they love, what they’re passionate about, and who could beat Batman in an arm-wrestling contest.",
-    "people_list": "Ashley V Robinson",
+    "people_list": "Ashley V Robinson, Hamish Linklater",
     "people": [
-      "Ashley V Robinson"
+      "Ashley V Robinson",
+      "Hamish Linklater"
     ]
   },
   "912907": {
@@ -9449,6 +9442,14 @@
     "description": "One-Punch Man returns with Season 3! Look back at key moments from Season 2, and watch the first subbed episode for Season 3 on the big screen alongside fellow fans! Experience the action and laughs that made Saitama a legend, plus score exclusive One-Punch Man Union Arena cards just for attending. Heroes and villains alike won’t want to miss this knockout event!",
     "people_list": "",
     "people": []
+  },
+  "912905": {
+    "title": "Hamish Linklater Photo Op",
+    "description": null,
+    "people_list": "Hamish Linklater",
+    "people": [
+      "Hamish Linklater"
+    ]
   },
   "913170": {
     "title": "Laurence Fishburne Autographing Session",
